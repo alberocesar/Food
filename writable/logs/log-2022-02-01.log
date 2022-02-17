@@ -1,0 +1,1 @@
+ERROR - 2022-02-01 13:08:39 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()

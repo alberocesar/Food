@@ -1,0 +1,796 @@
+CRITICAL - 2022-02-09 11:49:39 --> Arquivo inválido: testeci4.php
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Home.php(9): view()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#8 {main}
+CRITICAL - 2022-02-09 11:49:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:49 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:49:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:05:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:05:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:06:22 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:06:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:06:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:07:05 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:07:05 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:07:05 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:07:06 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:07:06 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:07:06 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:08:10 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:08:10 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:08:10 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:08:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:08:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:08:11 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:26:37 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:26:37 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:26:37 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:26:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:26:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:26:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:31:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:31:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:31:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:31:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:31:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:31:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:32:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:32:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:32:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:32:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:32:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:32:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:33:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:33:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:33:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:33:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:33:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:33:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:57:37 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:57:37 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:57:37 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:57:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:57:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 12:57:38 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:15:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:15:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:15:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:15:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:15:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:15:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:16:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:16:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:16:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:16:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:16:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:16:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:31:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:32:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:32:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:32:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:32:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:32:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:32:49 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:35:02 --> Arquivo inválido: Admin/Usuarios/editar.php
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(77): view()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#8 {main}
+CRITICAL - 2022-02-09 13:35:05 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:35:06 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:35:06 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:35:06 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:35:07 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 13:35:07 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscarUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php on line 57
+#0 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\app\Controllers\Admin\Usuarios.php(57): App\Controllers\Admin\Usuarios->buscarUsuarioOu404()
+#1 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\project_food\Aula_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
