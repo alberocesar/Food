@@ -6106,3 +6106,1630 @@ CRITICAL - 2022-02-17 11:20:25 --> Argument 1 passed to App\Controllers\Admin\Us
 #4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
 #6 {main}
+CRITICAL - 2022-02-17 13:16:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:51 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:51 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:51 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:16:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:01 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:02 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:02 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:02 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:03 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:03 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:31 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:32 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:32 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:43 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:43 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:43 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:17:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+ERROR - 2022-02-17 13:18:28 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:18:28 --> pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:20:38 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:20:38 --> pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:24:23 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:24:23 --> pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:26:54 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (4, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:26:54, 2022-02-17 13:26:54, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:26:54 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (4, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:26:54, 2022-02-17 13:26:54, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:29:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:21 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:21 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:21 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 106
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(106): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:29:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 94
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(94): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+ERROR - 2022-02-17 13:30:06 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, treste, Teste@gmail.com, 097.981.010-81, (81) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:30:06, 2022-02-17 13:30:06, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:30:06 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, treste, Teste@gmail.com, 097.981.010-81, (81) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:30:06, 2022-02-17 13:30:06, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:31:28 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (6, treste, Teste@gmail.com, 097.981.010-81, (81) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:31:28, 2022-02-17 13:31:28, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:31:28 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (6, treste, Teste@gmail.com, 097.981.010-81, (81) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:31:28, 2022-02-17 13:31:28, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:34:04 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (7, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:34:04, 2022-02-17 13:34:04, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:34:04 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (7, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:34:04, 2022-02-17 13:34:04, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:34:31 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:34:31 --> pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:34:46 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:34:46 --> pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:35:09 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:35:09 --> pg_query(): Query failed: ERROR:  column &quot;password&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...O &quot;usuarios&quot; (&quot;nome&quot;, &quot;cpf&quot;, &quot;telefone&quot;, &quot;email&quot;, &quot;password&quot;...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(74): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:42:52 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (8, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:42:52, 2022-02-17 13:42:52, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:42:52 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (8, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:42:52, 2022-02-17 13:42:52, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:45:23 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (9, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:45:23, 2022-02-17 13:45:23, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:45:23 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (9, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:45:23, 2022-02-17 13:45:23, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-02-17 13:45:43 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (10, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:45:43, 2022-02-17 13:45:43, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:45:43 --> pg_query(): Query failed: ERROR:  null value in column &quot;password_hash&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (10, teste, Teste@gmail.com, 097.981.010-81, (11) 11111-1111, f, f, null, null, null, null, 2022-02-17 13:45:43, 2022-02-17 13:45:43, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(73): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:48:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:48:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:48:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:48:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:48:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:48:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:13 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:14 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:15 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:16 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:16 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:16 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:16 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:17 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:20 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:21 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:21 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:21 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:49:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+ERROR - 2022-02-17 13:50:31 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password_confirmation&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...min&quot; = '0', &quot;ativo&quot; = '1', &quot;password&quot; = '123456', &quot;password_...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(651): CodeIgniter\BaseModel->update()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(656): CodeIgniter\Model->update()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(156): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->atualizar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:50:31 --> pg_query(): Query failed: ERROR:  column &quot;password_confirmation&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...min&quot; = '0', &quot;ativo&quot; = '1', &quot;password&quot; = '123456', &quot;password_...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(651): CodeIgniter\BaseModel->update()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(656): CodeIgniter\Model->update()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(156): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->atualizar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:50:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:53 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:50:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+ERROR - 2022-02-17 13:51:00 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;password_confirmation&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...min&quot; = '0', &quot;ativo&quot; = '1', &quot;password&quot; = '123456', &quot;password_...
+                                                             ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(651): CodeIgniter\BaseModel->update()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(656): CodeIgniter\Model->update()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(156): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->atualizar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:51:00 --> pg_query(): Query failed: ERROR:  column &quot;password_confirmation&quot; of relation &quot;usuarios&quot; does not exist
+LINE 1: ...min&quot; = '0', &quot;ativo&quot; = '1', &quot;password&quot; = '123456', &quot;password_...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(651): CodeIgniter\BaseModel->update()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(656): CodeIgniter\Model->update()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(156): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->atualizar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-02-17 13:51:07 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:07 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:07 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:08 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:08 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:08 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:25 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:26 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:34 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:35 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:36 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:43 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:43 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:45 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:45 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 105
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(105): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:54 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:51:55 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:52:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:52:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:52:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:52:28 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:52:28 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-02-17 13:52:28 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php on line 93
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Usuarios.php(93): App\Controllers\Admin\Usuarios->buscaUsuarioOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Usuarios->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
