@@ -45,11 +45,9 @@
 
                 <?php endif; ?>
 
-
-
+                
                 <?php echo form_open("admin/usuarios/excluir/$usuario->id"); ?>
-
-
+ 
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
                     <strong>Atenção!</strong> Tem certeza da exclusão do usuário <strong><?php echo esc($usuario->nome); ?>?</strong>
                 </div>

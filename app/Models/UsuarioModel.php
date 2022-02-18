@@ -9,11 +9,15 @@ class UsuarioModel extends Model
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
     protected $allowedFields    =  ['nome', 'email', 'cpf', 'telefone','is_admin', 'ativo', 'password'];
-    protected $useSoftDeletes = true;
+
+    //Datas
     protected $useTimestamps  = true;
     protected $createdField  = 'criado_em';
     protected $updatedField  = 'atualizado_em';
+    protected $dateFormat = 'datetime'; //Para usu com o $userSorfDelete
+    protected $useSoftDeletes = true;
     protected $deletedField  = 'deletado_em';
+    //Validações
     protected $validationRules    = [
         'nome'  => 'required|min_length[4]|max_length[120]',
         'email' => 'required|valid_email|is_unique[usuarios.email]',
@@ -65,6 +69,14 @@ class UsuarioModel extends Model
     public function desabilitaValidacaoSenha(){
         unset($this->validationRules['password']);
         unset($this->validationRules['password_confirmation']);
+    }
+
+    public function desfazerExclusao(int $id) {
+
+    return $this->protect(false)
+        ->where('id', $id)
+        ->set('deletado_em', null)
+          ->update();
     }
     
    

@@ -181,8 +181,8 @@ class Usuarios extends BaseController {
 
             return redirect()->back()->with('info', "O usuário $usuario->nome já encontra-se excluído");
         }
-
-        if ($usuario->is_admin) {
+        
+        if ($usuario->is_admin == 't') {
 
             return redirect()->back()->with('info', 'Não é possível excluir um usuário <b>Administrador</b>');
         }
