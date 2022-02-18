@@ -38,6 +38,9 @@
 
                 <div class="table-responsive">
                     <table class="table table-hover">
+                        <div class="mt-3">
+                        <?php echo $pager->links() ?>
+                        </div>
                         <thead>
                             <tr>
                                 <th>Nome</th>
