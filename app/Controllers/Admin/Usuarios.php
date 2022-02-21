@@ -17,6 +17,7 @@ class Usuarios extends BaseController {
     public function index() {
 
 
+
         $data = [
             'titulo' => 'Listando os usuários',
             'usuarios' => $this->usuarioModel->withDeleted(true)->paginate(10),
