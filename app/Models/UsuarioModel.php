@@ -83,7 +83,10 @@ class UsuarioModel extends Model
     public function buscaUsuarioPorEmail(string $email) {
 
         return $this->where('email', $email)->first();
+
     }
+
+
     
    
 

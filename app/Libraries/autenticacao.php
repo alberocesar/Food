@@ -1,42 +1,49 @@
-<?php 
+<?php
 
-/*Essa class cuidará da parte de autenticação na nossa aplicação
-*/
+namespace App\Libraries;
 
-class autenticacao {
+/*
+ * @descrição essa biblioteca / classe cuidará da parte de autenticação na nossa aplicação
+ */
+
+class Autenticacao {
 
     private $usuario;
 
-    public function login(string $email, string $password){
+    /**
+     * 
+     * @param string $email
+     * @param string $password
+     * @return boolean
+     */
+    public function login(string $email, string $password) {
 
-        $usuarioModel = new App\Models\UsuarioModel();
+        $usuarioModel = new \App\Models\UsuarioModel();
 
         $usuario = $usuarioModel->buscaUsuarioPorEmail($email);
 
-        // se não encontrar usuario por E-mail , retorna falso
-        if($usuario == null) {
+        /* Se não encontrar o usuário por e-mail, retorna false */
+        if ($usuario === null) {
 
             return false;
         }
-        // se a senha não combinar com o hash retorna falso
-        if(!$usuario->verificaPassword($password)){
 
-            return false;
-
-        }
-
-        /* só permetiremos o login dos usaurios ativos */
-
-        if(!$usuario->ativo) {
+        /* Se a senha combinar com o password_hash, retorna false */
+        if (!$usuario->verificaPassword($password)) {
             return false;
         }
 
-        // Nesse ponto esta tudo Certo e podemos logar o usuario na aplicação invocando o método abaixo
+
+        /*  Só permitiremos o login de usuários ativos */
+        if (!$usuario->ativo) {
+            return false;
+        }
+
+        /* Nesse ponto está tudo certo e podemos logar o usuário na aplicação invocando o método abaixo */
         $this->logaUsuario($usuario);
 
-        //retornando True.... tudo Certo!
+        /*  Retornamos true.... tudo certo */
         return true;
-         
     }
 
     public function logout() {
@@ -47,51 +54,67 @@ class autenticacao {
 
     public function pegaUsuarioLogado() {
 
-        /**
-         * Não esquecer de compartilhar a instância com services
-         */
-        if($this->usuario === null) {
+
+        if ($this->usuario === null) {
 
             $this->usuario = $this->pegaUsuarioDaSessao();
-
         }
-        /**
-         * retornamos o usuaário que foi definido no inicio da classe
-         */
+
+        /* Retornamos o usuario que foi definido no início da classe */
         return $this->usuario;
     }
 
-    public function estaLogado () {
+    /**
+     * @descrição: O método só permite ficar logado na aplicação aquele que ainda existir na base e que esteja ativo.
+     *             Do contrário, será feito o logout do mesmo, caso haja uma mudança na sua conta durante a sua sessão
+     * 
+     * @uso: No filtro LoginFilter
+     * 
+     * @return retorna true se o método pegaUsuarioLogado() não for null. Ou seja, se o usuário estiver logado
+     */
+    public function estaLogado() {
 
         return $this->pegaUsuarioLogado() !== null;
     }
 
     private function pegaUsuarioDaSessao() {
 
-        if(!session()->has('usuario_id')) {
+
+        if (!session()->has('usuario_id')) {
 
             return null;
         }
-        // instanciamos o model usuario
-        $usuarioModel = new App\Models\UsuarioModel();
 
-        //recurpero o usuario de acordo com a sessão 'usuario'_id'
-        $usuario = $usuarioModel->find(session()->get('usuario_id')); 
-        
-        //só retorno o objeto $usuario se o mesmo for encontro e estiver ativo
-        if($usuario && $usuario->ativo){
+        /* Instanciamos o Model Usuário */
+        $usuarioModel = new \App\Models\UsuarioModel();
+
+        /* Recupero o usuário de acordo com a chave da sessão 'usuario_id'  */
+        $usuario = $usuarioModel->find(session()->get('usuario_id'));
+
+
+        /* Só retorno o obejto $usuario se o mesmo for encontro e estiver ativo */
+        if ($usuario && $usuario->ativo) {
 
             return $usuario;
         }
     }
 
-    private function logaUsuario(object $usuario){
+    /**
+     * 
+     * Credenciais validadas. Regeneramos a session_id e inserimos o 'usuario_id' na sessão
+     * 
+     * @param object $usuario
+     * 
+     * @Importante: Antes de inserirmos os dados do usuário na sessão, devemos renegerar o ID da sessão.
+     * Pois quando carregamos a view login pela primeira vez, o valor da variável 'ci_session' do debug toolbar é um,
+     * Quando é relizado o login, o valor muda.
+     * Ao fazermos isso, estamos previnindo session fixation attack 
+     */
+    private function logaUsuario(object $usuario) {
 
         $session = session();
         $session->regenerate();
-        $session->set('usuario_id',$usuario->id);
+        $session->set('usuario_id', $usuario->id);
     }
 
 }
-
-?>
