@@ -29,7 +29,7 @@ class Autenticacao {
         }
 
         /* Se a senha combinar com o password_hash, retorna false */
-        if (!$usuario->verificaPassword($password)) {
+        if (!$usuario->verificaPassword($password, $usuario->password)) {
             return false;
         }
 

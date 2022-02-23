@@ -24,7 +24,7 @@ class UsuarioModel extends Model
         'cpf'  => 'required|exact_length[14] |validaCpf|is_unique[usuarios.cpf]',
         'telefone'  => 'required',
         'password' => 'required|min_length[6]',
-        'password_confirmation' => 'required_with[password]|matches[password]'
+        'password_confirmation' => 'required_with[password]|matches[password_confirmation]'
     ];
 
     protected $validationMessages = [
@@ -40,6 +40,22 @@ class UsuarioModel extends Model
             'required' => 'Esse campo  Nome é obrigatório.',
         ],
     ];
+
+    protected $beforeInsert = ['hashPassword'];
+    protected $beforeUpdate = ['hashPassword'];
+
+    protected function hashPassword(array $data) {
+
+        if (isset($data['data']['password'])) {
+
+            $data['data']['password'] = password_hash($data['data']['password'], PASSWORD_DEFAULT);
+
+            unset($data['data']['password_confirmation']);
+
+        }
+
+        return $data;
+    }
 
     /**
      * @uso controller usuarios no metodo procurar com autocomplete 
