@@ -24,6 +24,7 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'login' => \App\Filters\LoginFilter::class,  //filtro login
+        'admin' => \App\Filters\AdminFilter::class,  //filtro admin
     ];
 
     /**
@@ -68,8 +69,13 @@ class Filters extends BaseConfig
     public $filters = [
         'login' => [
             'before' => [
-                'admin/*',
+                'admin/*', //Todos os controller que estão dentro no Namespace 'admin' só serão acessados apos o login
             ]
-        ]
+        ],
+        'admin' => [
+            'before' => [
+                'admin/*', // Todos os controller que estão dentro do NameSpace 'admin' só serão acessados por administrador
+            ]
+        ],
     ];
 }
