@@ -8,4 +8,26 @@ class Home extends BaseController
     {
         return view('testeci4');
     }
+
+    public function email() {
+
+        $email = \Config\Services::email();
+
+        $email->setFrom('your@example.com', 'Your Name');
+        $email->setTo('figob89085@shackvine.com');
+        // $email->setCC('another@another-example.com');
+        // $email->setBCC('them@their-example.com');
+
+        $email->setSubject('Teste de Email');
+        $email->setMessage('Testing the email class.');
+
+        if($email->send()) {
+
+            echo 'Email enviado';
+        }else {
+
+           echo $email->printDebugger();
+        }
+    }
+
 }
