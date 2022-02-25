@@ -19,7 +19,7 @@ class Home extends BaseController
         // $email->setBCC('them@their-example.com');
 
         $email->setSubject('Teste de Email');
-        $email->setMessage('Testing the email class.');
+        $email->setMessage('Email enviado com sucesso. ');
 
         if($email->send()) {
 
