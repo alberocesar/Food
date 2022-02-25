@@ -109,6 +109,9 @@
                 <div class="text-center mt-4 font-weight-light">
                   Ainda não tem uma conta? <a href="<?php echo site_url('registrar'); ?>" class="text-primary">Criar conta</a>
                 </div>
+                <div class="mt-3 d-flex justify-content-between align-items-center">
+                  <a href="<?php echo site_url('password/esqueci');?>" class="auth-link text-black">Recuperar Senha?</a>
+                </div>
               </form>
               <?php echo form_close(); ?>
             </div>
