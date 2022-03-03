@@ -8,7 +8,7 @@ class UsuarioModel extends Model
 {
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
-    protected $allowedFields    =  ['nome', 'email', 'cpf', 'telefone','is_admin', 'ativo', 'password'];
+    protected $allowedFields    =  ['nome', 'email', 'cpf', 'telefone','is_admin', 'ativo', 'password', 'reset_hash','reset_expira_em'];
 
     //Datas
     protected $useTimestamps  = true;

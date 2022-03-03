@@ -80,3 +80,14 @@ CRITICAL - 2022-03-03 10:51:27 --> Argument 1 passed to App\Controllers\Admin\Us
 #4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
 #6 {main}
+CRITICAL - 2022-03-03 11:24:45 --> Não há dados para update.
+#0 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 C:\Users\Adasi\Documents\Project_food\system\Model.php(651): CodeIgniter\BaseModel->update()
+#2 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(656): CodeIgniter\Model->update()
+#3 C:\Users\Adasi\Documents\Project_food\app\Controllers\Password.php(41): CodeIgniter\BaseModel->save()
+#4 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaEsqueci()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#9 {main}
