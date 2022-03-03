@@ -2,7 +2,6 @@
 
 namespace App\Libraries;
 
-
 class token {
 
     private $token;
@@ -20,19 +19,10 @@ class token {
     }
 
     public function getValue() {
-
         return $this->token;
     }
 
-
-    public function getHasg() {
-
-
+    public function getHash() {
         return hash_hmac('sha256', $this->token, env('CHAVE_SECRETA_ATIVACAI_CONTA'));
     }
 }
-
-
-
-
-?>

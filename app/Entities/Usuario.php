@@ -21,8 +21,10 @@ class Usuario extends Entity {
 
     public function iniciaPasswordReset() {
 
-        
+        /* Instancio Novo objeto da classe Token */
+
         $token = new token();
+   
 
         $this->reset_token = $token->getValue();
 

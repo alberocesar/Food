@@ -34,11 +34,40 @@ class Password extends BaseController{
                 ->with('atencao', 'Não encontramos uma conta valida com esse email')
                 ->withInput();
 
-            }
+            }  
+
+            $usuario->iniciaPasswordReset();
+
+
+            /*
+            precisamos atualizar o modelo Usuario 
+            */
+
+            $this->enviaEmailRedefinicaoSenha($usuario);
+
+            return redirect()->to(site_url('login'))->with('sucesso', 'Email de redefinição de senha enviado para a caixa de entrada');
+            
         }else {
 
             return redirect()->back();
         }
+    }
+
+    private function enviaEmailRedefinicaoSenha(object $usuario) {
+
+        $email = service('email');
+
+        $email->setFrom('no-replay@fooddelivery.com.br', 'Food Delivery');
+        $email->setTo($usuario->email);
+        
+
+        $email->setSubject('Redefinição de senha');
+
+        $mensagem = view('Password/reset_email', ['token' => $usuario->reset_token]);
+
+        $email->setMessage($mensagem);
+
+        $email->send();   
     }
     
       
