@@ -55,6 +55,33 @@ class Password extends BaseController{
         }
     }
 
+    public function reset($token = null) {
+
+
+        if($token === null) {
+
+            return redirect()->to(site_url('password/esqueci'))->with('atencao', 'Link invalido ou expirado');
+        }
+
+        
+
+        $usuario = $this->usuarioModel->buscaUsuarioParaResetarSenha($token);
+
+        if($usuario != null) {
+
+            $data = [
+                'titulo' => 'Redefina a sua senha',
+                'token' => $token,
+            ];
+
+            return view('Password/reset', $data);
+
+        }else{
+
+            return redirect()->to(site_url('password/esqueci'))->with('atencao', 'Link invalido ou expirado');
+        }
+    }
+
     private function enviaEmailRedefinicaoSenha(object $usuario) {
 
         $email = service('email');
@@ -64,7 +91,7 @@ class Password extends BaseController{
         
 
         $email->setSubject('Redefinição de senha');
-
+ 
         $mensagem = view('Password/reset_email', ['token' => $usuario->reset_token]);
 
         $email->setMessage($mensagem);
