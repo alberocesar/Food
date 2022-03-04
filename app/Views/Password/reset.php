@@ -19,16 +19,8 @@
             <div class="col-lg-5 mx-auto">
                 <div class="auth-form-light text-left py-5 px-4 px-sm-5">
 
-                <?php if (session()->has('errors_model')): ?>
-                    <ul>
-                        <?php foreach (session('errors_model') as $error): ?>
-
-                            <li class="text-danger"><?php echo $error; ?></li>
-                        <?php endforeach; ?>
-                    </ul>
 
 
-                    <?php endif; ?>
 
                     <?php if (session()->has('sucesso')): ?>
 
@@ -84,25 +76,40 @@
                     <h4>Recuperando a senha!</h4>
                     <h6 class="font-weight-light mb-3"><?php echo $titulo; ?></h6>
 
+
+                    <?php if (session()->has('errors_model')): ?>
+
+                        <ul>
+
+                            <?php foreach (session('errors_model') as $error): ?>
+
+                                <li class="text-danger"><?php echo $error; ?></li>
+
+                            <?php endforeach; ?>
+
+                        </ul>
+
+                    <?php endif; ?>
+
                     <?php echo form_open("password/processareset/$token"); ?>
 
 
-                    <div class="form">
-                        <label for="password">Sua senha</label>
+                    <div class="form-group">
+                        <label for="password">Nova senha</label>
                         <input type="password" class="form-control" name="password" id="password">
                     </div>
 
-                    <div class="form">
+                    <div class="form-group">
                         <label for="confirmation_password">Confirmação da nova senha</label>
-                        <input type="password" class="form-control" name="password_confirmation" id="confirmation_password">
+                        <input type="password" class="form-control" name="password_confirmation" id="confirmation_password" >
                     </div>
 
 
                     <div class="mt-3">
-                        <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Redefinir senha">
+                        <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Criar nova senha">
                     </div>
 
-                        
+
                     <?php echo form_close(); ?>
                 </div>
             </div>
@@ -117,14 +124,9 @@
 <?php echo $this->endSection(); ?>
 
 
+
 <?php echo $this->section('scripts'); ?>
 
 
+
 <?php echo $this->endSection(); ?>
-
-
-
-
-
-
-

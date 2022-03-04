@@ -237,3 +237,69 @@ CRITICAL - 2022-03-04 10:36:39 --> Undefined variable: usuario
 #4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
 #6 {main}
+CRITICAL - 2022-03-04 14:33:25 --> Call to undefined method App\Entities\Usuario::completaPasswordReset()
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-03-04 14:46:37 --> Call to undefined method App\Entities\Usuario::completaPasswordReset()
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-03-04 14:53:10 --> Call to undefined method App\Entities\Usuario::completaPasswordReset()
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-03-04 14:57:35 --> Call to undefined method App\Entities\Usuario::completaPasswordReset()
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-03-04 15:01:34 --> Call to undefined method App\Entities\Usuario::completaPasswordReset()
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-03-04 15:04:25 --> Call to undefined method App\Entities\Usuario::completaPasswordReset()
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-03-04 15:35:12 --> Undefined index: passoword
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Password.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-04 15:35:53 --> Undefined index: passoword
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Password.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-04 15:42:57 --> Undefined index: passoword
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Password.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Password->processaReset()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
