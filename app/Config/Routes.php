@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->get('login', 'Login::novo');
 $routes->get('logout', 'Login::logout');
 $routes->get('registrar', '');
+$routes->get('admin/categorias', 'Admin\categorias::index');
 
 /*
  * --------------------------------------------------------------------

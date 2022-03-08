@@ -110,9 +110,7 @@ class Password extends BaseController {
                      * 
                      * Invalidamos o link antigo que foi enviado para o e-mail do usuário
                      */
-    
-                    
-                                    
+             
                      $usuario->completaPasswordReset();
                      
     
