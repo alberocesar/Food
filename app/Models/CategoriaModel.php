@@ -24,9 +24,11 @@ class CategoriaModel extends Model
     ];
 
     protected $validationMessages = [
-        'email'        => [
+        'nome'        => [
             'required' => 'Esse campo E-mail é obrigatório.',
-            'is_unique' => 'Desculpe. Esse email já existe.',
+        ],
+        'is_unique' => [
+            'required' => 'Essa categoria já existe.',
         ],
        
     ];

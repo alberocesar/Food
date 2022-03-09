@@ -47,13 +47,13 @@
 
 
 
-                <?php echo form_open("admin/usuarios/cadastrar"); ?>
+                <?php echo form_open("admin/categorias/cadastrar"); ?>
 
 
-                <?php echo $this->include('Admin/Usuarios/form'); ?>
+                <?php echo $this->include('Admin/Categorias/form'); ?>
 
 
-                <a href="<?php echo site_url("admin/usuarios"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/categorias"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>

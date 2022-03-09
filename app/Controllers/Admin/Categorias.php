@@ -4,6 +4,8 @@ namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
 
+use App\Entities\Categoria;
+
 
 class Categorias extends BaseController {
 
@@ -49,6 +51,43 @@ class Categorias extends BaseController {
         }
 
         return $this->response->setJSON($retorno);
+    }
+
+    public function criar() {
+
+        $categoria = new Categoria();
+
+        $data = [
+            'titulo' => "Cadastrando nova categoria",
+            'categoria' => $categoria,
+        ];
+
+        return view('Admin/categorias/criar', $data);
+    }
+
+    public function cadastrar() {
+
+        if ($this->request->getMethod() === 'post') {
+     
+            $categoria = new Categoria($this->request->getPost());
+       
+            if ($this->categoriaModel->save($categoria)) {
+                
+
+                return redirect()->to(site_url("admin/categorias/show/".$this->categoriaModel->getInsertID()))
+                                ->with('sucesso', "Categoria $categoria->nome cadastrada com sucesso");
+            } else {
+                
+                return redirect()->back()
+                                ->with('errors_model', $this->categoriaModel->errors())
+                                ->with('atencao', 'Por favor verifique os erros abaixo')
+                                ->withInput();
+            }
+        } else {
+
+            /* Não é post */
+            return redirect()->back();
+        }
     }
 
 
