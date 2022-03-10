@@ -46,10 +46,10 @@
                 <?php endif; ?>
 
                 
-                <?php echo form_open("admin/categorias/excluir/$categoria->id"); ?>
+                <?php echo form_open("admin/extras/excluir/$extra->id"); ?>
  
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                    <strong>Atenção!</strong> Tem certeza da exclusão da categoria <strong><?php echo esc($categoria->nome); ?>?</strong>
+                    <strong>Atenção!</strong> Tem certeza da exclusão da extra <strong><?php echo esc($extra->nome); ?>?</strong>
                 </div>
 
 
@@ -59,7 +59,7 @@
                 </button>
 
 
-                <a href="<?php echo site_url("admin/categorias/show/$categoria->id"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>

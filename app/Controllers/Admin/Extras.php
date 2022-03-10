@@ -168,5 +168,35 @@ class Extras extends BaseController {
             return redirect()->back();
         }
     }
+
+    public function excluir($id = null) {
+
+        $extra = $this->buscaExtraOu404($id);
+
+
+        if ($extra->deletado_em != null) {
+
+            return redirect()->back()->with('info', "O produto $extra->nome já encontra-se excluído");
+        }
+        
+        if ($extra->is_admin == 't') {
+
+            return redirect()->back()->with('info', 'Não é possível excluir um usuário <b>Administrador</b>');
+        }
+
+        if ($this->request->getMethod() === 'post') {
+
+            $this->extraModel->delete($id);
+            return redirect()->to(site_url('admin/extras'))->with('sucesso', "Usuário $extra->nome excluído com sucesso!");
+        }
+
+
+        $data = [
+            'titulo' => "Excluindo o Produto $extra->nome",
+            'extra' => $extra,
+        ];
+
+        return view('Admin/Extras/excluir', $data);
+    }
    
 }
