@@ -1,0 +1,730 @@
+CRITICAL - 2022-03-10 13:58:50 --> Arquivo inválido: testeci4.php
+#0 C:\Users\Adasi\Documents\Project_food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\Adasi\Documents\Project_food\app\Controllers\Home.php(9): view()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#8 {main}
+CRITICAL - 2022-03-10 14:00:48 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:48 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:50 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:51 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:53 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:54 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:56 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:00:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:01 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:02 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:02 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:03 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:04 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:05 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:05 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:06 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:07 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:10 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:10 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:11 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:01:13 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:06:43 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:06:44 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:06:44 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:06:45 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:06:46 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:06:46 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:43 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:44 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:44 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:44 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:45 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:45 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:47 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:47 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:48 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:48 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:12:49 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:09 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:10 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:10 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:11 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:11 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:11 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:17 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:17 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:18 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:18 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:18 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:20 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:21 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:22 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:23 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:31 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:31 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:36 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:36 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:21:37 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 171
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(171): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->excluir()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:24 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:25 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:35 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:36 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:36 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:36 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 14:22:37 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}

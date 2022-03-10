@@ -166,6 +166,54 @@ class Categorias extends BaseController {
         }
     }
 
+    public function excluir($id = null) {
+
+        $categoria = $this->buscaCategoriaOu404($id);
+
+
+        if ($categoria->deletado_em != null) {
+
+            return redirect()->back()->with('info', "A categoria $categoria->nome já encontra-se excluído");
+        }
+        
+
+        if ($this->request->getMethod() === 'post') {
+
+            $this->categoriaModel->delete($id);
+            return redirect()->to(site_url('admin/categorias'))->with('sucesso', "Categoria $categoria->nome excluído com sucesso!");
+        }
+
+
+        $data = [
+            'titulo' => "Excluindo a categoria $categoria->nome",
+            'categoria' => $categoria,
+        ];
+
+        return view('Admin/Categorias/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null) {
+
+        $categoria = $this->buscacategoriaOu404($id);
+
+        if ($categoria->deletado_em == null) {
+
+            return redirect()->back()->with('info', 'Apenas categorias excluídas podem ser recuperados');
+        }
+
+
+        if ($this->categoriaModel->desfazerExclusao($id)) {
+
+            return redirect()->back()->with('sucesso', 'Exclusão desfeita com sucesso!');
+        } else {
+
+            return redirect()->back()
+                            ->with('errors_model', $this->categoriaModel->errors())
+                            ->with('atencao', 'Por favor verifique os erros abaixo')
+                            ->withInput();
+        }
+    }
+
 
       /**
      * 

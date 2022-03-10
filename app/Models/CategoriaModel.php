@@ -26,11 +26,9 @@ class CategoriaModel extends Model
     protected $validationMessages = [
         'nome'        => [
             'required' => 'Esse campo E-mail é obrigatório.',
+            'is_unique' => 'Essa categoria já existe.',
         ],
-        'is_unique' => [
-            'required' => 'Essa categoria já existe.',
-        ],
-       
+        
     ];
 
     protected $beforeInsert = ['criaSlug'];
@@ -68,6 +66,14 @@ class CategoriaModel extends Model
                         ->get()
                         ->getResult();
     }
+
+    public function desfazerExclusao(int $id) {
+
+        return $this->protect(false)
+            ->where('id', $id)
+            ->set('deletado_em', null)
+              ->update();
+        }
 
 
 }
