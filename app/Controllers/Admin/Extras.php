@@ -72,5 +72,78 @@ class Extras extends BaseController {
 
         return view('Admin/Extras/show', $data);
     }
+
+    public function editar($id = null) {
+
+        $extra = $this->buscaextraOu404($id);
+
+
+        if ($extra->deletado_em != null) {
+
+            return redirect()->back()->with('info', "O extra $extra->nome encontra-se excluído. Portanto, não é possível editá-la.");
+        }
+
+        $data = [
+            'titulo' => "Editando o extra $extra->nome",
+            'extra' => $extra,
+        ];
+
+        return view('Admin/extras/editar', $data);
+    }
+
+    public function atualizar($id = null) {
+
+        if ($this->request->getMethod() === 'post') {
+
+            $extra = $this->buscaExtraOu404($id);
+        
+
+
+            if ($extra->deletado_em != null) {
+
+                return redirect()->back()->with('info', "A extra $extra->nome encontra-se excluído. Portanto, não é possível editá-lo.");
+            }
+
+            
+            
+            $extra->fill($this->request->getPost());
+           
+            
+            if (!$extra->hasChanged()) {
+                
+
+                return redirect()->back()->with('info', 'Não dados para atualizar');
+            }
+
+            
+            if ($this->extraModel->save($extra)) {
+                
+
+                return redirect()->to(site_url("admin/extras/show/$extra->id"))
+                                ->with('sucesso', "extra $extra->nome atualizado com sucesso");
+            } else {
+                
+                return redirect()->back()
+                                ->with('errors_model', $this->extraModel->errors())
+                                ->with('atencao', 'Por favor verifique os erros abaixo')
+                                ->withInput();
+            }
+        } else {
+
+            /* Não é post */
+            return redirect()->back();
+        }
+    }
+    public function criar() {
+
+        $extra = new extra();
+
+        $data = [
+            'titulo' => "Cadastrando nova extra",
+            'extra' => $extra,
+        ];
+
+        return view('Admin/extras/criar', $data);
+    }
    
 }

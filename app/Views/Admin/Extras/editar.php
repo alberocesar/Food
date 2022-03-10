@@ -47,13 +47,13 @@
 
 
 
-                <?php echo form_open("admin/categorias/atualizar/$categoria->id"); ?>
+                <?php echo form_open("admin/estras/atualizar/$extra->id"); ?>
 
 
-                <?php echo $this->include('Admin/Categorias/form'); ?>
+                <?php echo $this->include('Admin/Extras/form'); ?>
 
                 <!-- Voltar -->
-                <a href="<?php echo site_url("admin/categorias/show/$categoria->id"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>
