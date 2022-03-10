@@ -104,8 +104,6 @@ class Extras extends BaseController {
                 return redirect()->back()->with('info', "A extra $extra->nome encontra-se excluído. Portanto, não é possível editá-lo.");
             }
 
-            
-            
             $extra->fill($this->request->getPost());
            
             
@@ -120,7 +118,7 @@ class Extras extends BaseController {
                 
 
                 return redirect()->to(site_url("admin/extras/show/$extra->id"))
-                                ->with('sucesso', "extra $extra->nome atualizado com sucesso");
+                                ->with('sucesso', "Extra $extra->nome atualizado com sucesso");
             } else {
                 
                 return redirect()->back()
@@ -144,6 +142,31 @@ class Extras extends BaseController {
         ];
 
         return view('Admin/extras/criar', $data);
+    }
+
+    public function cadastrar() {
+
+        if ($this->request->getMethod() === 'post') {
+     
+            $extra = new extra($this->request->getPost());
+       
+            if ($this->extraModel->save($extra)) {
+                
+
+                return redirect()->to(site_url("admin/extras/show/".$this->extraModel->getInsertID()))
+                                ->with('sucesso', "extra $extra->nome cadastrada com sucesso");
+            } else {
+                
+                return redirect()->back()
+                                ->with('errors_model', $this->extraModel->errors())
+                                ->with('atencao', 'Por favor verifique os erros abaixo')
+                                ->withInput();
+            }
+        } else {
+
+            /* Não é post */
+            return redirect()->back();
+        }
     }
    
 }

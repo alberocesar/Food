@@ -12,7 +12,7 @@ class ExtraModel extends Model
     protected $insertID         = 0;
     protected $returnType       = 'App\Entities\Extra';
     protected $useSoftDeletes   = false;
-    protected $allowedFields    = ['nome', 'slug', 'preco', 'descicao', 'ativo'];
+    protected $allowedFields    = ['nome', 'slug', 'preco', 'descricao', 'ativo'];
 
     // Dates
     protected $useTimestamps = true;
@@ -41,8 +41,6 @@ class ExtraModel extends Model
         if (isset($data['data']['nome'])) {
 
             $data['data']['slug'] = mb_url_title($data['data']['nome'], '-', true);
-
-            
 
         }
 

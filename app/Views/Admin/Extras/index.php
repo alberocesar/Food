@@ -49,17 +49,14 @@
                             </thead>
                             <tbody>
 
-
-
-
                             <?php foreach ($extras as $extra): ?>
 
                                 <tr>
                                     <td>
                                         <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>"><?php echo $extra->nome; ?></a>
                                     </td>
+                                    <td>R$&nbsp;<?php echo esc(number_format($extra->preco, 2)); ?></td>
                                     <td><?php echo $extra->criado_em->humanize(); ?></td>
-                                    <td><?php echo $extra->cpf; ?></td>
 
                                     <td><?php echo ($extra->ativo && $extra->deletado_em == null ? '<label class="badge bg-primary">Sim</label>' : '<label class="badge bg-danger">Não</label>'); ?></td>
 

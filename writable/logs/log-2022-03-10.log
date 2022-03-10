@@ -759,3 +759,365 @@ CRITICAL - 2022-03-10 15:40:54 --> syntax error, unexpected ';', expecting ']'
 #4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
 #6 {main}
+ERROR - 2022-03-10 16:13:28 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, Queijo Coalho, queijo-coalho, 5.00, null, t, 2022-03-10 16:13:28, 2022-03-10 16:13:28, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-03-10 16:13:28 --> pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, Queijo Coalho, queijo-coalho, 5.00, null, t, 2022-03-10 16:13:28, 2022-03-10 16:13:28, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-03-10 16:14:56 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (2, Queijo Coalho, queijo-coalho, 5.00, null, t, 2022-03-10 16:14:56, 2022-03-10 16:14:56, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-03-10 16:14:56 --> pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (2, Queijo Coalho, queijo-coalho, 5.00, null, t, 2022-03-10 16:14:56, 2022-03-10 16:14:56, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-03-10 16:18:24 --> Call to a member function humanize() on null
+#0 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(25): view()
+#4 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->index()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#9 {main}
+CRITICAL - 2022-03-10 16:19:07 --> Call to a member function humanize() on null
+#0 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(25): view()
+#4 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->index()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#9 {main}
+ERROR - 2022-03-10 16:25:03 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (3, Queijo Prato, queijo-prato, 5.00, null, t, 2022-03-10 16:25:03, 2022-03-10 16:25:03, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-03-10 16:25:03 --> pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (3, Queijo Prato, queijo-prato, 5.00, null, t, 2022-03-10 16:25:03, 2022-03-10 16:25:03, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+ERROR - 2022-03-10 16:31:22 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (4, Banana, banana, 2.50, null, t, 2022-03-10 16:31:22, 2022-03-10 16:31:22, null). in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-03-10 16:31:22 --> pg_query(): Query failed: ERROR:  null value in column &quot;descricao&quot; of relation &quot;extras&quot; violates not-null constraint
+DETAIL:  Failing row contains (4, Banana, banana, 2.50, null, t, 2022-03-10 16:31:22, 2022-03-10 16:31:22, null).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 C:\Users\Adasi\Documents\Project_food\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#8 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(658): CodeIgniter\Model->insert()
+#9 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(153): CodeIgniter\BaseModel->save()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->cadastrar()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#15 {main}
+CRITICAL - 2022-03-10 16:32:13 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:14 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:14 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:15 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:15 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:15 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:53 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:54 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:54 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:55 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:56 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:32:56 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:26 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:26 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:27 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:28 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:29 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:30 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 78
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(78): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->editar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:35 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:36 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:37 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:38 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:39 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-03-10 16:34:40 --> Argument 1 passed to App\Controllers\Admin\Extras::buscaExtraOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php on line 66
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Extras.php(66): App\Controllers\Admin\Extras->buscaExtraOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Extras->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}

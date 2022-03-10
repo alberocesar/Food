@@ -47,7 +47,7 @@
 
 
 
-                <?php echo form_open("admin/estras/atualizar/$extra->id"); ?>
+                <?php echo form_open("admin/extras/atualizar/$extra->id"); ?>
 
 
                 <?php echo $this->include('Admin/Extras/form'); ?>
