@@ -154,7 +154,7 @@ class Extras extends BaseController {
                 
 
                 return redirect()->to(site_url("admin/extras/show/".$this->extraModel->getInsertID()))
-                                ->with('sucesso', "extra $extra->nome cadastrada com sucesso");
+                                ->with('sucesso', "extra $extra->nome cadastrado com sucesso");
             } else {
                 
                 return redirect()->back()
@@ -198,5 +198,28 @@ class Extras extends BaseController {
 
         return view('Admin/Extras/excluir', $data);
     }
+
+    public function desfazerExclusao($id = null) {
+
+        $extra = $this->buscaExtraOu404($id);
+
+        if ($extra->deletado_em == null) {
+
+            return redirect()->back()->with('info', 'Apenas extras excluídas podem ser recuperados');
+        }
+
+
+        if ($this->extraModel->desfazerExclusao($id)) {
+
+            return redirect()->back()->with('sucesso', 'Exclusão desfeita com sucesso!');
+        } else {
+
+            return redirect()->back()
+                            ->with('errors_model', $this->extraModel->errors())
+                            ->with('atencao', 'Por favor verifique os erros abaixo')
+                            ->withInput();
+        }
+    }
+
    
 }
