@@ -40,7 +40,7 @@
                 </p>
                 <p class="card-text">
                     <span class="font-weight-bold">Ativo:</span>
-                    <?php echo ($extra->ativo == 't' ? 'Sim' : 'Não'); ?>
+                    <?php echo ($extra->ativo ? 'Sim' : 'Não'); ?>
                 </p>
 
                 <p class="card-text">
@@ -49,7 +49,12 @@
                 </p>
 
                 <?php if ($extra->deletado_em == null): ?>
-               
+
+                    <p class="card-text">
+                        <span class="font-weight-bold">Atualizado:</span>
+                        <?php echo $extra->atualizado_em->humanize(); ?>
+                    </p>
+
                 <?php else: ?>
 
                     <p class="card-text">
