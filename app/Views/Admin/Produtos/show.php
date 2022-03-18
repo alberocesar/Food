@@ -26,29 +26,22 @@
                 <h4 class="card-title text-white"><?php echo esc($titulo); ?></h4>
 
             </div>
+
             <div class="card-body">
 
-
-                <div class="text-center">
-
-
+                
                     <?php if ($produto->imagem && $produto->deletado_em == null): ?>
 
-                        <img class="card-img-top w-75" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
+                        <img class="card-img-top w-75" src="..." alt="Card image cap">
 
                     <?php else: ?>
 
-                        <img class="card-img-top w-75" src="<?php echo site_url('admin/images/produto-sem-imagem.jpg'); ?>" alt="Produto sem imagem por enquanto">
+                        <img class="card-img-top w-75" src="<?php echo site_url('admin/images/semimagem.jpg'); ?>" alt="Produto sem imagem por enquanto">
 
                     <?php endif; ?>
-
-
-                </div>
+                
 
                 <?php if ($produto->deletado_em == null): ?>
-
-                    <hr>
-
 
                     <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-primary mt-2 mb-2 btn-sm">
                         <i class="mdi mdi-image btn-icon-prepend"></i>
@@ -56,6 +49,7 @@
                     </a>
 
                     <hr>
+
 
                 <?php endif; ?>
 

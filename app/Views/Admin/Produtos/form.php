@@ -1,10 +1,9 @@
 
 <div class="form-row">
-
+    <input type="hidden" name="imagem" id="imagem" value="teste">
 <div class="form-group col-md-8">
     <label for="nome">Nome</label>
     <input type="text" class="form-control" name="nome" id="nome" value="<?php echo old('nome', esc($produto->nome)); ?>">
-    <input type="hidden" class="form-control" name="imagem" id="imagem" value="teste">
 </div>
 
 <div class="form-group col-md-4">

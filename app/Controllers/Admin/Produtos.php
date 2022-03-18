@@ -14,6 +14,7 @@ class Produtos extends BaseController {
 
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->categoriaModel = new \App\Models\CategoriaModel();
+
     }
 
     public function index() {
@@ -56,17 +57,15 @@ class Produtos extends BaseController {
 
     public function editar($id = null) {
 
-        
-
         $produto = $this->buscaProdutoOu404($id);
 
         $data = [
             'titulo' => "Editando o produto $produto->nome",
             'produto' => $produto,
-            'categorias' => $this->categoriaModel->where('ativo', true)->finally()
+            'categorias' => $this->categoriaModel->where('ativo', true)->findAll(),
         ];
 
-        return view('Admin/Produtos/show', $data);
+        return view('Admin/Produtos/editar', $data);
     }
 
     public function criar() {
@@ -130,7 +129,7 @@ class Produtos extends BaseController {
 
             if(!$produto->hasChanged()) {
 
-                return redirect()->back()->with('infor', 'Não há dados para atualizar');
+                return redirect()->back()->with('info', 'Não há dados para atualizar');
             }
 
             if($this->produtoModel->save($produto)) {
@@ -155,22 +154,87 @@ class Produtos extends BaseController {
 
     }
 
+    public function editarImagem($id = null) {
+
+        $produto = $this->buscaProdutoOu404($id);
+
+        $data = [
+            'titulo' => "Editando a imagem do produto $produto->nome",
+            'produto' => $produto,
+        ];
+
+        return view('Admin/Produtos/editar_imagem', $data);
+    }
+
+    public function upload($id = null){
+
+        $produto = $this->buscaProdutoOu404($id);
+
+        $imagem = $this->request->getFile('foto_produto');
+
+        if(!$imagem->isValid()) {
+
+            $codigoErro = $imagem->getError();
+
+            if($codigoErro == UPLOAD_ERR_NO_FILE) {
+
+                return redirect()->back()->with('atencao', 'Nenhum arquivo foi selecionado');
+            }
+        }
+
+        $tamanhoImagem = $imagem->getSizeByUnit('mb');
+
+        if($tamanhoImagem > 2){ 
+
+            return redirect()->back()->with('atencao', 'O arquivo selecionado é muito grande. Maximo permitido é 2MB');
+
+        }
+
+        $tipoImagem = $imagem->getMimeType();
+
+        $tipoImagemLimpo = explode('/', $tipoImagem);
+
+        $tiposPermitidos = [
+            'jpeg', 'png', 'webp',
+        ];
+
+        if(!in_array($tipoImagemLimpo[1], $tiposPermitidos)) {
+
+            return redirect()->back()->with('atencao', 'O arquivo não tem o formato permitido. Apenas: '. implode(', ', $tiposPermitidos));
+
+        }
+
+        list($largura, $altura) = getimagesize($imagem->getPathname());
+
+        if($largura < "400" || $altura < "400"){
+
+            return redirect()->back()->with('atencao', 'A imagem não pode ser menor do que 400 x 400 pixels');
+
+        }
+
+        dd($imagem);
+
+        
+      
+    }
+
      /**
      * 
      * @param int $id
      * @return objeto produto
      */
-    private function buscaProdutoOu404(int $id = null) {
+    private function buscaProdutoOu404(int $id = null){
 
-        if (!$id || !$produto = $this->produtoModel->select('produtos.*, categorias.nome AS categoria')
-        ->join('categorias', 'categorias.id = produtos.categoria_id')
-        ->where('produtos.id', $id)
-        ->withDeleted(true)
-        ->first()) {
+        if(!$id || !$produto = $this->produtoModel->select('produtos.*, categorias.nome AS categoria')
+                                                  ->join('categorias','categorias.id = produtos.categoria_id')
+                                                  ->where("produtos.id='$id' AND produtos.deletado_em is null")
+                                                  ->first()){
 
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o produto $id");
+
         }
 
         return $produto;
+
     }
 }

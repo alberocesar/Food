@@ -36,6 +36,7 @@ $routes->get('login', 'Login::novo');
 $routes->get('logout', 'Login::logout');
 $routes->get('registrar', '');
 $routes->get('admin/categorias', 'Admin\categorias::index');
+$routes->get('admin/produtos/editar/(:num)', 'Admin\Produtos::editar/$1');
 
 /*
  * --------------------------------------------------------------------

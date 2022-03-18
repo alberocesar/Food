@@ -18,13 +18,10 @@
 
 
 <div class="row">
-
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title"><?php echo $titulo; ?></h4>
-
-
                 <div class="ui-widget">
                     <input id="query" name="query" placeholder="Pesquise por um produto" class="form-control bg-light mb-5">
                 </div>
@@ -70,22 +67,9 @@
 
                                         <td><?php echo $produto->criado_em->humanize(); ?></td>
 
-
                                         <td>
 
-                                            <?php foreach ($especificacoes as $especificacao): ?>
 
-
-                                                <?php if ($produto->id == $especificacao->produto_id): ?>
-
-                                                    <p>
-                                                        <?php echo esc($especificacao->nome); ?> : R$&nbsp;<?php echo esc($especificacao->preco); ?>
-                                                    </p>
-
-                                                <?php endif; ?>
-
-
-                                            <?php endforeach; ?>
 
 
 
