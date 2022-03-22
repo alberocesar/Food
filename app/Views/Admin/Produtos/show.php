@@ -29,24 +29,29 @@
 
             <div class="card-body">
 
-                
-                    <?php if ($produto->imagem && $produto->deletado_em == null): ?>
 
-                        <img class="card-img-top w-75" src="..." alt="Card image cap">
+            <div class="text-center">
 
-                    <?php else: ?>
+                <?php if ($produto->imagem && $produto->deletado_em == null) : ?>
 
-                        <img class="card-img-top w-75" src="<?php echo site_url('admin/images/semimagem.jpg'); ?>" alt="Produto sem imagem por enquanto">
+                <img class="card-img-top" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
 
-                    <?php endif; ?>
-                
+                <?php else: ?>
 
-                <?php if ($produto->deletado_em == null): ?>
+                <img class="card-img-top w-75" src="<?php echo site_url('admin/images/produto semimagem.jpg') ?>" alt="Produto sem imagem">
 
-                    <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-primary mt-2 mb-2 btn-sm">
-                        <i class="mdi mdi-image btn-icon-prepend"></i>
-                        Editar imagem
-                    </a>
+                <?php endif; ?>
+
+            </div>
+
+            <?php if($produto->deletado_em == null):?>
+
+                <hr>
+
+            <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-primary mt-2 mb-2 btn-sm">
+                <i class="mdi mdi-image btn-icon-prepend"></i>
+                Editar Imagem
+            </a>
 
                     <hr>
 
