@@ -9,11 +9,16 @@ class Produtos extends BaseController {
 
     private $produtoModel;
     private $categoriaModel;
+    private $extraModel;
+    private $produtoExtraModel;
 
     public function __construct() {
 
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->categoriaModel = new \App\Models\CategoriaModel();
+
+        $this->extraModel = new \App\Models\ExtraModel();
+        $this->produtoExtraModel = new \App\Models\ProdutoExtraModel();
 
     }
 
@@ -274,7 +279,26 @@ class Produtos extends BaseController {
 
             exit;
     }
-}
+
+
+    }
+
+    public function extras($id = null){
+
+        $produto = $this->buscaProdutoOu404($id);
+       
+        $data = [
+          'titulo' => "Gerenciar os extras do $produto->nome",
+          'produto' => $produto,
+          'extras' => $this->extraModel->where('ativo', true)->findAll(),
+          'produtoExtras' => $this->produtoExtraModel->buscaExtrasDoProduto($produto->id, 10),
+          'pager' => $this->produtoExtraModel->pager,
+       ];
+       
+       
+       
+       return view('Admin/Produtos/extras', $data);
+       }
 
      /**
      * 

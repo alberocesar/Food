@@ -19,4 +19,19 @@ class ProdutoExtraModel extends Model
             'required' => 'Esse campo E-mail é obrigatório.',
         ],
     ];
+
+    /**
+     * @discrição Recuperar os extras do produto em questão
+     * @uso controller Ademin/produtos/extra($id = null)
+     * @param int $produto_id
+     */
+
+    public function buscaExtrasDoProduto(int $produto_id = null) {
+
+        return $this->select('extras.nome AS extra, produtos_extras.*')
+                     ->join('extras', 'extras.id = produtos_extras.extra_id')
+                     ->join('produtos', 'produtos.id = produtos_extras.produto_id')
+                     ->where('produtos_extras.produto_id', $produto_id)
+                     ->findAll();
+    }
 }
