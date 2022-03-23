@@ -6,7 +6,7 @@
 
 <?php echo $this->section('estilos'); ?>
 
-
+<link rel="stylesheet" href="<?php echo site_url('admin/vendors/select2/select2.min.css'); ?>"/>
 
 <?php echo $this->endSection(); ?>
 
@@ -55,7 +55,7 @@
 
                         <label>Escolha o extra do produto (opcional)</label>
 
-                        <select class="form-control" name="extra_id">
+                        <select class="form-control js-example-basic-single" name="extra_id">
 
                             <option  Escolha.. ></option>
 
@@ -84,8 +84,11 @@
 
 
                 <?php echo form_close(); ?>
+
                 
-                <div class="form-row mt-3">
+                <div class="form-row mt-5">
+
+                <hr>
            
                 <div class="col-md-5">
 
@@ -119,7 +122,30 @@
 
 <?php echo $this->section('scripts'); ?>
 
+<script src="<?php echo site_url('admin/vendors/select2/select2.min.js'); ?>"></script>
 
+<script>
+
+    // In your Javascript (external .js resource or <script> tag)
+        $(document).ready(function() {
+            $('.js-example-basic-single').select2({
+
+                placeholder: 'Digite o nome do extra...',
+                allowClear: false,
+
+                "language":{
+
+                    "noResults": function () {
+                        return "Extra não encontrado&nbsp;&nbsp;<a class='btn btn-primary btn-sm' href='<?php echo site_url('admin/extras/criar'); ?>'>Cadastrar</a>";
+                    }
+                },
+                escapeMarkup: function(markup) {
+                    return markup;
+                }
+
+            });
+        });
+</script>
 
 
 
