@@ -159,6 +159,8 @@ class Produtos extends BaseController {
 
     }
 
+    
+
     public function editarImagem($id = null) {
 
 
@@ -265,7 +267,6 @@ class Produtos extends BaseController {
 
             $caminhoImagem = WRITEPATH . 'uploads/produtos/' . $imagem;
 
-
             $infoImagem = new \finfo(FILEINFO_MIME);
 
             $tipoImagem = $infoImagem->file($caminhoImagem);
@@ -276,10 +277,8 @@ class Produtos extends BaseController {
 
             readfile($caminhoImagem);
 
-
             exit;
     }
-
 
     }
 
@@ -292,19 +291,13 @@ class Produtos extends BaseController {
           'produto' => $produto,
           'extras' => $this->extraModel->where('ativo', true)->findAll(),
           'produtoExtras' => $this->produtoExtraModel->buscaExtrasDoProduto($produto->id, 10),
-          'pager' => $this->produtoExtraModel->pager,
+          'pager' =>$this->produtoExtraModel->pager,
+          
        ];
-       
-       
-       
        return view('Admin/Produtos/extras', $data);
        }
 
-     /**
-     * 
-     * @param int $id
-     * @return objeto produto
-     */
+
     private function buscaProdutoOu404(int $id = null){
 
         if(!$id || !$produto = $this->produtoModel->select('produtos.*, categorias.nome AS categoria')

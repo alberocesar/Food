@@ -49,31 +49,40 @@
 
                 <?php echo form_open("admin/produtos/cadastrarextras/$produto->id"); ?>
 
+
+
                 <div class="form-row">
 
                     <div class="form-group col-md-6">
+
 
                         <label>Escolha o extra do produto (opcional)</label>
 
                         <select class="form-control js-example-basic-single" name="extra_id">
 
-                            <option  Escolha.. ></option>
 
-                        <?php foreach ($extras as $extra): ?>
+                            <option value="">Escolha...</option>
 
-                            <option value="<?php echo $extra->ide ?>"> <?php echo esc($extra->nome); ?> </option>
 
-                        <?php endforeach; ?>    
-                            
+                            <?php foreach ($extras as $extra): ?>
+
+                                <option value="<?php echo $extra->id ?>"> <?php echo esc($extra->nome); ?> </option>
+
+                            <?php endforeach; ?>
+
+
                         </select>
-                                              
+
                     </div>
+
+
 
                 </div>
 
+
                 <button type="submit" class="btn btn-primary mr-2 btn-sm">
                     <i class="mdi mdi-checkbox-marked-circle btn-icon-prepend"></i>
-                    Inserir Extra
+                    Inserir extra
                 </button>
 
 
@@ -85,27 +94,72 @@
 
                 <?php echo form_close(); ?>
 
-                
-                <div class="form-row mt-5">
+                <hr class="mt-5 mb-3">
 
-                <hr>
-           
-                <div class="col-md-5">
 
-                        <?php if(empty($produtosExtras)): ?>
+                <div class="form-row">
 
-                            <p>Esse produto não possui extras até o momento</p>
+
+
+                    <div class="col-md-12">
+
+                        <?php if (!empty($produtoExtras)): ?>
+
+                            <h4 class="card-title">Extras do produto</h4>
+                            <p class="card-description">
+                                <code>Aproveite para gerenciar os extras</code>
+                            </p>
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Extra</th>
+                                            <th>Preço</th>
+                                            <th class="text-center">Remover</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <?php foreach ($produtoExtras as $extraProduto): ?>
+
+                                            <tr>
+                                                <td><?php echo esc($extraProduto->extra); ?></td>
+                                                <td>R$&nbsp;<?php echo esc(number_format($extraProduto->preco, 2)); ?></td>
+
+                                                <td class="text-center">
+
+                                                    <?php echo form_open("admin/produtos/excluirextra/$extraProduto->id/$extraProduto->produto_id"); ?>
+
+                                                    <button type="submit" class="btn btn-outline-danger btn-sm">&nbsp;X&nbsp;</button>
+
+                                                    <?php echo form_close(); ?>
+
+                                                </td>
+                                            </tr>
+
+                                        <?php endforeach; ?>
+
+                                    </tbody>
+                                </table>
+
+                                <div class="mt-3">
+
+                                    <?php echo $pager->links() ?>
+
+                                </div>
+                            </div>
 
                         <?php else: ?>
-
+                            <p>Esse produto não possui extras até o momento</p>
                         <?php endif; ?>
+
+
 
                     </div>
 
                 </div>
 
             </div>
-
 
         </div>
     </div>
@@ -122,31 +176,35 @@
 
 <?php echo $this->section('scripts'); ?>
 
+
 <script src="<?php echo site_url('admin/vendors/select2/select2.min.js'); ?>"></script>
+
 
 <script>
 
-    // In your Javascript (external .js resource or <script> tag)
-        $(document).ready(function() {
-            $('.js-example-basic-single').select2({
+// In your Javascript (external .js resource or <script> tag)
+    $(document).ready(function () {
+        $('.js-example-basic-single').select2({
 
-                placeholder: 'Digite o nome do extra...',
-                allowClear: false,
+            placeholder: 'Digite o nome do extra...',
+            allowClear: false,
 
-                "language":{
+            "language": {
 
-                    "noResults": function () {
-                        return "Extra não encontrado&nbsp;&nbsp;<a class='btn btn-primary btn-sm' href='<?php echo site_url('admin/extras/criar'); ?>'>Cadastrar</a>";
-                    }
-                },
-                escapeMarkup: function(markup) {
-                    return markup;
+                "noResults": function () {
+                    return "Extra não encontrado&nbsp;&nbsp;<a class='btn btn-primary btn-sm' href='<?php echo site_url('admin/extras/criar'); ?>'>Cadastrar</a>";
                 }
 
-            });
-        });
-</script>
+            },
+            escapeMarkup: function (markup) {
+                return markup;
+            }
 
+        });
+    });
+
+
+</script>
 
 
 <?php echo $this->endSection(); ?>
