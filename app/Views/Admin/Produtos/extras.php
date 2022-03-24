@@ -130,7 +130,7 @@
 
                                                     <?php echo form_open("admin/produtos/excluirextra/$extraProduto->id/$extraProduto->produto_id"); ?>
 
-                                                    <button type="submit" class="btn btn-outline-danger btn-sm">&nbsp;X&nbsp;</button>
+                                                    <button type="submit" class="btn btn-danger btn-sm">&nbsp;X&nbsp;</button>
 
                                                     <?php echo form_close(); ?>
 

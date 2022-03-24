@@ -308,7 +308,7 @@
             <?php if (session()->has('atencao')) : ?>
 
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    <strong>Perfeito!</strong> <?php echo session('atencao'); ?>
+                    <strong>Atenção!</strong> <?php echo session('atencao'); ?>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
