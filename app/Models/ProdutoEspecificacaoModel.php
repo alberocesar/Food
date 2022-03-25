@@ -13,6 +13,7 @@ class ProdutoEspecificacaoModel extends Model
     protected $validationRules    = [
         'medida_id'  => 'required|integer',
         'preco' => 'required|greater_than[0]',
+        'customizavel' => 'required|integer',
     ];
 
     protected $validationMessages = [
