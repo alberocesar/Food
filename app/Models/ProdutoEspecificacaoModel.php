@@ -21,4 +21,21 @@ class ProdutoEspecificacaoModel extends Model
         ],
     ];
 
+    /**
+     * @descrição retorna as especificações do produto em questão
+     * @uso Admin/Produtos/especificacoes($id = null)
+     * @param int $produto_id
+     * @param int $quantidade_paginacao
+     * @return array objetos
+     */
+
+    public function buscarEspecificacoesDoProduto(int $produto_id, int $quantidade_paginacao) {
+
+        return $this->select('medidas.nome AS medida, produtos_especificacoes.*')
+                     ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
+                     ->join('produtos', 'produtos.id = produtos_especificacoes.produto_id')
+                     ->where('produtos_especificacoes.produto_id', $produto_id)
+                     ->paginate($quantidade_paginacao);
+    }
+
 }

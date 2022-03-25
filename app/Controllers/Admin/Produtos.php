@@ -11,6 +11,8 @@ class Produtos extends BaseController {
     private $categoriaModel;
     private $extraModel;
     private $produtoExtraModel;
+    private $medidaModel;
+    private $produtoEspecificacaoModel;
 
     public function __construct() {
 
@@ -19,6 +21,8 @@ class Produtos extends BaseController {
 
         $this->extraModel = new \App\Models\ExtraModel();
         $this->produtoExtraModel = new \App\Models\ProdutoExtraModel();
+        $this->medidaModel = new \App\Models\medidaModel();
+        $this->produtoEspecificacaoModel = new \App\Models\produtoEspecificacaoModel();
 
     }
 
@@ -230,6 +234,21 @@ class Produtos extends BaseController {
 
     }
 
+    public function especificacoes($id = null){
+
+        $produto = $this->buscaProdutoOu404($id);
+       
+        $data = [
+          'titulo' => "Gerenciar as especificações do $produto->nome",
+          'produto' => $produto,
+          'medidas' => $this->medidaModel->where('ativo', true)->findAll(),
+          'produtoEspecificacoes' => $this->produtoEspecificacaoModel->buscarEspecificacoesDoProduto($produto->id, 10),
+          'pager' =>$this->produtoEspecificacaoModel->pager,
+          
+       ];
+       return view('Admin/Produtos/especificacoes', $data);
+    }
+
     
 
     public function editarImagem($id = null) {
@@ -366,7 +385,7 @@ class Produtos extends BaseController {
           
        ];
        return view('Admin/Produtos/extras', $data);
-       }
+    }
     
 
     private function buscaProdutoOu404(int $id = null){
