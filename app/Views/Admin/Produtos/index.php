@@ -69,25 +69,21 @@
 
                                         <td>
 
-
-
-
-
                                         </td>
 
 
 
-                                        <td><?php echo ($produto->ativo && $produto->deletado_em == null ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?></td>
+                                        <td><?php echo ($produto->ativo && $produto->deletado_em == null ? '<label class="badge bg-primary btn-sm">Sim</label>' : '<label class="badge bg-danger btn-sm">Não</label>'); ?></td>
 
                                         <td>
 
-                                            <?php echo ($produto->deletado_em == null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>'); ?>
+                                            <?php echo ($produto->deletado_em == null ? '<label class="badge bg-primary btn-sm">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
 
                                             <?php if ($produto->deletado_em != null): ?>
 
                                                 <a href="<?php echo site_url("admin/produtos/desfazerexclusao/$produto->id"); ?>" class="badge badge-dark ml-2">
-                                                    <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                                    Desfazer
+                                                <i class="mdi mdi-undo btn-icon-prepend"></i>
+                                                Desfazer
                                                 </a>
 
                                             <?php endif; ?>

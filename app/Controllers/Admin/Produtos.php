@@ -118,11 +118,11 @@ class Produtos extends BaseController {
     }
     public function show($id = null) {
 
-        $produto = $this->buscaProdutoOu404($id);
+        $produto = $this->produtoModel->buscaProdutoOu404($id);
 
         $data = [
-            'titulo' => "Detalhando o produto $produto->nome",
-            'produto' => $produto,
+            'titulo' => "Detalhando o produto " . $produto[0]->nome,
+            'produto' => $produto[0],
         ];
 
         return view('Admin/Produtos/show', $data);
@@ -253,7 +253,6 @@ class Produtos extends BaseController {
 
         if ($this->request->getMethod() === 'post') {
 
-
             $produto = $this->buscaProdutoOu404($id);
 
             $especificacao = $this->request->getPost();
@@ -291,7 +290,88 @@ class Produtos extends BaseController {
         }
     }
 
+    public function excluirEspecificacao($especificacao_id = null, $produto_id = null) {
 
+        $produto = $this->buscaProdutoOu404($produto_id);
+
+        $especificacao = $this->produtoEspecificacaoModel
+                            ->where('id', $especificacao_id)
+                            ->where('produto_id', $produto->id)
+                            ->first();
+        if(!$especificacao){
+
+            return redirect()->back()->with('atencao', 'Não encontramos a especificação');
+        }   
+        
+        if($this->request->getMethod() === 'post'){
+
+            $this->produtoEspecificacaoModel->delete($especificacao_id);
+
+            return redirect()->to(site_url("admin/produtos/especificacoes/$produto->id"))->with('sucesso', 'especificação excluida com sucesso');
+        }
+
+
+        $data = [
+            'titulo' => 'Exclusão  de expecificação do produto',
+            'especificacao' => $especificacao,
+
+        ];
+
+        return view('Admin/Produtos/excluir_especificacao', $data);
+    }
+
+    public function excluir($id = null) {
+
+        $produto = $this->buscaProdutoOu404($id);
+
+        if($this->request->getMethod() === 'post') {
+
+            $this->produtoModel->delete($id);
+            
+            if($produto->imagem){
+
+                $caminhoImagem = WRITEPATH . 'uploads/produtos/' . $produto->imagem;
+
+                if(is_file($caminhoImagem)) {
+
+                    unlink($caminhoImagem);
+
+                }
+            }
+
+            return redirect()->to(site_url("admin/produtos"))->with('sucesso', 'Produto excluido com sucesso');
+        }
+
+        $data = [
+            'titulo' => "Excluindo o produto $produto->nome",
+            'produto' => $produto,
+        ];
+
+        return view('Admin/Produtos/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null) {
+
+        $produto = $this->produtoModel->buscaProdutoOu404($id);
+
+
+        if ($produto[0]->deletado_em == null) {
+
+            return redirect()->back()->with('info', 'Apenas produtos excluídos podem ser recuperados');
+        }
+
+
+        if ($this->produtoModel->desfazerExclusao($id)) {
+
+            return redirect()->back()->with('sucesso', 'Exclusão desfeita com sucesso!');
+        } else {
+
+            return redirect()->back()
+                            ->with('errors_model', $this->produtoModel->errors())
+                            ->with('atencao', 'Por favor verifique os erros abaixo')
+                            ->withInput();
+        }
+    }
     
 
     public function editarImagem($id = null) {
@@ -411,11 +491,11 @@ class Produtos extends BaseController {
             readfile($caminhoImagem);
 
             exit;
-    }
+        }
 
     }
 
-    public function extras($id = null){
+    public function extras($id = null){ 
 
         $produto = $this->buscaProdutoOu404($id);
        
@@ -433,10 +513,11 @@ class Produtos extends BaseController {
 
     private function buscaProdutoOu404(int $id = null){
 
-        if(!$id || !$produto = $this->produtoModel->select('produtos.*, categorias.nome AS categoria')
-                                                  ->join('categorias','categorias.id = produtos.categoria_id')
-                                                  ->where("produtos.id='$id' AND produtos.deletado_em is null")
-                                                  ->first()){
+        if(!$id || !$produto = $this->produtoModel
+                                                    ->select('produtos.*, categorias.nome AS categoria')
+                                                    ->join('categorias','categorias.id = produtos.categoria_id')
+                                                    ->where("produtos.id='$id' AND produtos.deletado_em is null")
+                                                    ->first()){
 
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o produto $id");
 
@@ -445,4 +526,9 @@ class Produtos extends BaseController {
         return $produto;
 
     }
+
+
+
+    
+    
 }

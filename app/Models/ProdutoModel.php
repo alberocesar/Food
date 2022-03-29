@@ -10,6 +10,7 @@ class ProdutoModel extends Model
     protected $returnType       = 'App\Entities\Produto';
     protected $useSoftDeletes   = true;
 
+
     protected $allowedFields    = [
         'categoria_id',
         'nome',
@@ -88,6 +89,24 @@ class ProdutoModel extends Model
             ->set('deletado_em', null)
               ->update();
         }
+
+
+    public function buscaProdutoOu404(int $id = null){
+
+        if(!$id || !$produto = $this->db->table('produtos')
+                                                    ->select('produtos.*, categorias.nome AS categoria')
+                                                    ->join('categorias','categorias.id = produtos.categoria_id')
+                                                    ->where("produtos.id='$id'")
+                                                    ->get()
+                                                    ->getResult()){
+
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o produto $id");
+
+        }
+
+        return $produto;
+
+    }      
 
 
 }

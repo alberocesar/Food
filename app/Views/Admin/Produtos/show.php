@@ -17,7 +17,7 @@
 
 <div class="row">
 
-    <div class="col-lg-6 grid-margin stretch-card">
+    <div class="col-lg-5 grid-margin stretch-card">
         <div class="card">
 
             <div class="card-header bg-primary pb-0 pt-4">
@@ -26,35 +26,36 @@
                 <h4 class="card-title text-white"><?php echo esc($titulo); ?></h4>
 
             </div>
-
             <div class="card-body">
 
 
-            <div class="text-center">
+                <div class="text-center">
 
-                <?php if ($produto->imagem && $produto->deletado_em == null) : ?>
 
-                <img class="card-img-top" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
+                    <?php if ($produto->imagem && $produto->deletado_em == null): ?>
 
-                <?php else: ?>
+                        <img class="card-img-top w-75" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
 
-                <img class="card-img-top w-75" src="<?php echo site_url('admin/images/produto semimagem.jpg') ?>" alt="Produto sem imagem">
+                    <?php else: ?>
 
-                <?php endif; ?>
+                        <img class="card-img-top w-75" src="<?php echo site_url('admin/images/produto-sem-imagem.jpg'); ?>" alt="Produto sem imagem por enquanto">
 
-            </div>
+                    <?php endif; ?>
 
-            <?php if($produto->deletado_em == null):?>
 
-                <hr>
+                </div>
 
-            <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-primary mt-2 mb-2 btn-sm">
-                <i class="mdi mdi-image btn-icon-prepend"></i>
-                Editar Imagem
-            </a>
+                <?php if ($produto->deletado_em == null): ?>
 
                     <hr>
 
+
+                    <a href="<?php echo site_url("admin/produtos/editarimagem/$produto->id"); ?>" class="btn btn-outline-primary mt-2 mb-2 btn-sm">
+                        <i class="mdi mdi-image btn-icon-prepend"></i>
+                        Editar imagem
+                    </a>
+
+                    <hr>
 
                 <?php endif; ?>
 
@@ -78,21 +79,21 @@
 
                 <p class="card-text">
                     <span class="font-weight-bold">Criado:</span>
-                    <?php echo $produto->criado_em->humanize(); ?>
+                    <?php echo date("d F Y",strtotime("$produto->criado_em")); ?>
                 </p>
 
                 <?php if ($produto->deletado_em == null): ?>
 
                     <p class="card-text">
                         <span class="font-weight-bold">Atualizado:</span>
-                        <?php echo $produto->atualizado_em->humanize(); ?>
+                        <?php echo date("d F Y",strtotime("$produto->atualizado_em")); ?>
                     </p>
 
                 <?php else: ?>
 
                     <p class="card-text">
                         <span class="font-weight-bold text-danger">Excluído:</span>
-                        <?php echo $produto->deletado_em->humanize(); ?>
+                        <?php echo date("d F Y",strtotime ("$produto->deletado_em")); ?>
                     </p>
 
                 <?php endif; ?>

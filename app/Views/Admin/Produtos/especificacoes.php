@@ -189,11 +189,11 @@
                                                 <td><?php echo esc($especificacao->medida); ?></td>
                                                 <td>R$&nbsp;<?php echo esc(number_format($especificacao->preco, 2)); ?></td>
 
-                                                <td><?php echo ($especificacao->customizavel ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-warning">Não</label>') ?></td>
+                                                <td><?php echo ($especificacao->customizavel ? '<label class="btn btn-primary btn-sm">Sim</label>' : '<label class="btn btn-danger btn-sm">Não</label>') ?></td>
 
                                                 <td class="text-center">
 
-                                                    <a href="<?php echo site_url("admin/produtos/excluirespecificacao/$especificacao->id/$especificacao->produto_id"); ?>" class="btn badge badge-danger">
+                                                    <a href="<?php echo site_url("admin/produtos/excluirespecificacao/$especificacao->id/$especificacao->produto_id"); ?>" class="btn btn-danger btn-sm">
                                                         &nbsp;X&nbsp;
                                                     </a>
 
