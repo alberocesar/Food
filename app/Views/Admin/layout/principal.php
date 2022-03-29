@@ -211,6 +211,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="<?php echo site_url('admin/formas'); ?>">
+              <i class="mdi mdi mdi-buffer menu-icon"></i>
+              <span class="menu-title">Formas De pagamento</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="<?php echo site_url('admin/usuarios'); ?>">
               <i class="mdi mdi-account-search menu-icon"></i>
               <span class="menu-title">Usuarios</span>

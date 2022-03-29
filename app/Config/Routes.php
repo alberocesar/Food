@@ -39,6 +39,10 @@ $routes->get('admin/categorias', 'Admin\categorias::index');
 $routes->get('admin/produtos/editar/(:num)', 'Admin\Produtos::editar/$1');
 $routes->get('admin/produtos/cadastrarespecificacoes/(:num)', 'Admin\Produtos::cadastrarEspecificacoes/$1');
 
+$routes->group('admin', function ($routes) {
+    $routes->add('formas', 'Admin\FormasPagamentos::index');
+});
+
 
 /*
  * --------------------------------------------------------------------
