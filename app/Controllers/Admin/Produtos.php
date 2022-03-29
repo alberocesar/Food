@@ -261,10 +261,10 @@ class Produtos extends BaseController {
             $especificacao['produto_id'] = $produto->id;
             $especificacao['preco'] = str_replace(",", "", $especificacao['preco']);
 
-
+            
             $especificacaoExistente = $this->produtoEspecificacaoModel
                     ->where('produto_id', $produto->id)
-                    ->where('medida_id', $especificacao['medida_id'])
+                    ->where('medida_id', intval($especificacao['medida_id']))
                     ->first();
 
             if ($especificacaoExistente) {
