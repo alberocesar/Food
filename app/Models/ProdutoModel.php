@@ -82,6 +82,8 @@ class ProdutoModel extends Model
                         ->getResult();
     }
 
+    
+
     public function desfazerExclusao(int $id) {
 
         return $this->protect(false)
@@ -89,6 +91,8 @@ class ProdutoModel extends Model
             ->set('deletado_em', null)
               ->update();
         }
+
+
 
 
     public function buscaProdutoOu404(int $id = null){

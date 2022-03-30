@@ -26,7 +26,7 @@
 
 
                 <div class="ui-widget">
-                    <input id="query" name="query" placeholder="Pesquise por um forma de pagamento" class="form-control bg-light mb-5">
+                    <input id="query" name="query" placeholder="Pesquise por uma forma de pagamento " class="form-control bg-light mb-5">
                 </div>
 
 
@@ -37,16 +37,19 @@
 
 
                 <div class="table-responsive">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Nome</th>
-                                    <th>Data de criação</th>
-                                    <th>Ativo</th>
-                                    <th>Situação</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Data de criação</th>
+                                <th>Ativo</th>
+                                <th>Situação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+
 
                             <?php foreach ($formas as $forma): ?>
 
@@ -54,14 +57,12 @@
                                     <td>
                                         <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>"><?php echo $forma->nome; ?></a>
                                     </td>
-                                    <td>R$&nbsp;<?php echo esc(number_format($forma->preco, 2)); ?></td>
                                     <td><?php echo $forma->criado_em->humanize(); ?></td>
-
-                                    <td><?php echo ($forma->ativo && $forma->deletado_em == null ? '<label class="badge bg-primary">Sim</label>' : '<label class="badge bg-danger">Não</label>'); ?></td>
+                                    <td><?php echo ($forma->ativo && $forma->deletado_em == null ? '<label class="badge bg-primary btn-sm">Sim</label>' : '<label class="badge bg-danger btn-sm">Não</label>'); ?></td>
 
                                     <td>
 
-                                        <?php echo ($forma->deletado_em == null ? '<label class="badge bg-primary">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
+                                        <?php echo ($forma->deletado_em == null ? '<label class="badge bg-primary btn-sm">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
 
                                         <?php if ($forma->deletado_em != null): ?>
 
@@ -80,7 +81,11 @@
                         </tbody>
                     </table>
 
-                    
+                    <div class="mt-3">
+
+                        <?php echo $pager->links() ?>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -116,7 +121,7 @@
 
                 $.ajax({
 
-                    url: "<?php echo site_url('admin/formas/procurar'); ?>",
+                    url: "<?php echo site_url('admin/formaspagamento/procurar'); ?>",
                     dataType: "json",
                     data: {
                         term: request.term
@@ -127,7 +132,7 @@
 
                             var data = [
                                 {
-                                    label: 'forma de pagamento não encontrada',
+                                    label: 'Forma de pagamento não encontrada',
                                     value: -1
                                 }
                             ];
@@ -158,9 +163,7 @@
         }); // fim autocomplete
 
 
-
     });
-
 
 
 </script>

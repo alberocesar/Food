@@ -28,38 +28,47 @@
             </div>
             <div class="card-body">
 
+            <?php if ($forma->id == 1): ?>
+
+                <div class="alert alert-primary" role="alert">
+
+                    A forma de pagamento <strong><?php echo esc($forma->nome); ?></strong> 
+                    não pode ser <span class="text-danger">editada ou excluída</span>, pois essa opção terá vinculada ou não o envio de troco para o comprador
+                    quando o mesmo estiver no <strong>Checkout</strong> 
+
+                </div>
+
+            <?php endif; ?>
+
 
 
                 <p class="card-text">
                     <span class="font-weight-bold">Nome:</span>
-                    <?php echo esc($extra->nome); ?>
+                    <?php echo esc($forma->nome); ?>
                 </p>
-                <p class="card-text">
-                    <span class="font-weight-bold">Slug:</span>
-                    <?php echo esc($extra->slug); ?>
-                </p>
+    
                 <p class="card-text">
                     <span class="font-weight-bold">Ativo:</span>
-                    <?php echo ($extra->ativo ? 'Sim' : 'Não'); ?>
+                    <?php echo ($forma->ativo ? 'Sim' : 'Não'); ?>
                 </p>
 
                 <p class="card-text">
                     <span class="font-weight-bold">Criado:</span>
-                    <?php echo $extra->criado_em->humanize(); ?>
+                    <?php echo $forma->criado_em->humanize(); ?>
                 </p>
 
-                <?php if ($extra->deletado_em == null): ?>
+                <?php if ($forma->deletado_em == null): ?>
 
                     <p class="card-text">
                         <span class="font-weight-bold">Atualizado:</span>
-                        <?php echo $extra->atualizado_em->humanize(); ?>
+                        <?php echo $forma->atualizado_em->humanize(); ?>
                     </p>
 
                 <?php else: ?>
 
                     <p class="card-text">
                         <span class="font-weight-bold text-danger">Excluído:</span>
-                        <?php echo $extra->deletado_em->humanize(); ?>
+                        <?php echo $forma->deletado_em->humanize(); ?>
                     </p>
 
                 <?php endif; ?>
@@ -67,20 +76,25 @@
                 <div class="mt-4">
 
 
-                    <?php if ($extra->deletado_em == null): ?>
+                    <?php if ($forma->deletado_em == null): ?>
 
 
-                        <a href="<?php echo site_url("admin/extras/editar/$extra->id"); ?>" class="btn btn-dark btn-sm mr-2">
-                            <i class="mdi mdi-pencil btn-icon-prepend"></i>
-                            Editar
-                        </a>
+                            <?php if ($forma->id != 1): ?>
 
-                        <a href="<?php echo site_url("admin/extras/excluir/$extra->id"); ?>" class="btn btn-danger btn-sm mr-2">
-                            <i class="mdi mdi-trash-can btn-icon-prepend"></i>
-                            Excluir
-                        </a>
+                                <a href="<?php echo site_url("admin/formas/editar/$forma->id"); ?>" class="btn btn-dark btn-sm mr-2">
+                                    <i class="mdi mdi-pencil btn-icon-prepend"></i>
+                                    Editar
+                                </a>
 
-                        <a href="<?php echo site_url("admin/extras"); ?>" class="btn btn-light text-dark btn-sm">
+                                <a href="<?php echo site_url("admin/formas/excluir/$forma->id"); ?>" class="btn btn-danger btn-sm mr-2">
+                                    <i class="mdi mdi-trash-can btn-icon-prepend"></i>
+                                    Excluir
+                                </a>
+
+
+                    <?php endif; ?>    
+
+                        <a href="<?php echo site_url("admin/formas"); ?>" class="btn btn-light text-dark btn-sm">
                             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                             Voltar
                         </a>
@@ -88,12 +102,12 @@
 
                     <?php else: ?>
 
-                        <a title="Desfazer exclusão" href="<?php echo site_url("admin/extras/desfazerexclusao/$extra->id"); ?>" class="btn btn-dark btn-sm">
+                        <a title="Desfazer exclusão" href="<?php echo site_url("admin/formas/desfazerexclusao/$forma->id"); ?>" class="btn btn-dark btn-sm">
                             <i class="mdi mdi-undo btn-icon-prepend"></i>
                             Desfazer
                         </a>
 
-                        <a href="<?php echo site_url("admin/extras"); ?>" class="btn btn-light text-dark btn-sm">
+                        <a href="<?php echo site_url("admin/formas"); ?>" class="btn btn-light text-dark btn-sm">
                             <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                             Voltar
                         </a>

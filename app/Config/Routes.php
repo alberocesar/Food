@@ -41,6 +41,19 @@ $routes->get('admin/produtos/cadastrarespecificacoes/(:num)', 'Admin\Produtos::c
 
 $routes->group('admin', function ($routes) {
     $routes->add('formas', 'Admin\FormasPagamentos::index');
+    $routes->add('formas/show/(:num)', 'Admin\FormasPagamentos::show/$1');
+    $routes->add('formas/criar', 'Admin\FormasPagamentos::criar/$1');
+    $routes->add('formas/editar/(:num)', 'Admin\FormasPagamentos::editar/$1');
+    $routes->add('formas/desfazerexclusao/(:num)', 'Admin\FormasPagamentos::desfazerexclusao/$1');
+    $routes->add('formaspagamento/procurar', 'Admin\FormasPagamentos::procurar');
+
+    /*  Para o POST*/
+    $routes->post('formas/atualizar/(:num)', 'Admin\FormasPagamentos::atualizar/$1');
+    $routes->post('formas/cadastrar', 'Admin\FormasPagamentos::cadastrar');
+    
+    $routes->match(['get', 'post'], 'formas/excluir/(:num)', 'Admin\FormasPagamentos::excluir/$1');
+
+    
 });
 
 

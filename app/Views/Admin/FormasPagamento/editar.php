@@ -17,7 +17,7 @@
 
 <div class="row">
 
-    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
 
             <div class="card-header bg-primary pb-0 pt-4">
@@ -47,13 +47,13 @@
 
 
 
-                <?php echo form_open("admin/extras/atualizar/$extra->id"); ?>
+                <?php echo form_open("admin/formas/atualizar/$forma->id"); ?>
 
 
-                <?php echo $this->include('Admin/Extras/form'); ?>
+                <?php echo $this->include('Admin/FormasPagamento/form'); ?>
 
                 <!-- Voltar -->
-                <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/formas/show/$forma->id"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>
