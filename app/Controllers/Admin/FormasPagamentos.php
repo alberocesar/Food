@@ -120,9 +120,14 @@ class FormasPagamentos extends BaseController{
 
             $formaPagamento = $this->buscaFormaPagamentoOu404($id);
 
+            if ($formaPagamento->deletado_em != null) {
+
+                return redirect()->back()->with('info', "A medida $formaPagamento->nome encontra-se excluída. Portanto, não é possível editá-la.");
+            }
+
             $formaPagamento->fill($this->request->getPost());
 
-            if(!$formaPagamento->hasChanged()) {
+            if($formaPagamento->hasChanged()) {
 
                 return redirect()->back()->with('info', 'Não há dados para atualizar');
             }

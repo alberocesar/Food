@@ -48,9 +48,6 @@
                         </thead>
                         <tbody>
 
-
-
-
                             <?php foreach ($formas as $forma): ?>
 
                                 <tr>

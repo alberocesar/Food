@@ -120,8 +120,6 @@ class Medidas extends BaseController{
         if ($this->request->getMethod() === 'post') {
 
             $medida = $this->buscaMedidaOu404($id);
-        
-
 
             if ($medida->deletado_em != null) {
 

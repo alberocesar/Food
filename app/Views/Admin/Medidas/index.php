@@ -56,7 +56,7 @@
                                     </td>
                                     <td><?php echo $medida->criado_em->humanize(); ?></td>
 
-                                    <td><?php echo ($medida->ativo && $medida->deletado_em == null ? '<label class="badge bg-primary">Sim</label>' : '<label class="badge bg-danger">Não</label>'); ?></td>
+                                    <td><?php echo ($medida->ativo && $medida->deletado_em == null ? '<label class="badge bg-primary">Sim</label>' : '<label class="badge bg-danger btn-sm">Não</label>'); ?></td>
 
                                     <td>
 
