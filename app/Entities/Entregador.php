@@ -6,7 +6,11 @@ use CodeIgniter\Entity\Entity;
 
 class Entregador extends Entity
 {
-    protected $datamap = [];
-    protected $dates   = ['created_at', 'updated_at', 'deleted_at'];
-    protected $casts   = [];
+    
+    protected $dates   = [
+        'criado_em',
+        'atualizado_em',
+        'deletado_em',
+    ];
+    
 }
