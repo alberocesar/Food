@@ -1216,3 +1216,471 @@ CRITICAL - 2022-04-05 15:00:25 --> Argument 1 passed to App\Controllers\Admin\En
 #4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
 #6 {main}
+CRITICAL - 2022-04-05 15:29:52 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:29:52 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:29:53 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:29:53 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:29:54 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:29:54 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:18 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:18 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:19 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:20 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:22 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:22 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:24 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:27 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:30:28 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:41:50 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 154
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(154): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->editarImagem()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:41:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 154
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(154): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->editarImagem()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:41:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 154
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(154): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->editarImagem()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:41:52 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 154
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(154): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->editarImagem()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:41:53 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 154
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(154): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->editarImagem()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:41:53 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 154
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(154): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->editarImagem()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:42:00 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:42:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:42:02 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:42:02 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:42:03 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 15:42:03 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php on line 140
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Entregadores.php(140): App\Controllers\Admin\Entregadores->buscaEntregadorOu404()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->show()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-04-05 16:13:08 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:16:09 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:19:02 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:21:32 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:21:41 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:22:09 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:24:27 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:24:49 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:24:58 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:29:35 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:30:12 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:32:01 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:32:33 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:47:48 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:49:36 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:50:36 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:50:54 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:51:26 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-04-05 16:51:37 --> Trying to get property 'id' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Admin\Bairros\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Admin\Bairros.php(27): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Admin\Bairros->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}

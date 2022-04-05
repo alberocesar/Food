@@ -223,6 +223,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="<?php echo site_url('admin/bairros'); ?>">
+              <i class="mdi mdi-city menu-icon"></i>
+              <span class="menu-title">Bairros</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="<?php echo site_url('admin/usuarios'); ?>">
               <i class="mdi mdi-account-search menu-icon"></i>
               <span class="menu-title">Usuarios</span>
