@@ -47,13 +47,13 @@
 
 
 
-                <?php echo form_open("admin/usuarios/atualizar/$usuario->id"); ?>
+                <?php echo form_open("admin/entregadores/atualizar/$entregador->id"); ?>
 
 
-                <?php echo $this->include('Admin/Usuarios/form'); ?>
+                <?php echo $this->include('Admin/Entregadores/form'); ?>
 
                 <!-- Voltar -->
-                <a href="<?php echo site_url("admin/usuarios/show/$usuario->id"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/entregadores/show/$entregador->id"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>

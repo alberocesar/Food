@@ -32,7 +32,7 @@ class CriaTabelaEntregadores extends Migration
             ],
             'email' => [
                 'type' => 'VARCHAR',
-                'constraint' => '240',
+                'constraint' => '128',
                 'unique' => true,
             ],
             'telefone' => [
@@ -42,11 +42,11 @@ class CriaTabelaEntregadores extends Migration
             ],
             'endereco' => [
                 'type' => 'VARCHAR',
-                'constraint' => '120',
+                'constraint' => '240',
             ],
             'imagem' => [
                 'type' => 'VARCHAR',
-                'constraint' => '20',
+                'constraint' => '240',
                 'null' => true,
             ],
             'veiculo' => [
@@ -55,7 +55,7 @@ class CriaTabelaEntregadores extends Migration
             ],
             'placa' => [
                 'type' => 'VARCHAR',
-                'constraint' => '20',
+                'constraint' => '26',
             ],
             'ativo' => [
                 'type' => 'BOOLEAN',
