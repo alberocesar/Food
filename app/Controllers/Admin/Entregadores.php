@@ -306,15 +306,16 @@ class Entregadores extends BaseController {
 
 
             $entregador->imagem = null;
+ 
+            if($entregador->hasChanged()){
+ 
+                $this->entregadorModel->save($entregador);
+ 
+            }
 
+        return redirect()->to(site_url("admin/entregadores"))->with('sucesso', 'Entregador excluído com sucesso');
 
-            $this->entregadorModel->save($entregador);
-
-
-            return redirect()->to(site_url("admin/entregadores"))->with('sucesso', 'Entregador excluído com sucesso');
         }
-
-
 
 
         $data = [
