@@ -33,11 +33,11 @@
 
                 <?php endif; ?>
 
-                <?php echo form_open("admin/extras/cadastrar"); ?>
+                <?php echo form_open("admin/bairros/cadastrar"); ?>
 
-                <?php echo $this->include('Admin/Extras/form'); ?>
+                <?php echo $this->include('Admin/Bairros/form'); ?>
 
-                <a href="<?php echo site_url("admin/extras"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/bairros"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>
@@ -66,6 +66,16 @@
 
 <script src="<?php echo site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
 <script src="<?php echo site_url('admin/vendors/mask/app.js'); ?>"></script>
+
+<script> 
+
+    $("#btn-salvar").prop('disabled', true);
+
+    
+
+
+
+</script>
 
 
 <?php echo $this->endSection(); ?>

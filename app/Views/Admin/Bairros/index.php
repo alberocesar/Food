@@ -36,53 +36,69 @@
                 </a>
 
 
-                <div class="table-responsive">
+                <?php if (empty($bairros)): ?>
+
+                    <p>Não há dados para exibir</p>
+
+                <?php else: ?>
+
+
+                    <div class="table-responsive">
                         <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th>Nome</th>
-                                    <th>Valor De entrega</th>                                    
+                                    <th>Valor de entrega</th>
+                                    <th>Data de criação</th>
                                     <th>Ativo</th>
                                     <th>Situação</th>
                                 </tr>
                             </thead>
                             <tbody>
 
-                            <?php foreach ($bairros as $bairro): ?>
+                                <?php foreach ($bairros as $bairro): ?>
 
-                                <tr>
-                                    <td>
-                                    <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>"><?php echo $bairro->nome; ?></a>
-                                    </td>
-                                    
-                                    <td>R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega, 2)); ?></td>
-                                    <td><?php echo $bairro->criado_em->humanize(); ?></td>
+                                    <tr>
+                                        <td>
+                                            <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>"><?php echo $bairro->nome; ?></a>
+                                        </td>
+                                        <td>R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega, 2)); ?></td>
+                                        <td><?php echo $bairro->criado_em->humanize(); ?></td>
 
-                                    <td><?php echo ($bairro->ativo && $bairro->deletado_em == null ? '<label class="badge bg-primary">Sim</label>' : '<label class="badge bg-danger">Não</label>'); ?></td>
 
-                                    <td>
+                                        <td><?php echo ($bairro->ativo && $bairro->deletado_em == null ? '<label class="btn btn-primary btn-sm">Sim</label>' : '<label class="badge bg-danger">Não</label>'); ?></td>
 
-                                        <?php echo ($bairro->deletado_em == null ? '<label class="badge bg-primary">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
+                                        <td>
 
-                                        <?php if ($bairro->deletado_em != null): ?>
+                                            <?php echo ($bairro->deletado_em == null ? '<label class="btn btn-primary btn-sm">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>'); ?>
 
-                                            <a href="<?php echo site_url("admin/bairros/desfazerexclusao/$bairro->id"); ?>" class="badge badge-dark ml-2">
-                                                <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                                Desfazer
-                                            </a>
+                                            <?php if ($bairro->deletado_em != null): ?>
 
-                                        <?php endif; ?>
+                                                <a href="<?php echo site_url("admin/bairros/desfazerexclusao/$bairro->id"); ?>" class="badge badge-dark ml-2">
+                                                    <i class="mdi mdi-undo btn-icon-prepend"></i>
+                                                    Desfazer
+                                                </a>
 
-                                    </td>
-                                </tr>
+                                            <?php endif; ?>
 
-                            <?php endforeach; ?>
+                                        </td>
+                                    </tr>
 
-                        </tbody>
-                    </table>
+                                <?php endforeach; ?>
 
-                    
-                </div>
+                            </tbody>
+                        </table>
+
+                        <div class="mt-3">
+
+                            <?php echo $pager->links() ?>
+
+                        </div>
+                    </div>
+
+                <?php endif; ?>
+
+
             </div>
         </div>
     </div>
@@ -128,7 +144,7 @@
 
                             var data = [
                                 {
-                                    label: 'bairro de Caruaru não encontrado',
+                                    label: 'Bairro de Curitiba não encontrado',
                                     value: -1
                                 }
                             ];
@@ -159,9 +175,7 @@
         }); // fim autocomplete
 
 
-
     });
-
 
 
 </script>

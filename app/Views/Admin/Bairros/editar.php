@@ -47,13 +47,13 @@
 
 
 
-                <?php echo form_open("admin/extras/atualizar/$extra->id"); ?>
+                <?php echo form_open("admin/bairros/atualizar/$bairro->id"); ?>
 
 
-                <?php echo $this->include('Admin/Extras/form'); ?>
+                <?php echo $this->include('Admin/Bairros/form'); ?>
 
                 <!-- Voltar -->
-                <a href="<?php echo site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-light text-dark btn-sm">
+                <a href="<?php echo site_url("admin/bairros/show/$bairro->id"); ?>" class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                     Voltar
                 </a>

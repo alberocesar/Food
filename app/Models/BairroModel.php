@@ -4,40 +4,37 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class BairroModel extends Model
-{
-    protected $table            = 'bairros';
-    protected $primaryKey       = 'App\Entities\Bairro';
-    protected $useAutoIncrement = true;
-    protected $protectFields    = true;
-    protected $allowedFields    = ['nome', 'slug', 'valor_entrega', 'ativo'];
+class BairroModel extends Model {
 
+    protected $table = 'bairros';
+    protected $returnType = 'App\Entities\Bairro';
+    protected $useSoftDeletes = true;
+    protected $allowedFields = ['nome', 'slug', 'valor_entrega', 'ativo'];
     // Dates
     protected $useTimestamps = true;
-    protected $dateFormat    = 'datetime';
-    protected $createdField  = 'criado_em';
-    protected $updatedField  = 'atualizado_em';
-    protected $deletedField  = 'deletado_em';
-
+    protected $dateFormat = 'datetime';
+    protected $createdField = 'criado_em';
+    protected $updatedField = 'atualizado_em';
+    protected $deletedField = 'deletado_em';
     // Validation
-    protected $validationRules    = [
-        'nome'  => 'required|min_length[2]|max_length[120] |is_unique[bairros.nome]',
-        'cep'  => 'required|exact_length[9]',
-        'valor_entrega'  => 'required',
+    protected $validationRules = [
+        'nome' => 'required|min_length[2]|max_length[120]|is_unique[bairros.nome,id,{id}]',
+        'cidade' => 'required|equals[Curitiba]',
+        'valor_entrega' => 'required',
     ];
-
     protected $validationMessages = [
-        'nome'   => [
-            'required' => 'Esse campo Nome é obrigatório.',
-            'is_unique' => 'Essa Bairro já existe.',
+        'nome' => [
+            'required' => 'O campo Nome é obrigatório.',
+            'is_unique' => 'Esse Bairro já existe.',
         ],
-        'valor_entrega'   => [
-            'required' => 'Esse campo valor de entrega é obrigatório.',
-            
+        'valor_entrega' => [
+            'required' => 'O campo Valor de entrega é obrigatório.',
         ],
-        
+        'cidade' => [
+            'equals' => 'Por favor cadastre apenas Bairros de Curitiba - PR.',
+        ],
     ];
-
+    //Eventos callback
     protected $beforeInsert = ['criaSlug'];
     protected $beforeUpdate = ['criaSlug'];
 
@@ -45,15 +42,17 @@ class BairroModel extends Model
 
         if (isset($data['data']['nome'])) {
 
-            $data['data']['slug'] = mb_url_title($data['data']['nome'], '-', true);
-
-            
-
+            $data['data']['slug'] = mb_url_title($data['data']['nome'], '-', TRUE);
         }
 
         return $data;
     }
 
+    /**
+     * @uso Controller usuarios no método procurar com o autocomplete
+     * @param string $term
+     * @return array categorias
+     */
     public function procurar($term) {
 
         if ($term === null) {
@@ -72,11 +71,9 @@ class BairroModel extends Model
     public function desfazerExclusao(int $id) {
 
         return $this->protect(false)
-            ->where('id', $id)
-            ->set('deletado_em', null)
-              ->update();
-        }
-
-
+                        ->where('id', $id)
+                        ->set('deletado_em', null)
+                        ->update();
+    }
 
 }
