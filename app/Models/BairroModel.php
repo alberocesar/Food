@@ -19,7 +19,7 @@ class BairroModel extends Model {
     // Validation
     protected $validationRules = [
         'nome' => 'required|min_length[2]|max_length[120]|is_unique[bairros.nome,id,{id}]',
-        'cidade' => 'required|equals[Curitiba]',
+        'cidade' => 'required|equals[Caruaru]',
         'valor_entrega' => 'required',
     ];
     protected $validationMessages = [
@@ -31,7 +31,7 @@ class BairroModel extends Model {
             'required' => 'O campo Valor de entrega é obrigatório.',
         ],
         'cidade' => [
-            'equals' => 'Por favor cadastre apenas Bairros de Curitiba - PR.',
+            'equals' => 'Por favor cadastre apenas Bairros de Caruaru - PE.',
         ],
     ];
     //Eventos callback
