@@ -56,6 +56,12 @@ class Bairros extends BaseController {
 
         $bairro = $this->buscaBairroOu404($id);
 
+        if ($bairro->deletado_em != null) {
+
+            return redirect()->back()->with('info', "A Bairro $bairro->nome encontra-se excluído. Portanto, não é possível editá-lo.");
+        }
+
+
         $data = [
             'titulo' => "Editar o Bairro $bairro->nome",
             'bairro' => $bairro,
@@ -204,9 +210,59 @@ class Bairros extends BaseController {
         }
     }
 
-    
+    public function excluir($id = null) {
 
-        /**
+        $bairro = $this->buscabairroOu404($id);
+
+
+        if ($bairro->deletado_em != null) {
+
+            return redirect()->back()->with('info', "O Bairro $bairro->nome já encontra-se excluído");
+        }
+        
+        if ($bairro->is_admin == 't') {
+
+            return redirect()->back()->with('info', 'Não é possível excluir um usuário <b>Administrador</b>');
+        }
+
+        if ($this->request->getMethod() === 'post') {
+
+            $this->bairroModel->delete($id);
+            return redirect()->to(site_url('admin/bairros'))->with('sucesso', "Bairro $bairro->nome excluído com sucesso!");
+        }
+
+
+        $data = [
+            'titulo' => "Excluindo o bairro $bairro->nome",
+            'bairro' => $bairro,
+        ];
+
+        return view('Admin/Bairros/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null) {
+
+        $bairro = $this->buscabairroOu404($id);
+
+        if ($bairro->deletado_em == null) {
+
+            return redirect()->back()->with('info', 'Apenas bairros excluídas podem ser recuperados');
+        }
+
+
+        if ($this->bairroModel->desfazerExclusao($id)) {
+
+            return redirect()->back()->with('sucesso', 'Exclusão desfeita com sucesso!');
+        } else {
+
+            return redirect()->back()
+                            ->with('errors_model', $this->bairroModel->errors())
+                            ->with('atencao', 'Por favor verifique os erros abaixo')
+                            ->withInput();
+        }
+    }
+
+    /**
      * 
      * @param int $id
      * @return objeto Bairro

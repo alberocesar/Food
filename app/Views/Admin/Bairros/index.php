@@ -70,7 +70,7 @@
 
                                         <td>
 
-                                            <?php echo ($bairro->deletado_em == null ? '<label class="btn btn-primary btn-sm">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>'); ?>
+                                            <?php echo ($bairro->deletado_em == null ? '<label class="btn btn-primary btn-sm">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
 
                                             <?php if ($bairro->deletado_em != null): ?>
 
@@ -144,7 +144,7 @@
 
                             var data = [
                                 {
-                                    label: 'Bairro de Curitiba não encontrado',
+                                    label: 'Bairro de Caruaru não encontrado',
                                     value: -1
                                 }
                             ];

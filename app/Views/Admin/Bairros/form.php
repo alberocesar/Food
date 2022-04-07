@@ -12,7 +12,7 @@
     <?php endif; ?>
 
         <div class="form-group col-md-3">
-            <label for="nome">Nome</label>
+            <label for="nome">Bairro</label>
             <input type="text" class="form-control" name="nome" id="nome" value="<?php echo old('nome', esc($bairro->nome)); ?>"readonly="">
         </div>
 
