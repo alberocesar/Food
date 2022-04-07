@@ -5,6 +5,7 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 
 use App\Entities\Bairro;
+use PHPUnit\Util\Xml\Validator;
 
 class Bairros extends BaseController {
 
@@ -105,6 +106,53 @@ class Bairros extends BaseController {
         }
     }
 
+    public function consultaCep() {
+
+
+        if (!$this->request->isAJAX()) {
+
+            return redirect()->to(site_url());
+        }
+
+
+        $validacao = service('validation');
+
+        $validacao->setRule('cep', 'CEP', 'required|exact_length[9]');
+
+
+        $retorno = [];
+
+        if (!$validacao->withRequest($this->request)->run()) {
+
+            $retorno['erro'] = '<span class="text-danger small">' . $validacao->getError() . '</span>';
+
+            return $this->response->setJSON($retorno);
+        }
+
+        /* CEP está formatado */
+        $cep = str_replace('-', '', $this->request->getGet('cep'));
+
+
+        /* Carregando o Helper */
+        helper('consulta_cep');
+
+
+        $consulta = consultaCep($cep);
+
+
+        if (isset($consulta->erro) && !isset($consulta->cep)) {
+
+            $retorno['erro'] = '<span class="text-danger small"> CEP inválido </span>';
+
+            return $this->response->setJSON($retorno);
+        }
+
+
+        $retorno['endereco'] = $consulta;
+
+        return $this->response->setJSON($retorno);
+    }
+
     public function show ($id = null) {
 
         $bairro = $this->buscaBairroOu404($id);
@@ -129,6 +177,34 @@ class Bairros extends BaseController {
 
         return view('Admin/Bairros/criar', $data);
     }
+
+    public function cadastrar() {
+
+        if ($this->request->getMethod() === 'post') {
+
+
+            $bairro = new Bairro($this->request->getPost());
+
+            $bairro->valor_entrega = str_replace(",", "", $bairro->valor_entrega);
+
+            if ($this->bairroModel->save($bairro)) {
+
+                return redirect()->to(site_url("admin/bairros/show/" . $this->bairroModel->getInsertID()))
+                                ->with('sucesso', "Bairro $bairro->nome cadastrado com sucesso");
+            } else {
+
+                return redirect()->back()
+                                ->with('errors_model', $this->bairroModel->errors())
+                                ->with('atencao', 'Por favor verifique os erros abaixo')
+                                ->withInput();
+            }
+        } else {
+
+            return redirect()->back();
+        }
+    }
+
+    
 
         /**
      * 

@@ -71,6 +71,71 @@
 
     $("#btn-salvar").prop('disabled', true);
 
+
+    $('[name=cep]').focusout(function () {
+
+    var cep = $(this).val();
+
+
+    $.ajax({
+
+        type: 'get',
+        url: '<?php echo site_url('admin/bairros/consultacep'); ?>',
+        dataType: 'json',
+        data: {
+            cep: cep
+        },
+        beforeSend: function () {
+
+            $("#cep").html('Consultando...');
+
+            $('[name=nome]').val('');
+            $('[name=cidade]').val('');
+            $('[name=estado]').val('');
+
+
+            $("#btn-salvar").prop('disabled', true);
+
+        },
+        success: function (response) {
+
+
+            if (!response.erro) {
+
+                /*  Sucesso ....*/
+
+                $('[name=nome]').val(response.endereco.bairro);
+                $('[name=cidade]').val(response.endereco.localidade);
+                $('[name=estado]').val(response.endereco.uf);
+
+
+                $("#btn-salvar").prop('disabled', false);
+                $("#cep").html('');
+
+
+            } else {
+
+                /* Tem erros de validação, cep não encontrado, etc...  */
+
+                $("#cep").html(response.erro);
+
+            }
+
+
+        }, // fim success
+        error: function () {
+
+            alert('Não foi possível contultar o cep. Contacte o suporte técnico');
+            $("#btn-salvar").prop('disabled', true);
+
+        },
+
+    });
+
+
+
+    });
+
     
 
 
