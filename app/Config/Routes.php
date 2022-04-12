@@ -53,6 +53,9 @@ $routes->group('admin', function ($routes) {
     
     $routes->match(['get', 'post'], 'formas/excluir/(:num)', 'Admin\FormasPagamentos::excluir/$1');
 
+
+    $routes->match(['get', 'post'], 'expedientes', 'Admin\Expedientes::expedientes');
+
     
 });
 

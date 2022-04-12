@@ -69,6 +69,20 @@
 
                                         <td>
 
+                                        <?php foreach ($especificacoes as $especificacao); ?>
+
+                                            <?php if ($produto->id == $especificacao->produto_id): ?>
+
+                                                <p>
+                                                    <?php echo esc($especificacao->nome); ?> : R$&nbsp;<?php echo esc($especificacao->preco); ?>
+                                                </p>
+
+                                            
+
+                                            <?php endif; ?>    
+
+                                            <?php endforeach; ?>   
+
                                         </td>
 
 
@@ -91,7 +105,7 @@
                                         </td>
                                     </tr>
 
-                                <?php endforeach; ?>
+                                
 
                             </tbody>
                         </table>
