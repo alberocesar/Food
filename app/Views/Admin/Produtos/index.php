@@ -18,10 +18,13 @@
 
 
 <div class="row">
+
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title"><?php echo $titulo; ?></h4>
+
+
                 <div class="ui-widget">
                     <input id="query" name="query" placeholder="Pesquise por um produto" class="form-control bg-light mb-5">
                 </div>
@@ -67,37 +70,40 @@
 
                                         <td><?php echo $produto->criado_em->humanize(); ?></td>
 
+
                                         <td>
 
-                                        <?php foreach ($especificacoes as $especificacao); ?>
+                                            <?php foreach ($especificacoes as $especificacao): ?>
 
-                                            <?php if ($produto->id == $especificacao->produto_id): ?>
 
-                                                <p>
-                                                    <?php echo esc($especificacao->nome); ?> : R$&nbsp;<?php echo esc($especificacao->preco); ?>
-                                                </p>
+                                                <?php if ($produto->id == $especificacao->produto_id): ?>
 
-                                            
+                                                    <p>
+                                                        <?php echo esc($especificacao->nome); ?> : R$&nbsp;<?php echo esc($especificacao->preco); ?>
+                                                    </p>
 
-                                            <?php endif; ?>    
+                                                <?php endif; ?>
 
-                                            <?php endforeach; ?>   
+
+                                            <?php endforeach; ?>
+
+
 
                                         </td>
 
 
 
-                                        <td><?php echo ($produto->ativo && $produto->deletado_em == null ? '<label class="badge bg-primary btn-sm">Sim</label>' : '<label class="badge bg-danger btn-sm">Não</label>'); ?></td>
+                                        <td><?php echo ($produto->ativo && $produto->deletado_em == null ? '<label class="badge bg-primary">Sim</label>' : '<label class="badge bg-danger">Não</label>'); ?></td>
 
                                         <td>
 
-                                            <?php echo ($produto->deletado_em == null ? '<label class="badge bg-primary btn-sm">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
+                                            <?php echo ($produto->deletado_em == null ? '<label class="badge bg-primary">Disponível</label>' : '<label class="badge bg-danger">Excluído</label>'); ?>
 
                                             <?php if ($produto->deletado_em != null): ?>
 
-                                                <a href="<?php echo site_url("admin/produtos/desfazerexclusao/$produto->id"); ?>" class="badge badge-dark ml-2">
-                                                <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                                Desfazer
+                                                <a href="<?php echo site_url("admin/produtos/desfazerexclusao/$produto->id"); ?>" class="badge bg-dark ml-3">
+                                                    <i class="mdi mdi-undo btn-icon-prepend"></i>
+                                                    Desfazer
                                                 </a>
 
                                             <?php endif; ?>
@@ -105,7 +111,7 @@
                                         </td>
                                     </tr>
 
-                                
+                                <?php endforeach; ?>
 
                             </tbody>
                         </table>
