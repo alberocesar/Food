@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="info">
                                     <div class="name"><?php echo esc($produto->nome); ?></div>
-                                    <div class="short"><?php echo substr($produto->ingredientes, 0,5); ?>...</div>
+                                    <div class="short"><?php echo word_limiter($produto->ingredientes, 5); ?></div>
                                     <span class="filter_item_price">A partir de R$&nbsp;<?php echo esc(number_format($produto->preco, 2)); ?></span>
                                 </div>
                             </div>

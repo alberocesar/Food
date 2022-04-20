@@ -3,15 +3,17 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\ProdutoModel;
+
 
 class Produto extends BaseController
 {
     private $produtoModel;
+    private $produtoEspecificacaoModel;
 
     public function __construct() {
 
         $this->produtoModel = new \App\Models\ProdutoModel();
+        $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
     }
 
     public function detalhes(string $produto_slug = null) {
@@ -24,7 +26,12 @@ class Produto extends BaseController
         $data = [
             'titulo' => "Detalhando o produto $produto->nome",
             'produto' => $produto,
+            'especificacoes' => $this->produtoEspecificacaoModel->buscarEspecificacoesDoProdutoDetalhes($produto->id),
+                            
         ];
+
+        
+        
 
         return view('Produto/detalhes', $data);
         
