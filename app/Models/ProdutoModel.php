@@ -114,10 +114,11 @@ class ProdutoModel extends Model
     
     public function buscaProdutosWebHome() {
 
-        return $this->select(['produtos.id','produtos.nome','produtos.slug','produtos.ingredientes','produtos.imagem','categorias.id AS categoria_id','categorias.nome AS categoria','categorias.slug AS categoria_slug'])
-
+        return $this->select(['produtos.id','produtos.nome','produtos.slug','produtos.ingredientes','produtos.imagem', 'categorias.id AS categoria_id','categorias.nome AS categoria','categorias.slug AS categoria_slug'])
+                    ->selectMin('produtos_especificacoes.preco')
                     ->join('categorias', 'categorias.id = produtos.categoria_id')
                     ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+                    ->groupBy('produtos.id ,categorias.id')
                     ->where('produtos.ativo', true)
                     ->orderBy('categorias.nome', 'ASC')
                     ->findAll();

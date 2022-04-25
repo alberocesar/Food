@@ -9,11 +9,13 @@ class Produto extends BaseController
 {
     private $produtoModel;
     private $produtoEspecificacaoModel;
+    private $produtoExtraModel;
 
     public function __construct() {
 
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
+        $this->produtoExtraModel = new \App\Models\produtoExtraModel();
     }
 
     public function detalhes(string $produto_slug = null) {
@@ -30,7 +32,13 @@ class Produto extends BaseController
                             
         ];
 
+        $extras = $this->produtoExtraModel->buscaExtrasDoProdutoDetalhes($produto->id);
         
+
+        if($extras){
+
+            $data['extras'] = $extras;
+        }
         
 
         return view('Produto/detalhes', $data);

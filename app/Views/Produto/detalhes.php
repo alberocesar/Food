@@ -38,6 +38,8 @@
                 <hr />
                 <h3 class="price-container">
 
+                     <p class="small">Escolha o Tamanho</p> 
+
                     <?php foreach ($especificacoes as $especificacao): ?>
                         
                     
@@ -52,11 +54,46 @@
 
                     </label>
 
-                        
-
                     </div>
 
                     <?php endforeach; ?>
+
+
+                    <?php if(isset($extras)): ?>
+
+                    <hr> 
+
+                    <p class="small">Extras do Produto</p>   
+
+                    <div class="radio">
+    
+                                <label style="font-size: 16px;">
+            
+                                <input type="radio" class="extra" name="extra" checked="">Sem Extra
+            
+                                </label>
+    
+                        </div>
+
+                        <?php foreach ($extras as $extra): ?>
+                        
+                    
+                        <div class="radio">
+    
+                                <label style="font-size: 16px;">
+            
+                                <input type="radio" style="margin-top: 2px" class="extra" data-extra="<?php echo $extra->id_principal; ?>"
+                                    name="extra" value="<?php echo $extra->preco; ?>">
+                                    <?php echo esc($extra->nome); ?>
+                                R$&nbsp;<?php echo esc(number_format($extra->preco, 2)); ?>
+            
+                                </label>
+    
+                        </div>
+    
+                        <?php endforeach; ?>
+
+                    <?php endif; ?>    
                     
                 </h3>
                 
@@ -64,7 +101,7 @@
                 <div class="description description-tabs">
                     
                     <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="more-information">
+                        <div class="tab-pane fade active in" style="font-size: 16px;" id="more-information">
                             <br />
                             <strong>ingredientes do Produto</strong>
                             <p>
@@ -88,12 +125,19 @@
 
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-4">
 
-                    <input type="submit" class="btn btn-success btn-sm" value="Adicionar ao Carrinho">
+                    <input id="btn-adiciona" type="submit" class="btn btn-success btn-sm" value="Adicionar ao Carrinho">
+                      
+                    </div>      
+                    
+                <div class="row">
+                    <div class="col-sm-4">                   
 
                         <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-sm">Mais Delicias</a>
-                    </div>                  
+                    </div>      
+                    
+                    
                 </div>
             </div>
 
@@ -118,7 +162,46 @@
 
 <?php echo $this->section('scripts'); ?>
 
-<!-- Aqui enviamos para o template principal os scripts -->
+<script>
+
+    $(document).ready(function() {
+
+        var especificacao_id;
+
+        if(!especificacao_id) {
+
+            $("#btn-adiciona").prop("disabled", true);
+
+            $("#btn-adiciona").prop("value","selecione um valor");
+        }
+
+        $(".especificacao").on('click', function (){
+
+            especificacao_id = $(this).attr('data-especificacao');
+
+            $("#especificacao_id").val(especificacao_id);
+
+            $("#btn-adiciona").prop("disabled", false);
+
+            $("#btn-adiciona").prop("value","Adicionar ao carrinho");
+
+        });
+
+        $(".extra").on('click', function (){
+
+            var extra_id = $(this).attr('data-extra');
+
+            $("#extra_id").val(extra_id);
+
+        });
+    
+
+    });
+
+
+
+
+</script>
 
 <?php echo $this->endSection(); ?>
 
