@@ -36,6 +36,9 @@
                     
                 </h2>
                 <hr />
+                
+
+
                 <h3 class="price-container">
 
                      <p class="small">Escolha o Tamanho</p> 
@@ -96,6 +99,19 @@
                     <?php endif; ?>    
                     
                 </h3>
+
+
+                <div class="row" style="margin-top: 4rem;">
+
+                    <div class="col-md-4">
+
+                        <label>Quantidade</label>
+
+                        <input type="number" class="form-control" name="produto[quantidade]" placeholder="Quantidade" value="1" min="1" max="10" step="1" require="">
+
+                    </div>
+                
+                </div>
                 
                 <hr />
                 <div class="description description-tabs">
@@ -125,14 +141,19 @@
 
 
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
 
                     <input id="btn-adiciona" type="submit" class="btn btn-success btn-sm" value="Adicionar ao Carrinho">
                       
                     </div>      
                     
                 <div class="row">
-                    <div class="col-sm-4">                   
+                    <div class="col-sm-6">                   
+
+                        <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>" class="btn btn-primary btn-sm">Customizar</a>
+                    </div>
+
+                    <div class="col-sm-6">                   
 
                         <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-sm">Mais Delicias</a>
                     </div>      
