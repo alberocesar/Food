@@ -141,22 +141,28 @@
 
 
                 <div class="row">
-                    <div class="col-sm-6">
-
-                    <input id="btn-adiciona" type="submit" class="btn btn-success btn-sm" value="Adicionar ao Carrinho">
-                      
-                    </div>      
                     
-                <div class="row">
-                    <div class="col-sm-6">                   
+                    <div class="col-sm-3">
+                        <input id="btn-adiciona" type="submit" class="btn btn-success btn-block" value="Adicionar">
+                    </div>     
+                    
+                    <?php foreach ($especificacoes as $especificacao): ?>
 
-                        <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>" class="btn btn-primary btn-sm">Customizar</a>
+                        <?php if($especificacao->customizavel): ?>
+
+                     <div class="col-sm-3">
+                        <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>" class="btn btn-primary btn-block">Customizar</a>
                     </div>
+                            
+                         <?php break; ?>        
 
-                    <div class="col-sm-6">                   
+                        <?php endif; ?>
+                            
+                    <?php endforeach; ?>
 
-                        <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-sm">Mais Delicias</a>
-                    </div>      
+                    <div class="col-sm-3">
+                        <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-block">Mais delícias</a>
+                    </div>     
                     
                     
                 </div>
@@ -204,7 +210,7 @@
 
             $("#btn-adiciona").prop("disabled", false);
 
-            $("#btn-adiciona").prop("value","Adicionar ao carrinho");
+            $("#btn-adiciona").prop("value","Adicionar");
 
         });
 
