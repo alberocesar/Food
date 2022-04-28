@@ -21,14 +21,24 @@
     <!-- product -->
     <div class="product-content product-wrap clearfix product-deatil">
         <div class="row">
+            
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="product-image">
                     
                 <img src="<?php echo site_url("produto/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>" />
 
-
                 </div>
             </div>
+
+            <?php if (session()->has('errors_model')): ?>
+                    <ul>
+                        <?php foreach (session('errors_model') as $error): ?>
+                            <li class="text-danger"><?php echo $error; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+
+                <?php endif; ?>
+
             <?php echo form_open("carrinho/adicionar"); ?>
             <div class="col-md-7 col-md-offset-1 col-sm-12 col-xs-12">
                 <h2 class="name">

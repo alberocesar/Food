@@ -5,11 +5,12 @@
 
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
 
     <!-- Meta tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -34,18 +35,18 @@
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="256x256"  href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-256x256.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-192x192.png">    
+    <link rel="icon" type="image/png" sizes="256x256" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon-16x16.png" />
     <link rel="icon" type="image/png" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon.ico" />
     <link rel="manifest" href="<?php echo site_url('web/'); ?>src/assets/img/site.html" />
     <link rel="mask-icon" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
-    <meta name="theme-color" content="#ffffff" />   
-    
+    <meta name="theme-color" content="#ffffff" />
+
     <!-- essa section redenrizará os estilos especificos da view que entender esse layout -->
-     <?php echo $this->renderSection('estilos') ?>
+    <?php echo $this->renderSection('estilos') ?>
 
 </head>
 <!-- END head -->
@@ -53,8 +54,8 @@
 <!-- BEGIN body -->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  
-    <!-- BEGIN  Loading Section -->  
+
+    <!-- BEGIN  Loading Section -->
     <div class="loading-overlay">
         <div class="spinner">
             <span></span>
@@ -64,7 +65,7 @@
             <span></span>
         </div>
     </div>
-    <!-- END Loading Section -->    
+    <!-- END Loading Section -->
 
     <!-- BEGIN body wrapper -->
     <div class="body-wrapper">
@@ -100,7 +101,7 @@
                         <div class="item active">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png" alt="sample" /> 
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png" alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -261,7 +262,53 @@
         </header>
         <!-- End header -->
 
-       <?php $this->renderSection('conteudo'); ?>
+        <?php if (session()->has('sucesso')) : ?>
+
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Perfeito!</strong> <?php echo session('sucesso'); ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+        <?php endif; ?>
+
+        <?php if (session()->has('info')) : ?>
+
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                <strong>Informação!</strong> <?php echo session('info'); ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+        <?php endif; ?>
+
+        <?php if (session()->has('atencao')) : ?>
+
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Atenção!</strong> <?php echo session('atencao'); ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+        <?php endif; ?>
+
+
+        <!-- csrf -->
+        <?php if (session()->has('error')) : ?>
+
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Erro!</strong> <?php echo session('error'); ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+        <?php endif; ?>
+
+        <?php $this->renderSection('conteudo'); ?>
 
         <!--  Begin Footer  -->
         <footer id="footer">
@@ -270,7 +317,7 @@
 
             <!--    Google map, Social links    -->
             <div class="section" id="contact">
-                <div id="googleMap"></div> 
+                <div id="googleMap"></div>
                 <div class="footer_pos">
                     <div class="container">
                         <div class="footer_content">
@@ -437,30 +484,30 @@
 
     <div class="cd-overlay"></div>
     <!-- /.cd-overlay -->
-         
+
 
     <!-- END mobile right burger menu -->
 
     <!-- JavaScript -->
-    <script src="<?php echo site_url('web/');?>src/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/jquery.mousewheel.min.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/jquery.easing.min.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/scrolling-nav.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/aos.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/slick.min.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/jquery.touchSwipe.min.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/moment.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/bootstrap-datepicker.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/bootstrap-datetimepicker.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/jquery.fancybox.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/loadMoreResults.js"></script>
-    <script src="<?php echo site_url('web/');?>src/assets/js/main.js"></script>
-    
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/jquery.mousewheel.min.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/jquery.easing.min.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/scrolling-nav.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/aos.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/slick.min.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/jquery.touchSwipe.min.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/moment.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/bootstrap-datepicker.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/bootstrap-datetimepicker.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/jquery.fancybox.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/loadMoreResults.js"></script>
+    <script src="<?php echo site_url('web/'); ?>src/assets/js/main.js"></script>
+
 
     <!-- essa section redenrizará os scripsts especificos da view que entender esse layout -->
     <?php echo $this->renderSection('scripts') ?>
 
 </body>
 
-</html> 
+</html>
