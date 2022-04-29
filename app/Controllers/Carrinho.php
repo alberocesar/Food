@@ -7,11 +7,14 @@ use App\Controllers\BaseController;
 class Carrinho extends BaseController {
 
     private $validacao;
+    private $produtoEspecificacaoModel;
 
     public function __construct() {
  
 
         $this->validacao = service('validation');
+
+        $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
     }
 
     public function index() {
@@ -36,7 +39,7 @@ class Carrinho extends BaseController {
             ]);
 
 
-            if (!$this->validacao->withRequest($this->request)->run()) {
+            if ($this->validacao->withRequest($this->request)->run()) {
 
                 return redirect()->back()
                                 ->with('errors_model', $this->validacao->getErrors())
@@ -44,7 +47,19 @@ class Carrinho extends BaseController {
                                 ->withInput();
             }
             
-            
+            /* Validamos a existencia da especificacao id */
+            $especificacaoProduto = $this->produtoEspecificacaoModel
+                    ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
+                    ->where('produtos_especificacoes.id', $produtoPost['especificacao_id'])
+                    ->first();
+
+                    dd($especificacaoProduto);
+
+                    if ($especificacaoProduto == null) {
+
+                        return redirect()->back()
+                                        ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-PROD-1001<strong>');  // FRAUDE NO FORM                                                     
+                    }
             
 
         }else {

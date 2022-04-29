@@ -30,8 +30,13 @@
                 </div>
             </div>
 
+            
+
+            <?php echo form_open("carrinho/adicionar"); ?>
+            <div class="col-md-7 col-md-offset-1 col-sm-12 col-xs-12">
+
             <?php if (session()->has('errors_model')): ?>
-                    <ul>
+                    <ul style="margin-left: -1.6em !important; list-style: decimal">
                         <?php foreach (session('errors_model') as $error): ?>
                             <li class="text-danger"><?php echo $error; ?></li>
                         <?php endforeach; ?>
@@ -39,8 +44,7 @@
 
                 <?php endif; ?>
 
-            <?php echo form_open("carrinho/adicionar"); ?>
-            <div class="col-md-7 col-md-offset-1 col-sm-12 col-xs-12">
+
                 <h2 class="name">
                     <?php echo esc($produto->nome); ?>
                     
@@ -117,7 +121,7 @@
 
                         <label>Quantidade</label>
 
-                        <input type="number" class="form-control" name="produto[quantidade]" placeholder="Quantidade" value="1" min="1" max="10" step="1" require="">
+                        <input type="number" class="form-control" name="produto[quantidade]" placeholder="quantidade" value="1" min="1" max="10" step="1" require="">
 
                     </div>
                 
