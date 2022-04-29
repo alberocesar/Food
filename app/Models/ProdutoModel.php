@@ -118,7 +118,7 @@ class ProdutoModel extends Model
                     ->selectMin('produtos_especificacoes.preco')
                     ->join('categorias', 'categorias.id = produtos.categoria_id')
                     ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
-                    ->groupBy('produtos.id ,categorias.id')
+                    ->groupBy('produtos.id ,categorias.id,')
                     ->where('produtos.ativo', true)
                     ->orderBy('categorias.nome', 'ASC')
                     ->findAll();
