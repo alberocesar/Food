@@ -82,8 +82,10 @@ class ProdutoModel extends Model
                         ->getResult();
     }
 
-    
 
+    /**
+     * @throws \ReflectionException
+     */
     public function desfazerExclusao(int $id) {
 
         return $this->protect(false)

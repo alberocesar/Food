@@ -33,7 +33,6 @@ class Carrinho extends BaseController {
 
             $produtoPost = $this->request->getPost('produto');
 
-            dd($produtoPost);
 
             
             $this->validacao->setRules([
@@ -78,16 +77,24 @@ class Carrinho extends BaseController {
                 }
 
             }
+            /* Estou utilizando o Toarray() para que eu possa inserir o objeto no carrinho no formato adequado*/
+            $produto = $this->produtoModel->select(['id', 'nome', 'slug', 'ativo'])->where('slug', $produtoPost['slug'])->first();
 
             /* Validamos a exixtência do produto e se o mesmo está ativo */
-
-            $produto = $this->produtoModel->where('slug', $produtoPost['slug'])->first();
-
             if ($produto == null || $produto->ativo == false) {
 
                 return redirect()->back()
                                 ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-PROD-3003<strong>');  // FRAUDE NO FORM    NA CHAVE $PRODUTOPOST ['SLUG']                                                 
             }
+
+            $produto = $produto->toArray();
+            /* Criado o slug composto para indentificar os itens no carrinho */
+            $produto['slug'] = mb_url_title($produto['slug']. '-' . $especificacaoProduto->nome. '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
+
+            $produto['nome'] = $produto['nome']. '  ' . $especificacaoProduto->nome. ' '. (isset($extra) ? 'com extra-' . $extra->nome : '');
+
+
+
 
         }else {
 
