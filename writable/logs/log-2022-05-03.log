@@ -1,0 +1,44 @@
+CRITICAL - 2022-05-03 11:45:14 --> Undefined property: stdClass::$tamanho
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->adicionar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-05-03 15:11:53 --> View themes, no current section.
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Produto\detalhes.php(259): CodeIgniter\View\View->endSection()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(44): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->detalhes()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-05-03 15:13:13 --> View themes, no current section.
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Produto\detalhes.php(259): CodeIgniter\View\View->endSection()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(44): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->detalhes()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-05-03 15:13:39 --> View themes, no current section.
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Produto\detalhes.php(232): CodeIgniter\View\View->endSection()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(44): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->detalhes()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
