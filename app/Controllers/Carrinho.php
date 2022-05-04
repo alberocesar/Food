@@ -11,15 +11,20 @@ class Carrinho extends BaseController
     private $produtoEspecificacaoModel;
     private $extraModel;
     private $produtoModel;
+    private $acao;
 
-    public function __construct()
-    {
+
+
+    public function __construct() {
 
 
         $this->validacao = service('validation');
+
         $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
         $this->extraModel = new \App\Models\ExtraModel();
         $this->produtoModel = new \App\Models\ProdutoModel();
+
+        $this->acao = service('router')->methodName();
     }
 
     public function index()
@@ -39,10 +44,11 @@ class Carrinho extends BaseController
     }
 
 
-    public function adicionar()
-    {
+    public function adicionar() {
 
         if ($this->request->getMethod() === 'post') {
+
+            dd(service('router'));
 
 
             $produtoPost = $this->request->getPost('produto');
@@ -126,30 +132,72 @@ class Carrinho extends BaseController
             if (session()->has('carrinho')) {
                 /* Existe um carrinho de compras.... damos sequência.... */
 
+                $produtos = session()->get('carrinho');
+
+                /**Recuperar produtodo */
+
                 /* Recupero os produtos do carrinho */
                 $produtos = session()->get('carrinho');
+
 
                 /* Recuperamos apenas os slugs dos produtos do carrinho */
                 $produtosSlugs = array_column($produtos, 'slug');
 
                 if (in_array($produto['slug'], $produtosSlugs)) {
-                 /* Já existe o produto no carrinho..... incrementamos a quantidade */
+                    /* Já existe o produto no carrinho..... incrementamos a quantidade */
 
 
-                 /* Chamamos a função que incrementa a quantidade do produto caso o mesmo exista no carrinho */
- 
+                    /* Chamamos a função que incrementa a quantidade do produto caso o mesmo exista no carrinho */
 
+                    $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
                 }
             } else {
 
-                 /* Não existe no carrinho..... pode adicionar.... */
+                /* Não existe no carrinho..... pode adicionar.... */
 
-                    session()->push('carrinho', [$produto]);
+                session()->push('carrinho', [$produto]);
             }
 
             return redirect()->back()->with('sucesso', 'Produto adicionado com sucesso!');
-        }else{
+        } else {
             return redirect()->back();
         }
     }
+
+
+    private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos) {
+
+
+        $produtos = array_map(function ($linha) use($acao, $slug, $quantidade) {
+
+            if ($linha['slug'] == $slug) {
+
+
+                if ($acao === 'adicionar') {
+
+                    $linha['quantidade'] += $quantidade;
+                }
+
+
+                if ($acao === 'especial') {
+
+                    $linha['quantidade'] += $quantidade;
+                }
+
+
+
+                if ($acao === 'atualizar') {
+
+
+                    $linha['quantidade'] = $quantidade;
+                }
+            }
+
+            return $linha;
+        }, $produtos);
+
+        return $produtos;
+    }
+
+    
 }
