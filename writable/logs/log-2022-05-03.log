@@ -214,3 +214,1461 @@ CRITICAL - 2022-05-03 16:14:39 --> Arquivo inválido: Carrinho/index.php
 #6 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
 #8 {main}
+CRITICAL - 2022-05-03 20:59:37 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:38 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:38 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:38 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:38 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:38 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:53 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:53 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:53 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:53 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:53 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 20:59:53 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:00:28 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:00:28 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:00:28 --> finfo::file(C:\Users\bets1\Food\writable\uploads/produtos/teste): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(486): finfo->file()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->imagem()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#7 {main}
+CRITICAL - 2022-05-03 21:00:28 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:00:28 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:00:29 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:00:29 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 381
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(381): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editarImagem()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 381
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(381): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editarImagem()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 381
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(381): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editarImagem()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 381
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(381): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editarImagem()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 381
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(381): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editarImagem()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 381
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(381): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editarImagem()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:16 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:16 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:16 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:16 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:16 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:16 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:01:26 --> finfo::file(C:\Users\bets1\Food\writable\uploads/entregadores/1650767756_dacee5a83b1018eea83c.jfif): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\bets1\Food\app\Controllers\Admin\Entregadores.php(273): finfo->file()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Entregadores->imagem()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#7 {main}
+CRITICAL - 2022-05-03 21:02:20 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:21 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:21 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:21 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:21 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:21 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:47 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:47 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:47 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:47 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:47 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:02:48 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:27 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:27 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:28 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:28 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:28 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:28 --> Argument 1 passed to App\Controllers\Admin\Medidas::buscaMedidaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Medidas.php(96): App\Controllers\Admin\Medidas->buscaMedidaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Medidas->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:36 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:36 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:36 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:36 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:37 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:37 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:40 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:47 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:48 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:48 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:48 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:48 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:48 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:58 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:58 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:58 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:58 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:59 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:03:59 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:01 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:01 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:02 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 296
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(296): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->excluirEspecificacao()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:02 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 296
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(296): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->excluirEspecificacao()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:02 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 296
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(296): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->excluirEspecificacao()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:02 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 296
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(296): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->excluirEspecificacao()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:02 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 296
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(296): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->excluirEspecificacao()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 296
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(296): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->excluirEspecificacao()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:04 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:04 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:04 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:04 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:04 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:14 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:14 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:41 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:41 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:41 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:41 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:41 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:41 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:44 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 70
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(70): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:45 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 70
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(70): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:45 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 70
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(70): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:45 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 70
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(70): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:45 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 70
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(70): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:45 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 70
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(70): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:48 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:48 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:48 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:48 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:48 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:48 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:50 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:50 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:51 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:51 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:51 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:04:51 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:00 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:01 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 240
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(240): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->especificacoes()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:05 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:05 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:06 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:06 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:06 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:06 --> Argument 1 passed to App\Models\ProdutoModel::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 122
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(122): App\Models\ProdutoModel->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:07 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:07 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:07 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:07 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:14 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:05:15 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php on line 501
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Produtos.php(501): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Produtos->extras()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:26 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:27 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:27 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:27 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:27 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:29 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:29 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:29 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:29 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:29 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:30 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:32 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:55 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 108
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(108): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->editar()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
+CRITICAL - 2022-05-03 21:07:57 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php on line 96
+#0 C:\Users\bets1\Food\app\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+#1 C:\Users\bets1\Food\system\CodeIgniter.php(825): App\Controllers\Admin\Categorias->show()
+#2 C:\Users\bets1\Food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\bets1\Food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\bets1\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\bets1\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\bets1\\...')
+#6 {main}
