@@ -45,6 +45,15 @@ class Produto extends BaseController
         
     }
 
+    public function customizar (string $produto_slug = null) {
+
+        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', true)->first()) {
+
+            return redirect()->to(site_url('/'));
+        }
+
+    }
+
 
     public function imagem(string $imagem = null) {
 
