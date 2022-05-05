@@ -48,13 +48,8 @@ class Carrinho extends BaseController
 
         if ($this->request->getMethod() === 'post') {
 
-            dd(service('router'));
-
 
             $produtoPost = $this->request->getPost('produto');
-
-
-
 
 
             $this->validacao->setRules([
@@ -130,16 +125,6 @@ class Carrinho extends BaseController
 
             if (session()->has('carrinho')) {
 
-<<<<<<< HEAD
-
-
-                $produtos = session()->get('carrinho');
-
-
-                $produtosSlugs = array_column($produtos, 'slug');
-
-                if (in_array($produto['slug'], $produtosSlugs)) {
-=======
                 $produtos = session()->get('carrinho');
 
                 /**Recuperar produtodo */
@@ -153,17 +138,12 @@ class Carrinho extends BaseController
 
                 if (in_array($produto['slug'], $produtosSlugs)) {
                     /* Já existe o produto no carrinho..... incrementamos a quantidade */
->>>>>>> e8f4f10617831e11255b478a97dd734ac4bd9a1a
 
                     $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
 
-<<<<<<< HEAD
-                    session()->set('carrinho', $produtos);
-=======
                     /* Chamamos a função que incrementa a quantidade do produto caso o mesmo exista no carrinho */
 
                     $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
->>>>>>> e8f4f10617831e11255b478a97dd734ac4bd9a1a
                 }
             } else {
 
@@ -174,23 +154,9 @@ class Carrinho extends BaseController
 
             return redirect()->back()->with('sucesso', 'Produto adicionado com sucesso!');
         } else {
-<<<<<<< HEAD
-
-=======
->>>>>>> e8f4f10617831e11255b478a97dd734ac4bd9a1a
             return redirect()->back();
         }
     }
-
-<<<<<<< HEAD
-    private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos)
-    {
-
-        $produtos = array_map(function ($linha) use ($acao, $slug, $quantidade) {
-
-            if ($linha['slug'] == $slug) {
-
-=======
 
     private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos) {
 
@@ -200,16 +166,11 @@ class Carrinho extends BaseController
             if ($linha['slug'] == $slug) {
 
 
->>>>>>> e8f4f10617831e11255b478a97dd734ac4bd9a1a
                 if ($acao === 'adicionar') {
 
                     $linha['quantidade'] += $quantidade;
                 }
 
-<<<<<<< HEAD
-                if ($acao === 'atualizar') {
-
-=======
 
                 if ($acao === 'especial') {
 
@@ -221,7 +182,6 @@ class Carrinho extends BaseController
                 if ($acao === 'atualizar') {
 
 
->>>>>>> e8f4f10617831e11255b478a97dd734ac4bd9a1a
                     $linha['quantidade'] = $quantidade;
                 }
             }
@@ -231,9 +191,6 @@ class Carrinho extends BaseController
 
         return $produtos;
     }
-<<<<<<< HEAD
-=======
 
     
->>>>>>> e8f4f10617831e11255b478a97dd734ac4bd9a1a
 }

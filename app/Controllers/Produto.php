@@ -47,11 +47,27 @@ class Produto extends BaseController
 
     public function customizar (string $produto_slug = null) {
 
-        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', true)->first()) {
+        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', 't')->first()) {
 
-            return redirect()->to(site_url('/'));
+            return redirect()->back();
         }
 
+        if(!$this->produtoEspecificacaoModel->where('produto_id', $produto->id)->where('customizavel', 't')->first()){
+
+            return redirect()->back()->with('info', "Esse produto <strong>$produto->nome </strong> não pode ser vendido meio a meio");
+
+        }
+
+        $data = [
+            'titulo' => "Customizando o produto $produto->nome",
+            'produto' => $produto,
+            'especificacoes' => $this->produtoEspecificacaoModel->buscarEspecificacoesDoProdutoDetalhes($produto->id),
+            'opcoes' => $this->produtoModel->exibeOpcoesProdutosParaCustomizar($produto->categoria_id),
+                            
+        ];
+        
+        dd($data);
+        return view('Produto/customizar', $data);
     }
 
 
