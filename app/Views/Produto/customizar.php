@@ -18,65 +18,192 @@
 
 <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
 
-    <div class="col-sm-12 col-md-12 col-lg-12">
+    <div class="col-sm-8 col-md-offset-2">
         <!-- product -->
         <div class="product-content product-wrap clearfix product-deatil">
             <div class="row">
 
-            <h2 class="name">
 
-                <?php echo esc($titulo); ?>
+                <h2 class="name">
 
-            </h2>
+                    <?php echo esc($titulo); ?>
+
+                </h2>
+
 
                 <?php echo form_open("carrinho/especial"); ?>
 
-                <div class="col-md-12">
 
-                    <?php if (session()->has('errors_model')): ?>
+                <div class="row">
 
 
-                        <ul style="margin-left: -1.6em !important; list-style: decimal">
+                    <div class="col-md-12" style="margin-top: 1em; margin-bottom: 2em">
 
-                            <?php foreach (session('errors_model') as $error): ?>
+                        <?php if (session()->has('errors_model')): ?>
 
-                                <li class="text-danger"><?php echo $error; ?></li>
+
+                            <ul style="margin-left: -1.6em !important; list-style: decimal">
+
+                                <?php foreach (session('errors_model') as $error): ?>
+
+                                    <li class="text-danger"><?php echo $error; ?></li>
+
+                                <?php endforeach; ?>
+
+                            </ul>
+
+
+                        <?php endif; ?>
+
+
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+
+                        <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
+
+
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
+
+
+
+                        </div>
+
+
+                        <label>Escolha a primeira metade do produto</label>
+
+                        <select id="primeira_metade" class="form-control" name="primeira_metade">
+
+                            <option value="">Escolha seu produto...</option>
+
+                            <?php foreach ($opcoes as $opcao): ?>
+
+                                <option value="<?php echo $opcao->id; ?>"><?php echo esc($opcao->nome); ?></option>
 
                             <?php endforeach; ?>
 
-                        </ul>
+
+                        </select>
 
 
-                    <?php endif; ?>
-                   
-                    <div class="row">
+
+                    </div>
 
 
-                        <div class="col-sm-4">
-                            <input id="btn-adiciona" type="submit" class="btn btn-success btn-block" value="Adicionar">
+                    <div class="col-md-6">
+
+                        <div id="imagemSegundoProduto" style="margin-bottom: 1em">
+
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
+
                         </div>
 
-                        <?php foreach ($especificacoes as $especificacao): ?>
 
-                            <?php if ($especificacao->customizavel): ?>
+                        <label> Escolha a segunda metade</label>
 
-                                <div class="col-sm-4">
-                                    <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>" class="btn btn-primary btn-block">Customizar</a>
-                                </div>
+                        <select id="segunda_metade" class="form-control" name="segunda_metade">
 
-                                <?php break; ?>
+                            <!-- Aqui serão renderizas as opções para compor a segunda metade, via javascrit -->
 
-                            <?php endif; ?>
+                        </select>
 
-                        <?php endforeach; ?>
+                    </div>
 
 
-                        <div class="col-sm-4">
-                            <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-block">Mais delícias</a>
+
+
+
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <div class="col-md-6">
+
+                        <div id="valor_produto_customizado" style="margin-top: 1.5em; font-size: 28px; color: #990100; font-family: 'Montserrat-Bold';">
+
+
+                            <!-- Aqui será renderizado, via javascript, o valor do produto -->
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="row" style="margin-top: 3em; margin-bottom: 3em">
+
+                    <div class="col-md-6">
+
+                        <label>Tamanho do produto</label>
+
+                        <select id="tamanho" class="form-control" name="tamanho">
+
+                            <!-- Aqui serão renderizas as opções de tamanho, via javascrit -->
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div id="boxInfoExtras" style="display: none">
+
+                            <label>Extras</label>
+
+
+                            <div class="radio"><label><input type="radio" class="extra" name="extra" checked="">Sem extra</label></div>
+
+
+                            <div id="extras">
+
+
+                                <!-- Aqui serão renderizados os extras do produto, via javascript -->
+
+
+
+                            </div>
+
+
                         </div>
 
 
                     </div>
+
+
+
+                </div>
+
+                <div>
+
+                    <input type="hidden" id="extra_id" name="extra_id" placeholder="extra_id_hidden">
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <div class="col-sm-3">
+                        <input id="btn-adiciona" type="submit" class="btn btn-success" value="Adicionar">
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?>" class="btn btn-info">Voltar</a>
+                    </div>
+
+
                 </div>
 
 
@@ -94,8 +221,6 @@
 
 
 
-
-
 <?php echo $this->endSection(); ?>
 
 
@@ -105,9 +230,7 @@
 
 
 <script>
-
-
-    $(document).ready(function () {
+    $(document).ready(function() {
 
         var especificacao_id;
 
@@ -121,7 +244,7 @@
         }
 
 
-        $(".especificacao").on('click', function () {
+        $(".especificacao").on('click', function() {
 
             especificacao_id = $(this).attr('data-especificacao');
 
@@ -134,7 +257,7 @@
 
         });
 
-        $(".extra").on('click', function () {
+        $(".extra").on('click', function() {
 
             var extra_id = $(this).attr('data-extra');
 
@@ -143,10 +266,6 @@
         });
 
     });
-
-
-
-
 </script>
 
 

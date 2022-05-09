@@ -66,7 +66,7 @@ class Produto extends BaseController
                             
         ];
         
-        dd($data);
+        
         return view('Produto/customizar', $data);
     }
 
