@@ -65,6 +65,11 @@ class Produto extends BaseController
             'opcoes' => $this->produtoModel->exibeOpcoesProdutosParaCustomizar($produto->categoria_id),
                             
         ];
+<<<<<<< HEAD
+=======
+
+        
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
         
         
         return view('Produto/customizar', $data);
