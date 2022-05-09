@@ -136,5 +136,17 @@ class ProdutoModel extends Model
                         ->findAll();
     }
 
+    public function exibeProdutosParaCustomizarSegundaMetade(int $produto_id, int $categoria_id) {
+
+        return $this->select('produtos.id, produtos.nome')
+                        ->join('categorias', 'categorias.id = produto_id = produtos.categoria_id')
+                        ->where('produtos.id !=', $produto_id)
+                        ->where('produtos.categoria_id', $categoria_id)
+                        ->where('produtos.ativo', true)
+                        ->where('produtos_especificacoes.customizavel', true)
+                        ->grupBy('produto.nome')
+                        ->findAll();
+    }
+
 
 }

@@ -5,7 +5,7 @@
 
 <?php echo $this->section('estilos'); ?>
 
-<link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>"/>
+<link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
 
 <?php echo $this->endSection(); ?>
 
@@ -39,12 +39,12 @@
 
                     <div class="col-md-12" style="margin-top: 1em; margin-bottom: 2em">
 
-                        <?php if (session()->has('errors_model')): ?>
+                        <?php if (session()->has('errors_model')) : ?>
 
 
                             <ul style="margin-left: -1.6em !important; list-style: decimal">
 
-                                <?php foreach (session('errors_model') as $error): ?>
+                                <?php foreach (session('errors_model') as $error) : ?>
 
                                     <li class="text-danger"><?php echo $error; ?></li>
 
@@ -66,7 +66,7 @@
                         <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
 
 
-                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto" />
 
 
 
@@ -78,7 +78,7 @@
 
                             <option value="">Escolha seu produto...</option>
 
-                            <?php foreach ($opcoes as $opcao): ?>
+                            <?php foreach ($opcoes as $opcao) : ?>
 
                                 <option value="<?php echo $opcao->id; ?>"><?php echo esc($opcao->nome); ?></option>
 
@@ -95,7 +95,7 @@
 
                         <div id="imagemSegundoProduto" style="margin-bottom: 1em">
 
-                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto" />
 
                         </div>
 
@@ -223,57 +223,83 @@
 
 
 <script>
+    $(document).ready(function() {
 
 
-    $(document).ready(function () {
-
-        
         $("#btn-adiciona").prop("disabled", true);
 
         $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
-        
 
 
-        $("#primeira_metade").on('change', function () {
+
+        $("#primeira_metade").on('change', function() {
 
             var primeira_metade = $(this).val();
 
             var categoria_id = '<?php echo $produto->categoria_id ?>';
 
-            if(primeira_metade) {
+            if (primeira_metade) {
 
-            $.ajax({
+                $.ajax({
 
-                type: 'get',
-                url: '<?php echo site_url('produto/procurar'); ?>',
-                dataType: 'json',
-                data: {
-                    primeira_metade : primeira_metade,
-                    categoria_id: categoria_id,
-                },
-                success: function (data) {
+                    type: 'get',
+                    url: '<?php echo site_url('produto/procurar'); ?>',
+                    dataType: 'json',
+                    data: {
+                        primeira_metade: primeira_metade,
+                        categoria_id: categoria_id,
+                    },
 
-                    
+                    beforeSend: function (data) {
+
+                        $("#segunda_metade").html('');
+                    },
+                    success: function (data) {
 
 
-                },
+                        if (data.imagemPrimeiroProduto) {
 
-            });
+                            $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' + data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
+                        }
 
-                
-            }else{
+                        if (data.produtos) {
+
+
+                            $("#segunda_metade").html('<option>Escolha a segunda metade</option>');
+
+
+                            $(data.produtos).each(function () {
+
+                                var option = $('<option />');
+
+                                option.attr('value', this.id).text(this.nome);
+
+                                $("#segunda_metade").append(option);
+
+                            });
+
+                        } else {
+
+
+                            $("#segunda_metade").html('<option>Não encontramos opções de customização</option>');
+
+                        }
+
+
+                    },
+
+                });
+
+
+            } else {
 
                 /* CLiente não escolheu a  primeira metade */
             }
 
-        }); 
+        });
 
     });
-
-
-
-
 </script>
 
 
