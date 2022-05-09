@@ -5,7 +5,11 @@
 
 <?php echo $this->section('estilos'); ?>
 
+<<<<<<< HEAD
 <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>"/>
+=======
+<link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
 
 <?php echo $this->endSection(); ?>
 
@@ -39,12 +43,20 @@
 
                     <div class="col-md-12" style="margin-top: 1em; margin-bottom: 2em">
 
+<<<<<<< HEAD
                         <?php if (session()->has('errors_model')): ?>
+=======
+                        <?php if (session()->has('errors_model')) : ?>
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
 
 
                             <ul style="margin-left: -1.6em !important; list-style: decimal">
 
+<<<<<<< HEAD
                                 <?php foreach (session('errors_model') as $error): ?>
+=======
+                                <?php foreach (session('errors_model') as $error) : ?>
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
 
                                     <li class="text-danger"><?php echo $error; ?></li>
 
@@ -52,16 +64,22 @@
 
                             </ul>
 
+<<<<<<< HEAD
 
                         <?php endif; ?>
 
 
 
+=======
+                        <?php endif; ?>
+
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
                     </div>
 
 
                     <div class="col-md-6">
 
+<<<<<<< HEAD
 
                         <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
 
@@ -69,6 +87,11 @@
                             <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
 
 
+=======
+                        <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
+
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto" />
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
 
                         </div>
 
@@ -77,12 +100,17 @@
 
                         <select id="primeira_metade" class="form-control" name="primeira_metade">
 
+<<<<<<< HEAD
                             <option value="">Escolha seu produto...</option>
+=======
+                            <option>Escolha Seu produto</option>
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
 
                             <?php foreach ($opcoes as $opcao): ?>
 
                                 <option value="<?php echo $opcao->id; ?>"><?php echo esc($opcao->nome); ?></option>
 
+<<<<<<< HEAD
                             <?php endforeach; ?>
 
 
@@ -93,15 +121,30 @@
                     </div>
 
 
+=======
+                            <?php endforeach; ?>    
+
+                        </select>
+
+                    </div>
+
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
                     <div class="col-md-6">
 
                         <div id="imagemSegundoProduto" style="margin-bottom: 1em">
 
+<<<<<<< HEAD
                             <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
 
                         </div>
 
 
+=======
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto" />
+
+                        </div>
+
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
                         <label> Escolha a segunda metade</label>
 
                         <select id="segunda_metade" class="form-control" name="segunda_metade">
@@ -112,11 +155,14 @@
 
                     </div>
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
                 </div>
 
 
@@ -168,6 +214,7 @@
 
                             <div id="extras">
 
+<<<<<<< HEAD
 
                                 <!-- Aqui serão renderizados os extras do produto, via javascript -->
 
@@ -176,6 +223,12 @@
                             </div>
 
 
+=======
+                                <!-- Aqui serão renderizados os extras do produto, via javascript -->
+
+                            </div>
+
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
                         </div>
 
 
@@ -221,6 +274,10 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c95530ab4d9bdcba23d152971c531d27a9e59682
 <?php echo $this->endSection(); ?>
 
 
