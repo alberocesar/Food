@@ -66,7 +66,7 @@
                         <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
 
 
-                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto" />
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/semimagem.jpg"); ?>" width="150" alt="Escolha o produto" />
 
 
 
@@ -95,7 +95,7 @@
 
                         <div id="imagemSegundoProduto" style="margin-bottom: 1em">
 
-                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto" />
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/semimagem.jpg"); ?>" width="150" alt="Escolha o produto" />
 
                         </div>
 
@@ -251,10 +251,14 @@
                     },
                     success: function (data) {
 
-                        if (data.imagemPrimeiroProduto) {
+                        if(data.imagemPrimeiroProduto){
 
-                            $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' + data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
+                          $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' + data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
+
                         }
+
+
+
 
                         if (data.produtos) {
 
@@ -288,6 +292,9 @@
             } else {
 
                 /* CLiente não escolheu a  primeira metade */
+
+                $("#segunda_metade").html('<option>Escolha a primeira metade</option>');
+                
             }
 
         });

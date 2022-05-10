@@ -95,7 +95,7 @@ class Produto extends BaseController
         }
 
         $data['produtos'] = $produtos; 
-        // $data['imagemPrimeiroProduto'] = $produtos->imagem; 
+        //$data['imagemPrimeiroProduto'] = $produtos->imagem; 
 
         return $this->response->setJSON($data);
         
