@@ -208,12 +208,6 @@
 </div>
 
 
-
-
-
-
-
-
 <?php echo $this->endSection(); ?>
 
 
@@ -256,7 +250,6 @@
                         $("#segunda_metade").html('');
                     },
                     success: function (data) {
-
 
                         if (data.imagemPrimeiroProduto) {
 

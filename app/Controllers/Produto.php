@@ -80,7 +80,7 @@ class Produto extends BaseController
 
         $get = $this->request->getGet();
 
-        $produto = $this->produtoModel->where('ide', $get['primeira_metade'])->first();
+        $produto = $this->produtoModel->where('id', $get['primeira_metade'])->first();
         
         if ($produto == null) {
 
@@ -95,10 +95,9 @@ class Produto extends BaseController
         }
 
         $data['produtos'] = $produtos; 
-        $data['imagemPrimeiroProduto'] = $produtos->imagem; 
+        // $data['imagemPrimeiroProduto'] = $produtos->imagem; 
 
-
-        return $this->response->setJSON([]);
+        return $this->response->setJSON($data);
         
     }
 
