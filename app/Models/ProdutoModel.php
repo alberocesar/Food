@@ -131,19 +131,22 @@ class ProdutoModel extends Model
     public function exibeOpcoesProdutosParaCustomizar(int $categoria_id)
     {
 
-        return $this->select('produtos.id, produtos.nome')
-            ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+        return $this->db->table($this->table)
+            ->select('produtos.id, produtos.nome')
+            ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id', 'left')
             ->where('produtos.categoria_id', $categoria_id)
             ->where('produtos.ativo', true)
             ->where('produtos_especificacoes.customizavel', true)
-            ->findAll();
+            ->get()
+            ->getResult();
+    
     }
 
     public function exibeProdutosParaCustomizarSegundaMetade(int $produto_id, int $categoria_id)
     {
 
         return $this->db->table($this->table)
-            ->select('produtos.id, produtos.nome')
+            ->select('produtos.id, produtos.nome, produtos.imagem')
             ->join('categorias', 'categorias.id = produtos.categoria_id')
             ->where('produtos.id !=', $produto_id)
             ->where('produtos.categoria_id', $categoria_id)

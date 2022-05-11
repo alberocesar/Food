@@ -65,7 +65,7 @@ class Produto extends BaseController
             'opcoes' => $this->produtoModel->exibeOpcoesProdutosParaCustomizar($produto->categoria_id),
                             
         ];
-        
+
         
         return view('Produto/customizar', $data);
     }
@@ -87,15 +87,17 @@ class Produto extends BaseController
             return $this->response->setJSON([]);
         }
 
-        $produtos = $this->produtoModel->exibeProdutosParaCustomizarSegundaMetade($get['primeira_metade'], $get['categoria_id']);
+        $produtosSegundaMetade = $this->produtoModel->exibeProdutosParaCustomizarSegundaMetade($get['primeira_metade'], $get['categoria_id']);
 
-        if ($produtos == null) {
+        if ($produtosSegundaMetade == null) {
 
             return $this->response->setJSON([]);
         }
 
-        $data['produtos'] = $produtos; 
-        //$data['imagemPrimeiroProduto'] = $produtos->imagem; 
+        
+        $data['produtos'] = $produtosSegundaMetade; 
+ 
+        $data['imagemPrimeiroProduto'] = $produto->imagem; 
 
         return $this->response->setJSON($data);
         

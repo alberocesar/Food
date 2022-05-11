@@ -232,6 +232,7 @@
             var primeira_metade = $(this).val();
 
             var categoria_id = '<?php echo $produto->categoria_id ?>';
+            
 
             if (primeira_metade) {
 
@@ -251,14 +252,13 @@
                     },
                     success: function (data) {
 
+                        console.log(data);
+
                         if(data.imagemPrimeiroProduto){
 
-                          $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' + data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
+                          $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>'+ data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
 
                         }
-
-
-
 
                         if (data.produtos) {
 
@@ -271,6 +271,7 @@
                                 var option = $('<option />');
 
                                 option.attr('value', this.id).text(this.nome);
+                                option.attr('data-imagem', this.imagem).text(this.nome);
 
                                 $("#segunda_metade").append(option);
 
@@ -298,6 +299,14 @@
             }
 
         });
+
+        $("#segunda_metade").on('change', function() {
+
+            $("#imagemSegundoProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>'+ $("#segunda_metade :selected").data('imagem') + '" width="200" alt="Escolha o produto"/>');
+
+        });
+
+
 
     });
 </script>
