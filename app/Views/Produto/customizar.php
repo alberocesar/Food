@@ -301,6 +301,7 @@
         });
 
         $("#segunda_metade").on('change', function() {
+            
 
             $("#imagemSegundoProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>'+ $("#segunda_metade :selected").data('imagem') + '" width="200" alt="Escolha o produto"/>');
 

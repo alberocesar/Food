@@ -138,7 +138,7 @@ class ProdutoModel extends Model
             ->where('produtos.ativo', true)
             ->where('produtos_especificacoes.customizavel', true)
             ->get()
-            ->getResult();
+            ->getResultObject();
     
     }
 

@@ -104,6 +104,113 @@ class Produto extends BaseController
     }
 
 
+    public function exibeTamanhos() {
+
+        if (!$this->request->isAJAX()) {
+
+            return redirect()->back();
+        }
+
+        $get = $this->request->getGet();
+
+
+        $primeiroProduto = $this->produtoModel->where('id', $get['primeiro_produto_id'])->first();
+
+        if ($primeiroProduto == null) {
+
+            return $this->response->setJSON([]);
+        }
+
+
+        $especificacoesPrimeiroProduto = $this->produtoEspecificacaoModel->where('produto_id', $primeiroProduto->id)->findAll();
+
+
+        if ($especificacoesPrimeiroProduto == null) {
+
+            return $this->response->setJSON([]);
+        }
+
+
+        $extrasPrimeiroProduto = $this->produtoExtraModel->buscaExtrasDoProdutoDetalhes($primeiroProduto->id);
+
+
+        $segundoProduto = $this->produtoModel->where('id', $get['segundo_produto_id'])->first();
+
+        if ($segundoProduto == null) {
+
+            return $this->response->setJSON([]);
+        }
+
+
+        $especificacoesSegundoProduto = $this->produtoEspecificacaoModel->where('produto_id', $segundoProduto->id)->findAll();
+
+
+        if ($especificacoesSegundoProduto == null) {
+
+            return $this->response->setJSON([]);
+        }
+
+
+        $extrasSegundoProduto = $this->produtoExtraModel->buscaExtrasDoProdutoDetalhes($segundoProduto->id);
+
+
+        $extrasCombinados = $segundoProduto->combinaExtrasDosProdutos($extrasPrimeiroProduto, $extrasSegundoProduto);
+
+
+        if ($extrasCombinados != null) {
+
+            $data['extras'] = $extrasCombinados;
+        }
+
+        $medidasEmComun = $segundoProduto->recuperaMedidasEmComun($especificacoesPrimeiroProduto, $especificacoesSegundoProduto);
+
+    
+        $medidas = $this->medidaModel->select('id, nome')->whereIn('id', $medidasEmComun)->where('ativo', true)->findAll();
+
+
+        $data['medidas'] = $medidas;
+
+
+        $data['imagemSegundoProduto'] = $segundoProduto->imagem;
+
+
+        return $this->response->setJSON($data);
+    }
+
+
+    public function exibeValor() {
+
+
+        if (!$this->request->isAJAX()) {
+
+            return redirect()->back();
+        }
+
+        $get = $this->request->getGet();
+
+
+        $medida = $this->medidaModel->exibeValor($get['medida_id']);
+
+        if ($medida->preco == null) {
+
+            return $this->response->setJSON([]);
+        }
+
+
+        $extra = $this->extraModel->select('preco')->find($get['extra_id']);
+
+
+        if ($extra != null) {
+
+            $medida->preco = number_format($medida->preco + $extra->preco, 2);
+        }
+
+
+        return $this->response->setJSON($medida);
+    }
+
+
+
     public function imagem(string $imagem = null) {
 
         if ($imagem) {
