@@ -10,12 +10,14 @@ class Produto extends BaseController
     private $produtoModel;
     private $produtoEspecificacaoModel;
     private $produtoExtraModel;
+    private $medidaModel;
 
     public function __construct() {
 
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
         $this->produtoExtraModel = new \App\Models\produtoExtraModel();
+        $this->medidaModel = new \App\Models\medidaModel();
     }
 
     public function detalhes(string $produto_slug = null) {

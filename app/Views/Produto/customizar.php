@@ -211,28 +211,37 @@
 <?php echo $this->endSection(); ?>
 
 
-
-
 <?php echo $this->section('scripts'); ?>
 
 
 <script>
     $(document).ready(function() {
 
-
         $("#btn-adiciona").prop("disabled", true);
 
         $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
-
-
+        $("#segunda_metade").html('<option>Escolha a primeira metade</option>');
+        $("#tamanho").html('<option>Escolha a segunda metade</option>');
 
         $("#primeira_metade").on('change', function() {
 
-            var primeira_metade = $(this).val();
 
+            var primeira_metade = $(this).val();
             var categoria_id = '<?php echo $produto->categoria_id ?>';
-            
+
+            $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>');
+
+            $("#valor_produto_customizado").html('');
+            $("#tamanho").html('<option>Escolha a segunda metade</option>');
+
+            $("#boxInfoExtras").hide();
+            $("#extras").html('');
+
+
+            $("#btn-adiciona").prop("disabled", true);
+            $("#btn-adiciona").prop("value", "Selecione um tamanho");
+
 
             if (primeira_metade) {
 
@@ -245,19 +254,16 @@
                         primeira_metade: primeira_metade,
                         categoria_id: categoria_id,
                     },
-
-                    beforeSend: function (data) {
+                    beforeSend: function(data) {
 
                         $("#segunda_metade").html('');
                     },
-                    success: function (data) {
+                    success: function(data) {
 
-                        console.log(data);
 
-                        if(data.imagemPrimeiroProduto){
+                        if (data.imagemPrimeiroProduto) {
 
-                          $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>'+ data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
-
+                            $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' + data.imagemPrimeiroProduto + '" width="200" alt="Escolha o produto"/>');
                         }
 
                         if (data.produtos) {
@@ -266,12 +272,11 @@
                             $("#segunda_metade").html('<option>Escolha a segunda metade</option>');
 
 
-                            $(data.produtos).each(function () {
+                            $(data.produtos).each(function() {
 
                                 var option = $('<option />');
 
                                 option.attr('value', this.id).text(this.nome);
-                                option.attr('data-imagem', this.imagem).text(this.nome);
 
                                 $("#segunda_metade").append(option);
 
@@ -292,22 +297,189 @@
 
             } else {
 
-                /* CLiente não escolheu a  primeira metade */
+                /* Cliente não escolheu a primeira metade....*/
 
                 $("#segunda_metade").html('<option>Escolha a primeira metade</option>');
-                
+
             }
 
         });
 
         $("#segunda_metade").on('change', function() {
-            
 
-            $("#imagemSegundoProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>'+ $("#segunda_metade :selected").data('imagem') + '" width="200" alt="Escolha o produto"/>');
+
+            var primeiro_produto_id = $("#primeira_metade").val();
+
+            var segundo_produto_id = $(this).val();
+
+
+            $("#imagemSegundoProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>');
+
+            $("#valor_produto_customizado").html('');
+            $("#tamanho").html('<option>Escolha a segunda metade</option>');
+
+            $("#boxInfoExtras").hide();
+            $("#extras").html('');
+
+
+            $("#btn-adiciona").prop("disabled", true);
+            $("#btn-adiciona").prop("value", "Selecione um tamanho");
+
+
+            if (primeiro_produto_id && segundo_produto_id) {
+
+                $.ajax({
+
+                    type: 'get',
+                    url: '<?php echo site_url('produto/exibetamanhos'); ?>',
+                    dataType: 'json',
+                    data: {
+                        primeiro_produto_id: primeiro_produto_id,
+                        segundo_produto_id: segundo_produto_id,
+                    },
+                    success: function(data) {
+
+                        if (data.imagemSegundoProduto) {
+
+                            $("#imagemSegundoProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' + data.imagemSegundoProduto + '" width="200" alt="Escolha o produto"/>');
+                        }
+
+
+                        if (data.medidas) {
+
+
+                            $("#tamanho").html('<option>Escolha o tamanho...</option>');
+
+
+                            $(data.medidas).each(function() {
+
+                                var option = $('<option />');
+
+                                option.attr('value', this.id).text(this.nome);
+
+                                $("#tamanho").append(option);
+
+                            });
+
+                        } else {
+
+
+                            $("#tamanho").html('<option>Escolha a segunda metade</option>');
+
+                        }
+
+
+
+                        if (data.extras) {
+
+
+                            $("#boxInfoExtras").show();
+
+                            $(data.extras).each(function() {
+
+                                var input = "<div class='radio'><label><input type='radio' class='extra' name='extra' data-extra='" + this.id + "' value='" + this.preco + "'>" + this.nome + ' - R$ ' + this.preco + "</label></div>";
+
+                                $("#extras").append(input);
+
+                            });
+
+
+
+                            $(".extra").on('click', function() {
+
+                                var extra_id = $(this).attr('data-extra');
+
+                                $("#extra_id").val(extra_id);
+
+
+                                /* Capturamos o tamanho escolhido */
+                                var medida_id = $("#tamanho").val();
+
+
+                                if ($.isNumeric(medida_id)) {
+
+
+                                    $.ajax({
+
+                                        type: 'get',
+                                        url: '<?php echo site_url('produto/exibevalor'); ?>',
+                                        dataType: 'json',
+                                        data: {
+                                            medida_id: medida_id,
+
+                                            extra_id: $("#extra_id").val(),
+                                        },
+                                        success: function(data) {
+
+                                            if (data.preco) {
+
+
+                                                $("#valor_produto_customizado").html('R$ ' + data.preco);
+
+                                                $("#btn-adiciona").prop("disabled", false);
+
+                                                $("#btn-adiciona").prop("value", "Adicionar ao carrinho");
+
+                                            }
+
+
+                                        },
+
+                                    });
+
+
+                                }
+
+
+                            });
+
+
+                        }
+
+
+                    },
+
+                });
+
+
+            }
 
         });
 
+        $("#tamanho").on('change', function() {
+            $("#btn-adiciona").prop("disabled", true);
 
+            $("#btn-adiciona").prop("value", "Selecione um tamanho");
+
+            var medida_id = $(this).val();
+
+            $("#valor_produto_customizavel").html('');
+
+            if (medida_id) {
+                $.ajax({
+
+                    type: 'get',
+                    url: '<?php echo site_url('produto/exibevalor'); ?>',
+                    dataType: 'json',
+
+                    data: {
+                        medida_id: medida_id,
+                        extra_id: $("#extra_id").val(),
+                    },
+
+                    success: function(data) {
+
+                        if (data) {
+                            $("#valor_produto_customizavel").html('R$ ' + data.preco);
+                            $("#btn-adiciona").prop("disabled", false);
+                            $("#btn-adiciona").prop("value", "Adicionar ao carrinho");
+                        }
+
+                    },
+
+                });
+            }
+        });
 
     });
 </script>
