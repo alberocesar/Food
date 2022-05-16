@@ -161,17 +161,11 @@
 
                                 <!-- Aqui serão renderizados os extras do produto, via javascript -->
 
-
-
                             </div>
-
 
                         </div>
 
-
                     </div>
-
-
 
                 </div>
 
