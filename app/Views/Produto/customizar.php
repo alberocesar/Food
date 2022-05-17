@@ -65,7 +65,6 @@
 
                         <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
 
-
                             <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/semimagem.jpg"); ?>" width="150" alt="Escolha o produto" />
 
 
@@ -118,7 +117,7 @@
 
                     <div class="col-md-6">
 
-                        <div id="valor_produto_customizado" style="margin-top: 1.5em; font-size: 28px; color: #990100; font-family: 'Montserrat-Bold';">
+                        <div id="valor_produto_customizado" style="font-size: 28px; color: #990100; font-family: 'Montserrat-Bold';">
 
 
                             <!-- Aqui será renderizado, via javascript, o valor do produto -->
