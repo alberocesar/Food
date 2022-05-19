@@ -58,11 +58,14 @@ class MedidaModel extends Model
 
         public function exibeValor(int $medida_id) {
 
-            return $this->select('medidas.nome')->selectMax('produtos_especificacoes.preco') // Buscamos o maior valor entre os dois produtos customizados
+            return $this->db->table($this->table)
+                            ->select('medidas.nome')->selectMax('produtos_especificacoes.preco') // Buscamos o maior valor entre os dois produtos customizados
                             ->join('produtos_especificacoes', 'produtos_especificacoes.medida_id = medidas.id')
                             ->where('medidas.id', $medida_id)
                             ->where('medidas.ativo', true)
-                            ->firstAll();
+                            ->groupBy('medidas.nome, medidas.id')
+                            ->get()
+                            ->getResult();
         }
 }
 
