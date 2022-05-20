@@ -15,7 +15,8 @@ class Carrinho extends BaseController
 
 
 
-    public function __construct() {
+    public function __construct()
+    {
 
 
         $this->validacao = service('validation');
@@ -44,7 +45,8 @@ class Carrinho extends BaseController
     }
 
 
-    public function adicionar() {
+    public function adicionar()
+    {
 
         if ($this->request->getMethod() === 'post') {
 
@@ -158,10 +160,63 @@ class Carrinho extends BaseController
         }
     }
 
-    private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos) {
+    public function especial()
+    {
+
+        if ($this->request->getMethod() === 'post') {
+
+            $produtoPost = $this->request->getPost();
 
 
-        $produtos = array_map(function ($linha) use($acao, $slug, $quantidade) {
+            $this->validacao->setRules([
+                'primeira_metade' => ['label' => 'Primeiro produto', 'rules' => 'required|greater_than[0]'],
+                'segunda_metade' => ['label' => 'Segundo produto', 'rules' => 'required|greater_than[0]'],
+
+            ]);
+
+
+            if (!$this->validacao->withRequest($this->request)->run()) {
+
+                return redirect()->back()
+                    ->with('errors_model', $this->validacao->getErrors())
+                    ->with('atencao', 'Por favor verifique os erros abaixo e tente novamente')
+                    ->withInput();
+            }
+
+            
+
+            $primeiroProduto = $this->produtoModel->select(['id', 'nome', 'slug'])
+                ->where('id', $produtoPost['primeira_metade'])
+                ->first();
+
+
+            if ($primeiroProduto == null) {
+
+                return redirect()->back()
+                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-1001<strong>');  // FRAUDE NO FORM       $produtoPost['primeira_metade']                                                
+            }
+
+            $segundoProduto = $this->produtoModel->select(['id', 'nome', 'slug'])
+                ->where('id', $produtoPost['segunda_metade'])
+                ->first();
+
+
+            if ($segundoProduto == null) {
+
+                return redirect()->back()
+                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-1001<strong>');  // FRAUDE NO FORM       $produtoPost['primeira_metade']                                                
+            }
+        } else {
+
+            return redirect()->back();
+        }
+    }
+
+    private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos)
+    {
+
+
+        $produtos = array_map(function ($linha) use ($acao, $slug, $quantidade) {
 
             if ($linha['slug'] == $slug) {
 
@@ -191,6 +246,4 @@ class Carrinho extends BaseController
 
         return $produtos;
     }
-
-    
 }

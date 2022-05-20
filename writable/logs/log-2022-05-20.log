@@ -1,0 +1,105 @@
+ERROR - 2022-05-20 15:01:19 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;Escolha a primeira metade&quot;
+LINE 3: WHERE &quot;id&quot; = 'Escolha a primeira metade'
+                     ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(141): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeTamanhos()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#13 {main}
+CRITICAL - 2022-05-20 15:01:19 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;Escolha a primeira metade&quot;
+LINE 3: WHERE &quot;id&quot; = 'Escolha a primeira metade'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(141): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeTamanhos()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#13 {main}
+ERROR - 2022-05-20 15:08:59 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;Escolha a primeira metade&quot;
+LINE 3: WHERE &quot;id&quot; = 'Escolha a primeira metade'
+                     ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(141): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeTamanhos()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#13 {main}
+CRITICAL - 2022-05-20 15:08:59 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;Escolha a primeira metade&quot;
+LINE 3: WHERE &quot;id&quot; = 'Escolha a primeira metade'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(141): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeTamanhos()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#13 {main}
+ERROR - 2022-05-20 16:39:42 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;Escolha a primeira metade&quot;
+LINE 3: WHERE &quot;id&quot; = 'Escolha a primeira metade'
+                     ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(141): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeTamanhos()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#13 {main}
+CRITICAL - 2022-05-20 16:39:42 --> pg_query(): Query failed: ERROR:  invalid input syntax for type integer: &quot;Escolha a primeira metade&quot;
+LINE 3: WHERE &quot;id&quot; = 'Escolha a primeira metade'
+                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(141): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeTamanhos()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#13 {main}
