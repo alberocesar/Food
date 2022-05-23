@@ -1,0 +1,172 @@
+CRITICAL - 2022-05-23 15:12:25 --> Argument 1 passed to App\Models\MedidaModel::exibeValor() must be of the type int, string given, called in C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php on line 196
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(196): App\Models\MedidaModel->exibeValor()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeValor()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+ERROR - 2022-05-23 15:44:53 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;medidas.nome&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT &quot;medidas&quot;.&quot;nome&quot;, MAX(&quot;produtos_especificacoes&quot;.&quot;prec...
+               ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Models\MedidaModel.php(65): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(196): App\Models\MedidaModel->exibeValor()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeValor()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#14 {main}
+CRITICAL - 2022-05-23 15:44:53 --> pg_query(): Query failed: ERROR:  column &quot;medidas.nome&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT &quot;medidas&quot;.&quot;nome&quot;, MAX(&quot;produtos_especificacoes&quot;.&quot;prec...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Models\MedidaModel.php(65): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(196): App\Models\MedidaModel->exibeValor()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeValor()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#14 {main}
+ERROR - 2022-05-23 15:44:54 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;medidas.nome&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT &quot;medidas&quot;.&quot;nome&quot;, MAX(&quot;produtos_especificacoes&quot;.&quot;prec...
+               ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Models\MedidaModel.php(65): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(196): App\Models\MedidaModel->exibeValor()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeValor()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#14 {main}
+CRITICAL - 2022-05-23 15:44:54 --> pg_query(): Query failed: ERROR:  column &quot;medidas.nome&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT &quot;medidas&quot;.&quot;nome&quot;, MAX(&quot;produtos_especificacoes&quot;.&quot;prec...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Models\MedidaModel.php(65): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\app\Controllers\Produto.php(196): App\Models\MedidaModel->exibeValor()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Produto->exibeValor()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#14 {main}
+ERROR - 2022-05-23 15:44:57 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;medidas.nome&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT &quot;medidas&quot;.&quot;nome&quot;, MAX(&quot;produtos_especificacoes&quot;.&quot;prec...
+               ^ in C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Models\MedidaModel.php(65): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(234): App\Models\MedidaModel->exibeValor()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#14 {main}
+CRITICAL - 2022-05-23 15:44:57 --> pg_query(): Query failed: ERROR:  column &quot;medidas.nome&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT &quot;medidas&quot;.&quot;nome&quot;, MAX(&quot;produtos_especificacoes&quot;.&quot;prec...
+               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\Database\Postgre\Connection.php(135): pg_query()
+#2 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 C:\Users\Adasi\Documents\Project_food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 C:\Users\Adasi\Documents\Project_food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 C:\Users\Adasi\Documents\Project_food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\Adasi\Documents\Project_food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\Users\Adasi\Documents\Project_food\app\Models\MedidaModel.php(65): CodeIgniter\BaseModel->first()
+#8 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(234): App\Models\MedidaModel->exibeValor()
+#9 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#10 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#14 {main}
+CRITICAL - 2022-05-23 15:48:49 --> Undefined index: preco
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(236): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-05-23 16:12:21 --> Undefined index: preco
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(237): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-05-23 16:12:52 --> Undefined index: nome
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(244): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-05-23 16:15:17 --> Cannot use object of type stdClass as array
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-05-23 16:15:34 --> Undefined index: preco
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(237): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-05-23 16:17:03 --> Cannot use object of type stdClass as array
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
+CRITICAL - 2022-05-23 16:17:21 --> Cannot use object of type stdClass as array
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->especial()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}

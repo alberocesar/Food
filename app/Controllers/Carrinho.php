@@ -11,6 +11,7 @@ class Carrinho extends BaseController
     private $produtoEspecificacaoModel;
     private $extraModel;
     private $produtoModel;
+    private $medidaModel;
     private $acao;
 
 
@@ -24,6 +25,7 @@ class Carrinho extends BaseController
         $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
         $this->extraModel = new \App\Models\ExtraModel();
         $this->produtoModel = new \App\Models\ProdutoModel();
+        $this->medidaModel = new \App\Models\medidaModel();
 
         $this->acao = service('router')->methodName();
     }
@@ -171,6 +173,7 @@ class Carrinho extends BaseController
             $this->validacao->setRules([
                 'primeira_metade' => ['label' => 'Primeiro produto', 'rules' => 'required|greater_than[0]'],
                 'segunda_metade' => ['label' => 'Segundo produto', 'rules' => 'required|greater_than[0]'],
+                'tamanho' => ['label' => 'Tamanho do produto', 'rules' => 'required|greater_than[0]'],
 
             ]);
 
@@ -204,8 +207,51 @@ class Carrinho extends BaseController
             if ($segundoProduto == null) {
 
                 return redirect()->back()
-                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-1001<strong>');  // FRAUDE NO FORM       $produtoPost['primeira_metade']                                                
+                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-2001<strong>');  // FRAUDE NO FORM       $produtoPost['primeira_metade']                                                
             }
+
+
+            /*Convertendo os objetos para array */
+            $primeiroProduto = $primeiroProduto->toArray();
+            $segundoProduto = $segundoProduto->toArray();
+
+           
+
+            /* Caso o extra Id venha no post validamos a existência do produto */
+            if ($produtoPost['extra_id'] && $produtoPost['extra_id'] != "") {
+
+
+                $extra = $this->extraModel->where('id', $produtoPost['extra_id'])->first();
+
+
+                if ($extra == null) {
+
+                    return redirect()->back()
+                                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-3003<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['extra_id']                                                    
+                }
+            }
+
+            $medida = $this->medidaModel->exibeValor($produtoPost['tamanho']);
+
+
+            if ($medida['0']->preco == null) {
+
+                return redirect()->back()
+                                ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-4004<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['tamanho']                                                    
+            }
+
+             /* Criamos o slug composto para identificarmos a existência ou não do item no carrinho na hora de adicionar */
+             $produto['slug'] = mb_url_title($medida['0']->nome . '-metade-' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
+
+             $produto['slug'] = mb_url_title($medida['0']->nome . ' metade ' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
+
+             
+
+             /* Criamos o nome do produto a partir da especificação e (ou) do extra */
+             $produto['nome'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . ' metade ' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'Com extra ' . $extra->nome : '');
+ 
+ 
+
         } else {
 
             return redirect()->back();
