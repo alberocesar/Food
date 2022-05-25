@@ -243,12 +243,47 @@ class Carrinho extends BaseController
              /* Criamos o slug composto para identificarmos a existência ou não do item no carrinho na hora de adicionar */
              $produto['slug'] = mb_url_title($medida['0']->nome . '-metade-' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
 
-             $produto['slug'] = mb_url_title($medida['0']->nome . ' metade ' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
+             $produto['slug'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'com extra ' . $extra->nome : '');
 
-             
+             /**Definimos o preco, quantidade e tamanho do produto */
+            $preco = $medida['0']->preco + (isset($extra) ? $extra->preco : 0);
 
-             /* Criamos o nome do produto a partir da especificação e (ou) do extra */
-             $produto['nome'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . ' metade ' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'Com extra ' . $extra->nome : '');
+            $produto['preco'] = number_format($preco, 2);
+            $produto['quantidade'] = 1; //sempre será um
+            $produto['tamanho'] = $medida['0']->nome;
+
+            //iniciamos a insercão do produto carrinho
+
+            if (session()->has('carrinho')) {
+
+                $produtos = session()->get('carrinho');
+
+                /**Recuperar produtodo */
+
+                /* Recupero os produtos do carrinho */
+                $produtos = session()->get('carrinho');
+
+
+                /* Recuperamos apenas os slugs dos produtos do carrinho */
+                $produtosSlugs = array_column($produtos, 'slug');
+
+                if (in_array($produto['slug'], $produtosSlugs)) {
+                    /* Já existe o produto no carrinho..... incrementamos a quantidade */
+
+                    $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
+
+                    /* Chamamos a função que incrementa a quantidade do produto caso o mesmo exista no carrinho */
+
+                    $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
+                }
+            } else {
+
+                /* Não existe no carrinho..... pode adicionar.... */
+
+                session()->push('carrinho', [$produto]);
+            }
+
+            return redirect()->back()->with('sucesso', 'Produto adicionado com sucesso!');
  
  
 

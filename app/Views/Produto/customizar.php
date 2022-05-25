@@ -387,7 +387,7 @@
 
                             $(data.extras).each(function() {
 
-                                var input = "<div class='radio'><label><input type='radio' class='extra' name='extra' data-extra='" + this.id + "' value='" + this.preco + "'>" + this.nome + ' - R$ ' + this.preco + "</label></div>";
+                                var input = "<div class='radio'><label><input type='radio' class='extra' name='extra' data-extra='" + this.id + "' value='" + this.preco + "'>" + this.nome + 'R$' + this.preco + "</label></div>";
 
                                 $("#extras").append(input);
 
