@@ -5,7 +5,7 @@
 
 <?php echo $this->section('estilos'); ?>
 
-<link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>"/>
+<link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
 
 <?php echo $this->endSection(); ?>
 
@@ -23,6 +23,13 @@
         <div class="product-content product-wrap clearfix product-deatil">
             <div class="row">
 
+                <div class="table-responsive">
+
+            
+
+
+
+                </div>
 
             </div>
         </div>
@@ -44,7 +51,7 @@
 
 
 
-    
+
 
 
 
