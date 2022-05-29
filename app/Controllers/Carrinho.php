@@ -26,7 +26,6 @@ class Carrinho extends BaseController
         $this->extraModel = new \App\Models\ExtraModel();
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->medidaModel = new \App\Models\medidaModel();
-
         $this->acao = service('router')->methodName();
     }
 
@@ -37,13 +36,16 @@ class Carrinho extends BaseController
             'titulo' => 'Meu carrinho de compras'
         ];
 
+        
+        if (session()->has('[carrinho]') && count(session()->get('[carrinho]')) > 0) {
 
-        if (session()->has('carrinho') && count(session()->get('carrinho')) > 0) {
-
-            $data['carrinho'] = json_decode(json_encode(session()->get('carrinho')), false);
+            $data['carrinho'] = json_decode(json_encode(session()->get('[carrinho]')), false);
         }
 
+
         return view('Carrinho/index', $data);
+
+        
     }
 
 
