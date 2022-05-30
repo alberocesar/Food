@@ -46,11 +46,9 @@ class Carrinho extends BaseController
         return view('Carrinho/index', $data);
 
         
-    }
+    }    
 
-
-    public function adicionar()
-    {
+    public function adicionar(){
 
         if ($this->request->getMethod() === 'post') {
 
@@ -162,6 +160,7 @@ class Carrinho extends BaseController
         } else {
             return redirect()->back();
         }
+
     }
 
     public function especial()
@@ -245,7 +244,7 @@ class Carrinho extends BaseController
              /* Criamos o slug composto para identificarmos a existência ou não do item no carrinho na hora de adicionar */
              $produto['slug'] = mb_url_title($medida['0']->nome . '-metade-' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
 
-             $produto['slug'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'com extra ' . $extra->nome : '');
+             $produto['nome'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'com extra ' . $extra->nome : '');
 
              /**Definimos o preco, quantidade e tamanho do produto */
             $preco = $medida['0']->preco + (isset($extra) ? $extra->preco : 0);
@@ -274,15 +273,16 @@ class Carrinho extends BaseController
 
                     $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
 
-                    /* Chamamos a função que incrementa a quantidade do produto caso o mesmo exista no carrinho */
+                    session()->set('carrinho', $produtos);
 
-                    $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
                 }
             } else {
 
                 /* Não existe no carrinho..... pode adicionar.... */
 
-                session()->push('carrinho', [$produto]);
+                $produtos[] = $produto;
+
+                session()->set('carrinho', $produtos);
             }
 
             return redirect()->back()->with('sucesso', 'Produto adicionado com sucesso!');
@@ -328,5 +328,6 @@ class Carrinho extends BaseController
         }, $produtos);
 
         return $produtos;
+
     }
-}
+}    

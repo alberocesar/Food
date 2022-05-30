@@ -39,12 +39,20 @@
 
                     <div class="col-md-12" style="margin-top: 1em; margin-bottom: 2em">
 
+<<<<<<< Updated upstream
                         <?php if (session()->has('errors_model')) : ?>
+=======
+                        <?php if (session()->has('errors_model')): ?>
+>>>>>>> Stashed changes
 
 
                             <ul style="margin-left: -1.6em !important; list-style: decimal">
 
+<<<<<<< Updated upstream
                                 <?php foreach (session('errors_model') as $error) : ?>
+=======
+                                <?php foreach (session('errors_model') as $error): ?>
+>>>>>>> Stashed changes
 
                                     <li class="text-danger"><?php echo $error; ?></li>
 
@@ -66,6 +74,7 @@
                         <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
 
 
+<<<<<<< Updated upstream
                             <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/semimagem.jpg"); ?>" width="150" alt="Escolha o produto" />
 
 
@@ -74,22 +83,55 @@
 
 
                         <label>Escolha a primeira metade do produto</label>
+=======
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
+>>>>>>> Stashed changes
+
+                        <select id="primeira_metade" class="form-control" name="primeira_metade">
+
+<<<<<<< Updated upstream
+                            <option value="">Escolha seu produto...</option>
+
+                            <?php foreach ($opcoes as $opcao) : ?>
+
+=======
+
+                        </div>
+
+                        <label>Escolha a primeira metade do produto</label>
 
                         <select id="primeira_metade" class="form-control" name="primeira_metade">
 
                             <option value="">Escolha seu produto...</option>
 
-                            <?php foreach ($opcoes as $opcao) : ?>
+                            <?php foreach ($opcoes as $opcao): ?>
 
+>>>>>>> Stashed changes
                                 <option value="<?php echo $opcao->id; ?>"><?php echo esc($opcao->nome); ?></option>
 
                             <?php endforeach; ?>
 
+<<<<<<< Updated upstream
+=======
+
+                        </select>
+>>>>>>> Stashed changes
 
                         </select>
 
+<<<<<<< Updated upstream
+=======
+                    </div>
 
 
+                    <div class="col-md-6">
+>>>>>>> Stashed changes
+
+                        <div id="imagemSegundoProduto" style="margin-bottom: 1em">
+
+                            <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>
+
+<<<<<<< Updated upstream
                     </div>
 
 
@@ -99,10 +141,13 @@
 
                             <img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/semimagem.jpg"); ?>" width="150" alt="Escolha o produto" />
 
+=======
+>>>>>>> Stashed changes
                         </div>
 
 
                         <label> Escolha a segunda metade</label>
+<<<<<<< Updated upstream
 
                         <select id="segunda_metade" class="form-control" name="segunda_metade">
 
@@ -128,6 +173,28 @@
                         <div id="valor_produto_customizado" style="margin-top: 1.5em; font-size: 28px; color: #990100; font-family: 'Montserrat-Bold';">
 
 
+=======
+
+                        <select id="segunda_metade" class="form-control" name="segunda_metade">
+
+                            <!-- Aqui serão renderizas as opções para compor a segunda metade, via javascrit -->
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <div class="col-md-6">
+
+                        <div id="valor_produto_customizado" style="margin-top: 1.5em; font-size: 28px; color: #990100; font-family: 'Montserrat-Bold';">
+
+
+>>>>>>> Stashed changes
                             <!-- Aqui será renderizado, via javascript, o valor do produto -->
 
 
@@ -143,6 +210,15 @@
                     <div class="col-md-6">
 
                         <label>Tamanho do produto</label>
+<<<<<<< Updated upstream
+=======
+
+                        <select id="tamanho" class="form-control" name="tamanho">
+
+                            <!-- Aqui serão renderizas as opções de tamanho, via javascrit -->
+
+                        </select>
+>>>>>>> Stashed changes
 
                         <select id="tamanho" class="form-control" name="tamanho">
 
@@ -196,6 +272,53 @@
                         <input id="btn-adiciona" type="submit" class="btn btn-success" value="Adicionar">
                     </div>
 
+<<<<<<< Updated upstream
+=======
+
+                    <div class="col-md-6">
+
+                        <div id="boxInfoExtras" style="display: none">
+
+                            <label>Extras</label>
+
+
+                            <div class="radio"><label><input type="radio" class="extra" name="extra" checked="">Sem extra</label></div>
+
+
+                            <div id="extras">
+
+
+                                <!-- Aqui serão renderizados os extras do produto, via javascript -->
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div>
+
+                    <input type="hidden" id="extra_id" name="extra_id" placeholder="extra_id_hidden">
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <div class="col-sm-3">
+                        <input id="btn-adiciona" type="submit" class="btn btn-success" value="Adicionar">
+                    </div>
+
+>>>>>>> Stashed changes
                     <div class="col-sm-3">
                         <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?>" class="btn btn-info">Voltar</a>
                     </div>
@@ -224,8 +347,14 @@
 <script>
     $(document).ready(function() {
 
+<<<<<<< Updated upstream
         $("#btn-adiciona").prop("disabled", true);
         $("#btn-adiciona").prop("value", "Selecione um tamanho");
+=======
+
+<?php echo $this->endSection(); ?>
+
+>>>>>>> Stashed changes
 
 
         $("#segunda_metade").html('<option>Escolha a primeira metade</option>');
@@ -240,13 +369,20 @@
 
             $("#imagemPrimeiroProduto").html('<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.jpg"); ?>" width="200" alt="Escolha o produto"/>');
 
+<<<<<<< Updated upstream
             $("#valor_produto_customizado").html('');
             $("#tamanho").html('<option>Escolha a segunda metade</option>');
 
             $("#boxInfoExtras").hide();
             $("#extras").html('');
+=======
+        
+        $("#btn-adiciona").prop("disabled", true);
+>>>>>>> Stashed changes
 
+        $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
+<<<<<<< Updated upstream
             $("#btn-adiciona").prop("disabled", true);
             $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
@@ -310,9 +446,36 @@
                 $("#segunda_metade").html('<option>Escolha a primeira metade</option>');
 
             }
+=======
+        
 
-        });
 
+        $("#primeira_metade").on('change', function () {
+
+            var primeira_metade = $(this).val();
+
+            var categoria_id = '<?php echo $produto->categoria_id ?>';
+
+            if(primeira_metade) {
+
+            $.ajax({
+
+                type: 'get',
+                url: '<?php echo site_url('produto/procurar'); ?>',
+                dataType: 'json',
+                data: {
+                    primeira_metade : primeira_metade,
+                    categoria_id: categoria_id,
+                },
+                success: function (data) {
+
+                    
+
+>>>>>>> Stashed changes
+
+                },
+
+<<<<<<< Updated upstream
 
 
         $("#segunda_metade").on('change', function() {
@@ -451,9 +614,17 @@
                 });
 
 
+=======
+            });
+
+                
+            }else{
+
+                /* CLiente não escolheu a  primeira metade */
+>>>>>>> Stashed changes
             }
 
-        });
+        }); 
 
 
 
