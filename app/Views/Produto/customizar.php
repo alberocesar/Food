@@ -138,6 +138,9 @@
                 </div>
 
 
+
+
+
                 <div class="row" style="margin-top: 3em; margin-bottom: 3em">
 
                     <div class="col-md-6">
@@ -215,7 +218,14 @@
 </div>
 
 
+
+
+
+
+
 <?php echo $this->endSection(); ?>
+
+
 
 
 <?php echo $this->section('scripts'); ?>
@@ -387,7 +397,7 @@
 
                             $(data.extras).each(function() {
 
-                                var input = "<div class='radio'><label><input type='radio' class='extra' name='extra' data-extra='" + this.id + "' value='" + this.preco + "'>" + this.nome + 'R$' + this.preco + "</label></div>";
+                                var input = "<div class='radio'><label><input type='radio' class='extra' name='extra' data-extra='" + this.id + "' value='" + this.preco + "'>" + this.nome + ' - R$ ' + this.preco + "</label></div>";
 
                                 $("#extras").append(input);
 
@@ -396,7 +406,7 @@
 
 
                             $(".extra").on('click', function() {
- 
+
                                 var extra_id = $(this).attr('data-extra');
 
                                 $("#extra_id").val(extra_id);
@@ -416,6 +426,7 @@
                                         dataType: 'json',
                                         data: {
                                             medida_id: medida_id,
+
                                             extra_id: $("#extra_id").val(),
                                         },
                                         success: function(data) {
@@ -459,7 +470,7 @@
 
         $("#tamanho").on('change', function() {
 
-            $("#btn-adiciona").prop("disabled", false);
+            $("#btn-adiciona").prop("disabled", true);
 
             $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
@@ -511,7 +522,6 @@
 
     });
 </script>
-
 
 
 

@@ -1,0 +1,58 @@
+CRITICAL - 2022-05-31 10:41:17 --> Undefined variable: carrinho
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Carrinho\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(46): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-05-31 10:51:20 --> Undefined variable: produto
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Carrinho\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(46): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-05-31 10:54:36 --> Undefined variable: carrinho
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Carrinho\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(46): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-05-31 10:54:57 --> syntax error, unexpected end of file
+#0 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(46): view()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->index()
+#4 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#8 {main}
+CRITICAL - 2022-05-31 10:58:56 --> Undefined variable: carrinho
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Carrinho\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(46): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}

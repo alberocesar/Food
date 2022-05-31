@@ -43,6 +43,8 @@ class Carrinho extends BaseController
             $data['carrinho'] = json_decode(json_encode(session()->get('carrinho')), false);
         }
 
+
+
         return view('Carrinho/index', $data);
     }
 
@@ -75,9 +77,10 @@ class Carrinho extends BaseController
 
             /* Validamos a existencia da especificacao id */
             $especificacaoProduto = $this->produtoEspecificacaoModel
-                ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
-                ->where('produtos_especificacoes.id', $produtoPost['especificacao_id'])
-                ->first();
+                    ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
+                    ->where('produtos_especificacoes.id', $produtoPost['especificacao_id'])
+                    ->first();
+
 
             if ($especificacaoProduto == null) {
 
@@ -186,7 +189,7 @@ class Carrinho extends BaseController
                     ->withInput();
             }
 
-            
+
 
             $primeiroProduto = $this->produtoModel->select(['id', 'nome', 'slug'])
                 ->where('id', $produtoPost['primeira_metade'])
@@ -215,7 +218,7 @@ class Carrinho extends BaseController
             $primeiroProduto = $primeiroProduto->toArray();
             $segundoProduto = $segundoProduto->toArray();
 
-           
+
 
             /* Caso o extra Id venha no post validamos a existência do produto */
             if ($produtoPost['extra_id'] && $produtoPost['extra_id'] != "") {
@@ -227,25 +230,26 @@ class Carrinho extends BaseController
                 if ($extra == null) {
 
                     return redirect()->back()
-                                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-3003<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['extra_id']                                                    
+                        ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-3003<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['extra_id']                                                    
                 }
             }
 
             $medida = $this->medidaModel->exibeValor($produtoPost['tamanho']);
 
 
-            if ($medida['0']->preco == null) {
+            if ($medida['']->preco == null) {
 
                 return redirect()->back()
-                                ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-4004<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['tamanho']                                                    
+                    ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-4004<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['tamanho']                                                    
             }
 
-             /* Criamos o slug composto para identificarmos a existência ou não do item no carrinho na hora de adicionar */
-             $produto['slug'] = mb_url_title($medida['0']->nome . '-metade-' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
+            /* Criamos o slug composto para identificarmos a existência ou não do item no carrinho na hora de adicionar */
+            $produto['slug'] = mb_url_title($medida['0']->nome . '-metade-' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
 
-             $produto['slug'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'com extra ' . $extra->nome : '');
+            $produto['nome'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (empty($extra) ? 'com extra ' . $extra->nome : '');
 
-             /**Definimos o preco, quantidade e tamanho do produto */
+
+            /**Definimos o preco, quantidade e tamanho do produto */
             $preco = $medida['0']->preco + (isset($extra) ? $extra->preco : 0);
 
             $produto['preco'] = number_format($preco, 2);
@@ -255,40 +259,38 @@ class Carrinho extends BaseController
             //iniciamos a insercão do produto carrinho
 
             if (session()->has('carrinho')) {
+                // Existem inserção no carrinho na sessão//
 
-                $produtos = session()->get('carrinho');
+                // Recupera os intem do carrinho na sessão//
+                $produtos = session()->get('[carrinho]');
 
-                /**Recuperar produtodo */
-
-                /* Recupero os produtos do carrinho */
-                $produtos = session()->get('carrinho');
-
-
-                /* Recuperamos apenas os slugs dos produtos do carrinho */
+                // Recupera os apenas os slug dos prdutos do carrinho//
                 $produtosSlugs = array_column($produtos, 'slug');
 
                 if (in_array($produto['slug'], $produtosSlugs)) {
-                    /* Já existe o produto no carrinho..... incrementamos a quantidade */
 
+                    // Já existe o produto no carrinho... incliementamos a quantidade//
+
+                    // chamamos a função inclementea a quantidadede de produto incliementamos a quantidade no carrinho//
                     $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
 
-                    /* Chamamos a função que incrementa a quantidade do produto caso o mesmo exista no carrinho */
+                    // SSobre escrevemos asessão carrinho com o array com arra  $produtos que foi iincliementado (alterado) //
+                    session()->set('carrinho', $produto);
+                } else {
 
-                    $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
+                    /* Não existe o produto no carrinho... pode  a aadicionar//
+													 aadicionarmos no carrinho $produto Notem que  o push adiciona na sessão  'carrinho' um array [$produto]*/
+                    session()->push('carrinho', [$produto]);
                 }
             } else {
+                // Não existem inserção no carrinho na sessão//
 
-                /* Não existe no carrinho..... pode adicionar.... */
-
-                session()->push('carrinho', [$produto]);
+                $produtos[] = $produto;
+                session()->set('carrinho', $produtos);
             }
 
-            return redirect()->back()->with('sucesso', 'Produto adicionado com sucesso!');
- 
- 
-
+            return redirect()->to(site_url('[carrinho]'))->with('sucesso', 'Produto adicionado com sucesso!');
         } else {
-
             return redirect()->back();
         }
     }
