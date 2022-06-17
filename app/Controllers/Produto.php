@@ -69,7 +69,6 @@ class Produto extends BaseController
             'opcoes' => $this->produtoModel->exibeOpcoesProdutosParaCustomizar($produto->categoria_id),
                             
         ];
-<<<<<<< Updated upstream
 
         
         return view('Produto/customizar', $data);
@@ -86,8 +85,6 @@ class Produto extends BaseController
         $get = $this->request->getGet();
 
         $produto = $this->produtoModel->where('id', $get['primeira_metade'])->first();
-=======
->>>>>>> Stashed changes
         
         if ($produto == null) {
 
