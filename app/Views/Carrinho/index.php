@@ -23,7 +23,7 @@
         <div class="product-content product-wrap clearfix product-deatil">
             <div class="row">
 
-                <?php if (!isset($carrinho)): ?>
+                <?php if (!empty($carrinho)): ?>
 
                     <div class="text-center">
 
@@ -77,7 +77,6 @@
                                     <tr>
                                         <th class="text-center" scope="row">
 
-
                                             <?php echo form_open("carrinho/remover", ['class' => 'form-inline']); ?>
 
                                             <div class="form-group">
@@ -111,7 +110,7 @@
 
 
                                             <button type="submit" class="btn btn-primary float-right">
-                                                <i class="fa fa-refresh"></i>                                              
+                                                <i class="fa fa-refresh"></i>
                                             </button>
 
 
@@ -155,17 +154,6 @@
                             </tbody>
                         </table>
 
-
-
-                        <div class="form-group col-md-5">
-
-                            <label>Consulte a taxa de entrega</label>
-                            <input type="text" name="cep" class="cep form-control" placeholder="Informe o seu CEP">
-                            <div id="cep"></div>
-
-                        </div>
-
-
                     </div>
 
                     <hr>
@@ -181,11 +169,6 @@
                     </div>
 
                 <?php endif; ?>
-
-
-
-
-
 
 
             </div>

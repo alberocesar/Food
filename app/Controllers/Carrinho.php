@@ -37,8 +37,7 @@ class Carrinho extends BaseController
             'titulo' => 'Meu carrinho de compras'
         ];
 
-
-        if (session()->has('carrinho') && count(session()->get('carrinho')) > 0) {
+        if (session()->has('[carrinho]') && count(session()->get('carrinho')) > 0) {
 
             $data['carrinho'] = json_decode(json_encode(session()->get('carrinho')), false);
         }
@@ -102,7 +101,7 @@ class Carrinho extends BaseController
             }
 
             /* Buscamos o produto como objeto */
-            $produto = $this->produtoModel->select(['id', 'nome', 'slug', 'ativo'])->where('slug', $produtoPost['slug'])->first();
+            $produto = $this->produtoModel->(['id', 'nome', 'slug', 'ativo'])->where('slug', $produtoPost['slug'])->first();
 
             /* Validamos a exixtência do produto e se o mesmo está ativo */
             if ($produto == null || $produto->ativo == false) {
@@ -237,7 +236,7 @@ class Carrinho extends BaseController
             $medida = $this->medidaModel->exibeValor($produtoPost['tamanho']);
 
 
-            if ($medida['']->preco == null) {
+            if ($medida['0']->preco == null) {
 
                 return redirect()->back()
                     ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-CUSTOM-4004<strong>');  // FRAUDE NO FORM ...  chave $produtoPost['tamanho']                                                    

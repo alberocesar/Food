@@ -1,0 +1,51 @@
+CRITICAL - 2022-06-02 15:18:17 --> Undefined variable: carrinho
+#0 C:\Users\Adasi\Documents\Project_food\app\Views\Carrinho\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\View\View.php(210): include('C:\\Users\\Adasi\\...')
+#2 C:\Users\Adasi\Documents\Project_food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Adasi\Documents\Project_food\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(48): view()
+#5 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->index()
+#6 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#10 {main}
+CRITICAL - 2022-06-02 15:35:58 --> syntax error, unexpected 'private' (T_PRIVATE)
+#0 C:\Users\Adasi\Documents\Project_food\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-06-02 16:19:23 --> Trying to get property 'nome' of non-object
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->adicionar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-06-02 16:22:48 --> Undefined index: nome
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->adicionar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-06-02 16:23:58 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::grupBy
+#0 C:\Users\Adasi\Documents\Project_food\app\Controllers\Carrinho.php(82): CodeIgniter\Model->__call()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->adicionar()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#6 {main}
+CRITICAL - 2022-06-02 16:26:52 --> Cannot use object of type stdClass as array
+#0 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(825): App\Controllers\Carrinho->adicionar()
+#1 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\Adasi\Documents\Project_food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\Adasi\Documents\Project_food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Adasi\Documents\Project_food\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Adasi\\...')
+#5 {main}
