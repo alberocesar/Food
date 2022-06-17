@@ -36,7 +36,6 @@ class Carrinho extends BaseController
             'titulo' => 'Meu carrinho de compras'
         ];
 
-<<<<<<< HEAD
         if (session()->has('[carrinho]') && count(session()->get('carrinho')) > 0) {
 
             $data['carrinho'] = json_decode(json_encode(session()->get('carrinho')), false);
@@ -44,15 +43,14 @@ class Carrinho extends BaseController
 
 
 
-=======
-        
+
         if (session()->has('[carrinho]') && count(session()->get('[carrinho]')) > 0) {
 
             $data['carrinho'] = json_decode(json_encode(session()->get('[carrinho]')), false);
         }
 
 
->>>>>>> 18c6da138350c4ff60e58e3388ae1e3942915796
+
         return view('Carrinho/index', $data);
 
         
@@ -64,6 +62,8 @@ class Carrinho extends BaseController
 
 
             $produtoPost = $this->request->getPost('produto');
+
+            
 
 
             $this->validacao->setRules([
@@ -110,7 +110,7 @@ class Carrinho extends BaseController
             }
 
             /* Buscamos o produto como objeto */
-            $produto = $this->produtoModel->(['id', 'nome', 'slug', 'ativo'])->where('slug', $produtoPost['slug'])->first();
+           $produto = $this->produtoModel->where('slug', $produtoPost['slug'])->first();
 
             /* Validamos a exixtência do produto e se o mesmo está ativo */
             if ($produto == null || $produto->ativo == false) {
@@ -255,11 +255,7 @@ class Carrinho extends BaseController
             /* Criamos o slug composto para identificarmos a existência ou não do item no carrinho na hora de adicionar */
             $produto['slug'] = mb_url_title($medida['0']->nome . '-metade-' . $primeiroProduto['slug'] . '-metade-' . $segundoProduto['slug'] . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
 
-<<<<<<< HEAD
             $produto['nome'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (empty($extra) ? 'com extra ' . $extra->nome : '');
-=======
-             $produto['nome'] = $medida['0']->nome . ' metade ' . $primeiroProduto['nome'] . '-metade-' . $segundoProduto['slug'] . ' ' . (isset($extra) ? 'com extra ' . $extra->nome : '');
->>>>>>> 18c6da138350c4ff60e58e3388ae1e3942915796
 
 
             /**Definimos o preco, quantidade e tamanho do produto */
@@ -287,7 +283,6 @@ class Carrinho extends BaseController
                     // chamamos a função inclementea a quantidadede de produto incliementamos a quantidade no carrinho//
                     $produtos = $this->atualizaProduto($this->acao, $produto['slug'], $produto['quantidade'], $produtos);
 
-<<<<<<< HEAD
                     // SSobre escrevemos asessão carrinho com o array com arra  $produtos que foi iincliementado (alterado) //
                     session()->set('carrinho', $produto);
                 } else {
@@ -295,22 +290,11 @@ class Carrinho extends BaseController
                     /* Não existe o produto no carrinho... pode  a aadicionar//
 													 aadicionarmos no carrinho $produto Notem que  o push adiciona na sessão  'carrinho' um array [$produto]*/
                     session()->push('carrinho', [$produto]);
-=======
-                    session()->set('carrinho', $produtos);
-
->>>>>>> 18c6da138350c4ff60e58e3388ae1e3942915796
                 }
             } else {
                 // Não existem inserção no carrinho na sessão//
 
-<<<<<<< HEAD
                 $produtos[] = $produto;
-=======
-                /* Não existe no carrinho..... pode adicionar.... */
-
-                $produtos[] = $produto;
-
->>>>>>> 18c6da138350c4ff60e58e3388ae1e3942915796
                 session()->set('carrinho', $produtos);
             }
 
