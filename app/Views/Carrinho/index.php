@@ -16,14 +16,18 @@
 <?php echo $this->section('conteudo'); ?>
 
 
-<div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
+<div class="container-fluid section" id="menu" data-aos="fade-up" style="margin-top: 3em">
 
     <div class="col-sm-12 col-md-12 col-lg-12">
         <!-- product -->
         <div class="product-content product-wrap clearfix product-deatil">
-            <div class="row">
+            <div class row>
 
+<<<<<<< HEAD
                 <?php if (!empty($carrinho)): ?>
+=======
+                <?php if (!isset($carrinho)) : ?>
+>>>>>>> 18c6da138350c4ff60e58e3388ae1e3942915796
 
                     <div class="text-center">
 
@@ -33,6 +37,7 @@
 
                     </div>
 
+<<<<<<< HEAD
                 <?php else: ?>
 
 
@@ -170,6 +175,48 @@
 
                 <?php endif; ?>
 
+=======
+                <?php else : ?>
+
+
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">remover</th>
+                                <th scope="col">produto</th>
+                                <th scope="col">tamanho</th>
+                                <th scope="col">Quantidade</th>
+                                <th scope="col">preço</th>
+                                <th scope="col">sub total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <?php $total = 0; ?>
+
+                            <?php foreach ($carrinho as $produto) : ?>
+
+                                <tr>
+                                    <th class="text-certer" scope="row">
+                                        <a class="btn btn-danger btn-sm" href="<?php echo site_url("carrinho/remover/$produto->slug"); ?>">X</a>
+
+                                    </th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+
+                            <?php endforeach; ?>
+
+
+                        </tbody>
+                    </table>
+
+                <?php endif; ?>
+>>>>>>> 18c6da138350c4ff60e58e3388ae1e3942915796
 
             </div>
         </div>
