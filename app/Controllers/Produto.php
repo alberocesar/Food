@@ -24,7 +24,7 @@ class Produto extends BaseController
 
     public function detalhes(string $produto_slug = null) {
     
-        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', true)->first()) {
+        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', 't')->first()) {
 
             return redirect()->to(site_url('/'));
         }
@@ -51,12 +51,12 @@ class Produto extends BaseController
 
     public function customizar (string $produto_slug = null) {
 
-        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', 't')->first()) {
+        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo', true)->first()) {
 
             return redirect()->back();
         }
 
-        if(!$this->produtoEspecificacaoModel->where('produto_id', $produto->id)->where('customizavel', 't')->first()){
+        if(!$this->produtoEspecificacaoModel->where('produto_id', $produto->id)->where('customizavel', true)->first()){
 
             return redirect()->back()->with('info', "Esse produto <strong>$produto->nome </strong> não pode ser vendido meio a meio");
 

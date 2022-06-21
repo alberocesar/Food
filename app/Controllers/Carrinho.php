@@ -42,15 +42,6 @@ class Carrinho extends BaseController
         }
 
 
-
-
-        if (session()->has('[carrinho]') && count(session()->get('[carrinho]')) > 0) {
-
-            $data['carrinho'] = json_decode(json_encode(session()->get('[carrinho]')), false);
-        }
-
-
-
         return view('Carrinho/index', $data);
 
         
@@ -109,18 +100,18 @@ class Carrinho extends BaseController
                 }
             }
 
-            /* Buscamos o produto como objeto */
-           $produto = $this->produtoModel->where('slug', $produtoPost['slug'])->first();
+            /* Utilizando o Toarray para que possa inserir esse objeto no carrinho */
+           $produto = $this->produtoModel->select(['id', 'nome', 'slug', 'ativo'])->where('slug', $produtoPost['slug'])->first()->toArray();
 
             /* Validamos a exixtência do produto e se o mesmo está ativo */
-            if ($produto == null || $produto->ativo == false) {
+            if ($produto == null || $produto['ativo'] == false) {
 
                 return redirect()->back()
                     ->with('fraude', 'Não conseguimos processar a sua solicitação. Por favor, entre em contato com a nossa equipe e informe o código de erro <strong>ERRO-ADD-PROD-3003<strong>');  // FRAUDE NO FORM    NA CHAVE $PRODUTOPOST ['SLUG']                                                 
             }
 
             /* Converto o objeto para array */
-            $produto = $produto->toArray();
+            //$produto = $produto->toArray();
 
             /*Criado slug composto para indentificar a existência ou nao do item no carrinho na hora de add */
             $produto['slug'] = mb_url_title($produto['slug'] . '-' . $especificacaoProduto->nome . '-' . (isset($extra) ? 'com extra-' . $extra->nome : ''), '-', true);
@@ -268,7 +259,7 @@ class Carrinho extends BaseController
             //iniciamos a insercão do produto carrinho
 
             if (session()->has('carrinho')) {
-                // Existem inserção no carrinho na sessão//
+                // Existem inserção no carrinho na sessão//zzzz
 
                 // Recupera os intem do carrinho na sessão//
                 $produtos = session()->get('[carrinho]');
